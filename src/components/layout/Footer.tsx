@@ -1,11 +1,11 @@
 import Link from "next/link";
 
 const footerLinks = {
-  Content: [
+  Explore: [
+    { href: "/tools", label: "AI Tools" },
+    { href: "/blog?category=Guides", label: "Beginner Guides" },
+    { href: "/blog?category=News", label: "AI News" },
     { href: "/blog", label: "All Articles" },
-    { href: "/blog?category=ai-tools", label: "AI Tools" },
-    { href: "/blog?category=guides", label: "Beginner Guides" },
-    { href: "/blog?category=news", label: "AI News" },
   ],
   Site: [
     { href: "/about", label: "About" },

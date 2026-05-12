@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Sparkles, BookOpen, Globe, ExternalLink } from "lucide-react";
+import { ArrowRight, Sparkles, BookOpen, Globe } from "lucide-react";
 import { Section } from "@/components/shared/Container";
 import Button from "@/components/shared/Button";
 import ArticleCard from "@/components/blog/ArticleCard";
@@ -9,54 +9,33 @@ import AdUnit from "@/components/shared/AdUnit";
 import { getAllArticles, getCategories } from "@/lib/articles";
 import { generateWebSiteSchema } from "@/lib/seo";
 
-const aiTools = [
+const hubSections = [
   {
-    name: "ChatGPT",
-    description: "The most versatile AI assistant. Best for coding, writing, brainstorming, and everyday tasks.",
-    url: "https://chatgpt.com",
-    tags: ["Free + $20/mo", "OpenAI"],
+    name: "AI Tools",
+    description:
+      "Discover the best AI tools — ChatGPT, Claude, Gemini, Midjourney, and more. Honest comparisons, pricing breakdowns, and when to use each one.",
+    href: "/tools",
+    icon: Sparkles,
+    gradient: "from-amber-50 to-orange-50 dark:from-amber-950/20 dark:to-orange-950/20",
+    accent: "bg-amber-100 text-amber-700",
   },
   {
-    name: "Gemini",
-    description: "Google's AI with native search, YouTube, Maps, and Workspace integration. Best for research.",
-    url: "https://gemini.google.com",
-    tags: ["Free + $19.99/mo", "Google"],
+    name: "Beginner Guides",
+    description:
+      "New to AI? Start here. No jargon, no assumptions. Learn how to write prompts, understand AI terms, and spot hallucinations — from zero.",
+    href: "/blog?category=Guides",
+    icon: BookOpen,
+    gradient: "from-blue-50 to-indigo-50 dark:from-blue-950/20 dark:to-indigo-950/20",
+    accent: "bg-blue-100 text-blue-700",
   },
   {
-    name: "Claude",
-    description: "Best writing quality and longest context window. Ideal for long documents and deep analysis.",
-    url: "https://claude.ai",
-    tags: ["Free + $20/mo", "Anthropic"],
-  },
-  {
-    name: "Grok",
-    description: "xAI's assistant with real-time X (Twitter) access. Best for trending topics and fact-checking.",
-    url: "https://x.ai/grok",
-    tags: ["Free + Premium", "xAI"],
-  },
-  {
-    name: "Perplexity",
-    description: "AI-powered search engine with citations. Great for research that needs sources.",
-    url: "https://perplexity.ai",
-    tags: ["Free + $20/mo", "Search"],
-  },
-  {
-    name: "Midjourney",
-    description: "Still the gold standard for AI image generation. Best for artistic and professional visuals.",
-    url: "https://midjourney.com",
-    tags: ["From $10/mo", "Images"],
-  },
-  {
-    name: "GitHub Copilot",
-    description: "AI pair programmer integrated into VS Code and JetBrains. Best for in-IDE coding help.",
-    url: "https://github.com/features/copilot",
-    tags: ["Free + $10/mo", "Microsoft"],
-  },
-  {
-    name: "Cursor",
-    description: "AI-first code editor built on VS Code. Best for agentic coding with full project context.",
-    url: "https://cursor.com",
-    tags: ["Free + $20/mo", "Editor"],
+    name: "AI News",
+    description:
+      "What's happening in AI this week. Industry moves, model releases, policy shifts — curated and explained in plain English, not press-release-speak.",
+    href: "/blog?category=News",
+    icon: Globe,
+    gradient: "from-emerald-50 to-teal-50 dark:from-emerald-950/20 dark:to-teal-950/20",
+    accent: "bg-emerald-100 text-emerald-700",
   },
 ];
 
@@ -65,15 +44,6 @@ export default function HomePage() {
   const featured = articles.filter((a) => a.featured).slice(0, 3);
   const recent = articles.slice(0, 6);
   const allCategories = getCategories();
-
-  const beginnerGuides = articles.filter(
-    (a) => a.category === "Guides" && a.tags.includes("beginner")
-  ).slice(0, 3);
-
-  const newsArticles = articles
-    .filter((a) => a.category === "News")
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-    .slice(0, 5);
 
   return (
     <>
@@ -108,156 +78,43 @@ export default function HomePage() {
         </div>
       </Section>
 
-      {/* ======== AI Tools Section ======== */}
-      <Section alt id="ai-tools">
+      {/* ======== Hub Sections — 3 Cards ======== */}
+      <Section alt>
         <div className="reveal">
-          <div className="flex items-center gap-3 mb-2">
-            <Sparkles size={24} className="text-[var(--accent)]" />
-            <h2 className="text-2xl md:text-[2rem] font-semibold font-[family-name:var(--font-serif)] text-[var(--text)]">
-              Popular AI Tools
-            </h2>
-          </div>
-          <p className="text-sm text-[var(--text-tertiary)] mb-10">
-            The tools we use and recommend. All have solid free tiers — try them before you pay.
+          <h2 className="text-2xl md:text-[2rem] font-semibold font-[family-name:var(--font-serif)] text-[var(--text)] text-center mb-2">
+            What do you want to explore?
+          </h2>
+          <p className="text-sm text-[var(--text-tertiary)] text-center mb-10">
+            Three ways to dive into AI — pick your path
           </p>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {aiTools.map((tool) => (
-              <a
-                key={tool.name}
-                href={tool.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex flex-col gap-3 p-5 bg-[var(--surface)] border border-[var(--border)] rounded-xl hover:border-[var(--border-hover)] hover:-translate-y-0.5 transition-all duration-200"
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-5 max-w-4xl mx-auto">
+            {hubSections.map((section) => (
+              <Link
+                key={section.name}
+                href={section.href}
+                className="group relative flex flex-col items-center gap-5 p-8 bg-[var(--surface)] border border-[var(--border)] rounded-2xl hover:border-[var(--border-hover)] hover:-translate-y-1 hover:shadow-sm transition-all duration-300 text-center"
               >
-                <div className="flex items-center justify-between">
-                  <h3 className="font-semibold text-[var(--text)] group-hover:text-[var(--accent)] transition-colors">
-                    {tool.name}
+                <div
+                  className={`w-14 h-14 rounded-xl flex items-center justify-center ${section.accent}`}
+                >
+                  <section.icon size={26} />
+                </div>
+                <div>
+                  <h3 className="text-lg font-semibold text-[var(--text)] mb-2">
+                    {section.name}
                   </h3>
-                  <ExternalLink
-                    size={14}
-                    className="text-[var(--text-tertiary)] group-hover:text-[var(--accent)] transition-colors opacity-0 group-hover:opacity-100"
-                  />
+                  <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
+                    {section.description}
+                  </p>
                 </div>
-                <p className="text-sm text-[var(--text-secondary)] leading-relaxed flex-1">
-                  {tool.description}
-                </p>
-                <div className="flex flex-wrap gap-1.5">
-                  {tool.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="text-[11px] text-[var(--text-tertiary)] bg-[var(--surface-alt)] px-2 py-0.5 rounded-full"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-              </a>
+                <span className="inline-flex items-center gap-1 text-sm font-medium text-[var(--accent)] group-hover:gap-2 transition-all">
+                  Explore
+                  <ArrowRight size={14} />
+                </span>
+              </Link>
             ))}
           </div>
-        </div>
-      </Section>
-
-      {/* ======== Beginner Guides Section ======== */}
-      <Section id="beginner-guides">
-        <div className="reveal">
-          <div className="flex items-center gap-3 mb-2">
-            <BookOpen size={24} className="text-[var(--accent)]" />
-            <h2 className="text-2xl md:text-[2rem] font-semibold font-[family-name:var(--font-serif)] text-[var(--text)]">
-              Beginner Guides
-            </h2>
-          </div>
-          <p className="text-sm text-[var(--text-tertiary)] mb-10">
-            New to AI? Start here. No jargon, no assumptions, no prior knowledge needed.
-          </p>
-
-          {beginnerGuides.length > 0 ? (
-            <div className="article-grid">
-              {beginnerGuides.map((article) => (
-                <ArticleCard key={article.slug} article={article} />
-              ))}
-            </div>
-          ) : (
-            <div className="text-center py-12 border border-dashed border-[var(--border)] rounded-xl">
-              <p className="text-[var(--text-tertiary)]">Beginner guides coming soon.</p>
-            </div>
-          )}
-
-          <div className="mt-8 text-center">
-            <Button href="/blog?category=Guides" variant="secondary">
-              All Beginner Guides
-              <ArrowRight size={16} />
-            </Button>
-          </div>
-        </div>
-      </Section>
-
-      {/* ======== AI News Section ======== */}
-      <Section alt id="ai-news">
-        <div className="reveal">
-          <div className="flex items-center gap-3 mb-2">
-            <Globe size={24} className="text-[var(--accent)]" />
-            <h2 className="text-2xl md:text-[2rem] font-semibold font-[family-name:var(--font-serif)] text-[var(--text)]">
-              Latest AI News
-            </h2>
-          </div>
-          <p className="text-sm text-[var(--text-tertiary)] mb-10">
-            What's happening in AI this week. Curated, not generated.
-          </p>
-
-          {newsArticles.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {newsArticles.map((article) => (
-                <Link
-                  key={article.slug}
-                  href={`/blog/${article.slug}`}
-                  className="group flex flex-col gap-2 p-5 bg-[var(--surface)] border border-[var(--border)] rounded-xl hover:border-[var(--border-hover)] hover:-translate-y-0.5 transition-all duration-200"
-                >
-                  <h3 className="font-semibold text-[var(--text)] group-hover:text-[var(--accent)] transition-colors text-[15px] leading-snug">
-                    {article.title}
-                  </h3>
-                  <p className="text-sm text-[var(--text-secondary)] leading-relaxed line-clamp-2">
-                    {article.description}
-                  </p>
-                  <div className="flex items-center gap-2 mt-auto pt-2">
-                    <span className="text-xs text-[var(--text-tertiary)]">
-                      {new Date(article.date).toLocaleDateString("en-US", {
-                        month: "short",
-                        day: "numeric",
-                      })}
-                    </span>
-                    <span className="text-xs text-[var(--accent)] group-hover:translate-x-0.5 transition-transform">
-                      Read →
-                    </span>
-                  </div>
-                </Link>
-              ))}
-              {newsArticles.length < 5 &&
-                Array.from({ length: 5 - newsArticles.length }).map((_, i) => (
-                  <div
-                    key={`placeholder-${i}`}
-                    className="flex flex-col gap-2 p-5 bg-[var(--surface)] border border-dashed border-[var(--border)] rounded-xl"
-                  >
-                    <div className="h-4 bg-[var(--surface-alt)] rounded w-3/4" />
-                    <div className="h-3 bg-[var(--surface-alt)] rounded w-full" />
-                    <div className="h-3 bg-[var(--surface-alt)] rounded w-1/2" />
-                  </div>
-                ))}
-            </div>
-          ) : (
-            <div className="text-center py-12 border border-dashed border-[var(--border)] rounded-xl">
-              <p className="text-[var(--text-tertiary)]">News articles coming soon.</p>
-            </div>
-          )}
-
-          {newsArticles.length > 0 && (
-            <div className="mt-8 text-center">
-              <Button href="/blog?category=News" variant="secondary">
-                More AI News
-                <ArrowRight size={16} />
-              </Button>
-            </div>
-          )}
         </div>
       </Section>
 
@@ -298,12 +155,21 @@ export default function HomePage() {
               </p>
             </div>
             {allCategories.length > 0 && (
-              <div className="hidden sm:flex flex-wrap gap-2">
-                {allCategories.slice(0, 4).map((cat) => (
-                  <Tag key={cat} href={`/blog?category=${encodeURIComponent(cat)}`}>
-                    {cat}
-                  </Tag>
-                ))}
+              <div className="hidden sm:flex flex-wrap items-center gap-2">
+                {allCategories
+                  .filter((cat) => cat !== "Tool Guides")
+                  .slice(0, 2)
+                  .map((cat) => (
+                    <Tag key={cat} href={`/blog?category=${encodeURIComponent(cat)}`}>
+                      {cat}
+                    </Tag>
+                  ))}
+                <a
+                  href="/tools"
+                  className="inline-flex items-center gap-1 px-2.5 py-0.5 text-xs font-medium leading-relaxed rounded-full transition-colors duration-200 font-sans text-[var(--accent)] bg-[rgba(var(--accent-rgb),0.06)] hover:bg-[rgba(var(--accent-rgb),0.12)]"
+                >
+                  AI Tools
+                </a>
               </div>
             )}
           </div>

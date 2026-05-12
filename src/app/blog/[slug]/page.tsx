@@ -235,7 +235,24 @@ export default async function ArticlePage({ params }: Props) {
         {/* Article Content */}
         <NarrowContainer>
           <div className="prose">
-            <MDXRemote source={article.content} components={mdxComponents} />
+            {(() => {
+              // Split content roughly in half at a heading boundary for mid-content ad
+              const headings = [...article.content.matchAll(/^## /gm)];
+              if (headings.length >= 2) {
+                const midIdx = Math.floor(headings.length / 2);
+                const splitPoint = headings[midIdx].index!;
+                const firstHalf = article.content.slice(0, splitPoint);
+                const secondHalf = article.content.slice(splitPoint);
+                return (
+                  <>
+                    <MDXRemote source={firstHalf} components={mdxComponents} />
+                    <AdUnit slot="mid-content" />
+                    <MDXRemote source={secondHalf} components={mdxComponents} />
+                  </>
+                );
+              }
+              return <MDXRemote source={article.content} components={mdxComponents} />;
+            })()}
           </div>
         </NarrowContainer>
 
