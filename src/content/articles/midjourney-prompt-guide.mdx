@@ -1,0 +1,199 @@
+---
+title: "Midjourney Prompts That Actually Work — A Non-Artist's Trial-and-Error Log"
+description: "I have zero art background and have generated thousands of Midjourney images. Here's what I've learned about writing prompts that produce consistently good results."
+date: "2026-05-03"
+lastModified: "2026-05-12"
+category: "Guides"
+tags: ["Midjourney", "AI art", "prompt engineering", "image generation", "tutorial"]
+author: "AI Learning Hub"
+---
+
+## TL;DR
+
+Midjourney is still the best AI image generator in 2026, but the quality gap between a bad prompt and a good one is enormous. The secret isn't complicated vocabulary — it's understanding the parameters, using style references, and accepting that your first attempt will probably suck. Great results come from 3-5 iterations, not one perfect prompt.
+
+---
+
+When I first opened Midjourney, I typed "cool dragon" and hit enter. The result looked like a child's drawing that had been put through a photocopier three times.
+
+Six months and roughly 3,000 generated images later, I can usually get what I want in two or three tries. The difference isn't talent. It's understanding a few core mechanics.
+
+## The Prompt Structure That Actually Matters
+
+Forget the templates you see in YouTube tutorials. Here's what a real, working prompt looks like:
+
+```
+[Main subject doing something specific] + [environment/context] + [lighting + mood] + [style reference] + [parameters]
+```
+
+The order matters. Midjourney weights the beginning of your prompt more heavily. Put the most important thing first.
+
+Here's a prompt that works:
+
+```
+a chef plating a dish in an open kitchen, warm overhead lighting,
+steam rising from the plate, shallow depth of field on the food,
+professional food photography --ar 4:5 --v 6.1 --s 300
+```
+
+And here's why each piece is there:
+- **"a chef plating a dish"** — specific action, not just "a chef"
+- **"warm overhead lighting, steam rising"** — atmosphere creates realism
+- **"shallow depth of field"** — camera direction that guides the composition
+- **"professional food photography"** — style anchor
+- **`--ar 4:5 --v 6.1 --s 300`** — technical parameters (more on these below)
+
+A bad version of the same idea: "cool chef cooking food in restaurant, high quality, beautiful." That prompt gives Midjourney nothing to grab onto.
+
+## The Parameters I Actually Use
+
+There are about two dozen Midjourney parameters. I use five regularly. The rest are nice to know but not essential.
+
+### Aspect Ratio (`--ar`)
+
+This is the one parameter you'll use every single time.
+
+| Ratio | Use case |
+|-------|----------|
+| `--ar 1:1` | Instagram posts, profile pictures |
+| `--ar 16:9` | YouTube thumbnails, desktop wallpapers |
+| `--ar 2:3` | Posters, book covers, Pinterest |
+| `--ar 9:16` | Phone wallpapers, Stories, TikTok |
+
+Start with the ratio. Everything else follows from it. A landscape composition that works at 16:9 falls apart at 1:1.
+
+### Stylize (`--s` or `--stylize`, range 0-1000)
+
+This controls how much Midjourney applies its "artistic eye" to your prompt.
+
+- **0-100:** Very literal. "A red apple on a white table" gives you exactly that. Good for product shots, reference images, anything where accuracy matters.
+- **250-500:** Balanced. This is my default range. Midjourney's artistic touch helps, but it doesn't run away with the image.
+- **750-1000:** High artistic interpretation. Beautiful results, but they may wander far from your prompt. Good for exploration, bad for specific requirements.
+
+My mistake early on: I used `--s 750` for everything because the results looked pretty. But they all looked the same — generic, over-stylized, Instagram-filter energy. Lower stylize gives you more control.
+
+### Chaos (`--c` or `--chaos`, range 0-100)
+
+Controls how different the four generated images are from each other.
+
+- **Low (0-20):** The four results are variations on a theme. Good when you know what you want and just need to refine it.
+- **High (60-100):** Wildly different interpretations. Good when you're exploring a concept and want to see unexpected directions.
+
+I start most projects at `--c 30`. Enough variation to surprise me, not so much that the results feel random.
+
+### Version (`--v`)
+
+Use `--v 6.1`. It's the latest and best for most things. The only reason to use an older version is if you're matching a specific look from a style reference that was built with an earlier version, or if you have a prompt that you know works better in V5.
+
+### Style Reference (`--sref`)
+
+This is the most powerful feature in Midjourney and the one I ignored for the first month. Upload an image whose style you want to match, and Midjourney will adapt it:
+
+```
+a futuristic city skyline at sunset --sref https://example.com/style-image.jpg --ar 16:9
+```
+
+You can use multiple references with different weights:
+```
+--sref url1::2 url2::1
+```
+
+This tells Midjourney to weight url1 twice as heavily as url2. The feature works best when your reference image already has the color palette, texture, and composition style you want.
+
+## The Style Keywords I've Actually Tested
+
+After thousands of generations, these are the style descriptors that consistently work:
+
+**Photography styles:**
+- `professional food photography` — warm, natural light, soft shadows
+- `cinematic lighting, shot on Arri Alexa` — dramatic contrast, film-like color
+- `documentary style, available light` — natural, unposed realism
+- `macro photography, f/2.8` — extreme close-up with blurred background
+
+**Illustration styles:**
+- `line art illustration, minimalist, flat color` — clean editorial look
+- `children's book illustration, watercolor texture` — soft, storybook feel
+- `technical illustration, blueprint style` — diagrammatic, instructional
+
+**Design styles:**
+- `isometric 3D render, soft shadows, matte` — modern SaaS illustration look
+- `brutalist architecture photography, overcast sky` — heavy, dramatic structures
+- `Swiss design poster, bold typography, grid layout` — clean graphic design
+
+The key is picking one style and committing. "Oil painting meets digital art meets watercolor" confuses the model. Pick a lane.
+
+## Mistakes I Made So You Don't Have To
+
+**1. Too many conflicting style keywords**
+
+My prompt: "watercolor, oil painting, digital art, anime style, photorealistic portrait." The result looked like a glitch. Midjourney can't blend five different art styles. One primary style with one modifier is plenty.
+
+**2. Ignoring composition entirely**
+
+"Beautiful landscape" centers the horizon dead in the middle of the frame every time. Specify angles: `low angle shot`, `overhead view`, `looking up from ground level`, `dutch angle`. These single phrases change the entire feel of an image.
+
+**3. Max stylize for everything**
+
+I wasted a month generating beautiful, generic, interchangeable images. Lower your stylize. Get specific. Pretty is not the same as good.
+
+**4. Not saving what works**
+
+I now keep a text file of prompts that landed. When I need a similar look, I paste a working prompt and tweak two or three words instead of starting from scratch. This single habit cut my iteration time by more than half.
+
+**5. Expecting one prompt to nail it**
+
+I've never gotten a perfect result on the first try. Not once in thousands of generations. Expect 3-5 iterations, use Remix Mode to tweak between variations, and treat the first result as a starting point, not a failure.
+
+## The Workflow I Landed On
+
+1. **Write a quick rough prompt** (30 seconds). Don't overthink it. Get something on screen.
+2. **Pick the best of the four initial results.** There's usually one that's closer to what you want.
+3. **Use Remix Mode** to tweak the prompt while keeping the general direction. Change a few words, adjust stylize, add a composition cue.
+4. **Repeat 2-3 times.** By the third round, you should be close.
+5. **When you find a keeper, upscale it.** Then use Vary (Subtle) or Vary (Strong) for final refinements.
+6. **Save the prompt.** Copy it into a notes file with a brief description of what it produced.
+
+This process takes about 5-10 minutes for a good image and 20-30 for something I'd publish. The time investment drops sharply as you build your prompt library.
+
+## Feature Combos Worth Knowing
+
+**sref + cref (Style Ref + Character Ref):**
+Maintain both the visual style AND a consistent character across multiple images:
+```
+a wizard reading a book in a library --sref [style_url] --cref [character_url] --ar 2:3
+```
+
+**Image Weight (`--iw`):**
+When you're using an image as a starting point (not just a style reference), this controls how much the reference influences the output:
+- `--iw 0.5`: Loose inspiration, more creative freedom
+- `--iw 1.0`: Balanced (default)
+- `--iw 2.0`: Follow the reference tightly
+
+I use `--iw 1.5` when I have a rough composition I want to refine, and `--iw 0.5` when I'm using the reference just for mood.
+
+**Vary Region:**
+After upscaling, you can select parts of the image and regenerate just those areas. This is how you fix that one weird hand, the text that looks like alien glyphs, or the window that's floating in the sky. It's the single most efficient way to salvage an image that's 90% there.
+
+---
+
+## FAQ
+
+**Which Midjourney plan should I get?**
+
+The Basic plan ($10/month) gives you about 200 generations per month. Enough to learn. The Standard plan ($30/month) gives you unlimited Relaxed mode generations, which is what you want if you're using it regularly. Start with Basic, upgrade when you hit the limit.
+
+**Do I need to know art terminology?**
+
+No. But learning a few terms helps: depth of field, focal length, color temperature, composition types (rule of thirds, leading lines, symmetry). You can Google these in 20 minutes and they'll pay off in every prompt you write.
+
+**How is this different from DALL-E or Stable Diffusion?**
+
+Midjourney is best for artistic quality and aesthetic consistency. DALL-E is better at following literal, detailed prompts (and it's built into ChatGPT). Stable Diffusion gives you more technical control but has a steeper learning curve. I use Midjourney for anything visual-first, DALL-E for utilitarian images, and Stable Diffusion for projects where I need fine-grained control.
+
+**Can I use Midjourney images commercially?**
+
+Yes, with a paid plan. The free trial doesn't include commercial rights. If you're using images for a business, blog, or product, you need at least the Basic paid plan.
+
+**Why do my results look worse than the examples I see online?**
+
+Selection bias. People post their best results after dozens of attempts, not their first tries. Also, good prompts are specific — they name lighting, composition, camera settings, specific materials. "Beautiful landscape" gives you a stock photo from 2005. "Foggy mountain valley at dawn, alpenglow on peaks, anamorphic lens flare, cinematic color grading --ar 21:9" gives you something worth posting.
