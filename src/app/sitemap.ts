@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { getAllArticles } from "@/lib/articles";
 
+export const dynamic = "force-static";
+
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://ailearninghub.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
