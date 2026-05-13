@@ -88,6 +88,48 @@ export function generateHowToSchema(
   };
 }
 
+// ── CollectionPage (新闻列表、博客列表等集合页) ──
+export function generateCollectionPageSchema({
+  name,
+  description,
+  url,
+  items,
+}: {
+  name: string;
+  description: string;
+  url: string;
+  items: {
+    name: string;
+    description: string;
+    url: string;
+    datePublished: string;
+    dateModified: string;
+  }[];
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name,
+    description,
+    url: `${SITE_URL}${url}`,
+    mainEntity: {
+      "@type": "ItemList",
+      itemListElement: items.map((item, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        item: {
+          "@type": "Article",
+          name: item.name,
+          description: item.description,
+          url: `${SITE_URL}${item.url}`,
+          datePublished: item.datePublished,
+          dateModified: item.dateModified,
+        },
+      })),
+    },
+  };
+}
+
 // ── FAQ (保持不变，已有) ──
 export function generateFAQSchema(faqs: { question: string; answer: string }[]) {
   return {

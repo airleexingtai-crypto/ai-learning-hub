@@ -4,7 +4,7 @@ const footerLinks = {
   Explore: [
     { href: "/tools", label: "AI Tools" },
     { href: "/blog?category=Guides", label: "Beginner Guides" },
-    { href: "/blog?category=News", label: "AI News" },
+    { href: "/news", label: "AI News" },
     { href: "/blog", label: "All Articles" },
   ],
   Site: [

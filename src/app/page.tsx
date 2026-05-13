@@ -32,7 +32,7 @@ const hubSections = [
     name: "AI News",
     description:
       "What's happening in AI this week. Industry moves, model releases, policy shifts — curated and explained in plain English, not press-release-speak.",
-    href: "/blog?category=News",
+    href: "/news",
     icon: Globe,
     gradient: "from-emerald-50 to-teal-50 dark:from-emerald-950/20 dark:to-teal-950/20",
     accent: "bg-emerald-100 text-emerald-700",
