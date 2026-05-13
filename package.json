@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "deploy": "npm run build && wrangler pages deploy out/ --project-name=ai-learning-hub --commit-dirty=true"
+    "deploy": "npm run build && npx wrangler pages deploy out/ --project-name=ai-learning-hub --commit-dirty=true",
+    "ship": "git add src/content/articles/ && git diff --cached --quiet || git commit -m \"content: article update $(date +%Y-%m-%d)\" && npm run deploy"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
