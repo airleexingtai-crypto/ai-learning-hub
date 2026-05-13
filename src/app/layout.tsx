@@ -88,15 +88,11 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <ScrollReveal />
-        {/* Google AdSense — replace with your publisher ID */}
-        {process.env.NEXT_PUBLIC_ADSENSE_CLIENT &&
-          process.env.NEXT_PUBLIC_ADSENSE_CLIENT !== "ca-pub-xxxxxxxxxxxxxxxx" && (
-            <script
-              async
-              src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_CLIENT}`}
-              crossOrigin="anonymous"
-            />
-          )}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6304085792373924"
+          crossOrigin="anonymous"
+        />
       </body>
     </html>
   );
