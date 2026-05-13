@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import { Suspense } from "react";
 import { Section, NarrowContainer } from "@/components/shared/Container";
 import { generateWebSiteSchema } from "@/lib/seo";
 import { getAllArticles, getCategories } from "@/lib/articles";
@@ -42,9 +41,7 @@ export default function BlogListPage() {
         </NarrowContainer>
       </Section>
 
-      <Suspense fallback={null}>
-        <BlogClient articles={articles} categories={categories} />
-      </Suspense>
+      <BlogClient articles={articles} categories={categories} />
     </>
   );
 }
