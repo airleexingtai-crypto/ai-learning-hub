@@ -3,13 +3,14 @@ import { getAllArticles } from "@/lib/articles";
 
 export const dynamic = "force-static";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://ailearninghub.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://masterai.blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const articles = getAllArticles();
 
   const staticPages = [
     { url: SITE_URL, lastModified: new Date(), changeFrequency: "daily" as const, priority: 1 },
+    { url: `${SITE_URL}/news`, lastModified: new Date(), changeFrequency: "daily" as const, priority: 0.9 },
     { url: `${SITE_URL}/blog`, lastModified: new Date(), changeFrequency: "daily" as const, priority: 0.9 },
     { url: `${SITE_URL}/tools`, lastModified: new Date(), changeFrequency: "weekly" as const, priority: 0.7 },
     { url: `${SITE_URL}/about`, lastModified: new Date(), changeFrequency: "monthly" as const, priority: 0.6 },

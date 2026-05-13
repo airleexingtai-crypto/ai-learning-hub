@@ -1,6 +1,6 @@
 import { ArticleMeta } from "@/lib/articles";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://ailearninghub.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://masterai.blog";
 
 // ── Organization (独立实体，含 logo) ──
 export function generateOrganizationSchema() {
