@@ -24,15 +24,29 @@ export default function ScrollReveal() {
       { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
     );
 
-    document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
-    document.querySelectorAll(".reveal-stagger").forEach((el) => observer.observe(el));
+    const elements = [
+      ...document.querySelectorAll<HTMLElement>(".reveal"),
+      ...document.querySelectorAll<HTMLElement>(".reveal-stagger"),
+    ];
 
+    elements.forEach((el) => observer.observe(el));
     observerRef.current = observer;
+
+    // Force-reveal elements already in the viewport (IntersectionObserver
+    // callback fires asynchronously and may miss elements on route change)
+    requestAnimationFrame(() => {
+      elements.forEach((el) => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight && rect.bottom > 0) {
+          el.classList.add("in-view");
+        }
+      });
+    });
 
     return () => {
       observer.disconnect();
     };
-  }, [pathname]); // Re-initialize on every route change
+  }, [pathname]);
 
   return null;
 }
