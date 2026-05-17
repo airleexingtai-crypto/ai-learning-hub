@@ -1,7 +1,8 @@
 ---
 title: "How to Spot When AI Is Making Stuff Up (And What to Do About It)"
-description: "AI hallucination isn't a rare bug — it's built into how language models work. Here's how to catch it before you embarrass yourself by repeating fake facts."
+description: "AI hallucination isn't a rare bug, it's built into how language models work. Here's how to catch it before you embarrass yourself by repeating fake facts."
 date: "2026-05-11"
+lastModified: 2026-05-16
 category: "Guides"
 tags: ["AI basics", "hallucination", "safety", "critical thinking", "beginner"]
 author: "AI Learning Hub"
@@ -10,7 +11,7 @@ featured: true
 
 ## TL;DR
 
-AI hallucination means the model confidently invents facts, citations, and entire historical events. It happens because language models predict what sounds plausible, not what's true. The fix isn't better prompting — it's treating every AI output like a first draft that needs verification.
+AI hallucination means the model confidently invents facts, citations, and entire historical events. It happens because language models predict what sounds plausible, not what's true. The fix isn't better prompting, it's treating every AI output like a first draft that needs verification.
 
 ---
 
@@ -22,7 +23,7 @@ This happens constantly. And the people getting burned by it are the ones who tr
 
 ## Why Does AI Hallucinate?
 
-Language models don't "know" facts. They predict the next most likely word based on patterns in their training data. When I type "The capital of France is," the model predicts "Paris" — not because it accessed a geography database, but because in its training data, those words almost always appeared together in that order.
+Language models don't "know" facts. They predict the next most likely word based on patterns in their training data. When I type "The capital of France is," the model predicts "Paris", not because it accessed a geography database, but because in its training data, those words almost always appeared together in that order.
 
 This works great for common knowledge. It falls apart when:
 
@@ -41,7 +42,7 @@ The most dangerous kind. The AI states something false with the same certainty a
 
 > "The Python programming language was created in 1989 by Guido van Rossum at MIT."
 
-Sounds right. Wrong on two counts: Python was started in 1989, but Van Rossum worked at CWI in the Netherlands, not MIT. The AI blended the correct person and rough year with the wrong institution — because "MIT", "computer science", and "programming language" appear together so often in training data that the model defaulted to the statistically likely association.
+Sounds right. Wrong on two counts: Python was started in 1989, but Van Rossum worked at CWI in the Netherlands, not MIT. The AI blended the correct person and rough year with the wrong institution, because "MIT", "computer science", and "programming language" appear together so often in training data that the model defaulted to the statistically likely association.
 
 ### 2. The Fake Citation
 
@@ -62,7 +63,7 @@ Hardest to catch because it's 90% correct. The overall point is right, but a det
 
 > "The transformer architecture, introduced in the 2017 paper 'Attention Is All You Need' by Vaswani et al. at Google Brain, revolutionized NLP by replacing recurrent neural networks with self-attention mechanisms."
 
-90% right. The paper, the authors, the concept — all correct. But the paper's authors were at Google Brain and the University of Toronto, and the detail about institutional affiliation is slightly off in a way that doesn't matter for casual conversation but matters a lot if you're citing it in a paper.
+90% right. The paper, the authors, the concept, all correct. But the paper's authors were at Google Brain and the University of Toronto, and the detail about institutional affiliation is slightly off in a way that doesn't matter for casual conversation but matters a lot if you're citing it in a paper.
 
 ### 4. The Over-Explanation
 
@@ -70,11 +71,11 @@ When the AI doesn't know something, it sometimes invents a plausible-sounding ex
 
 > "The small village of Millingham in Dorset, England, is known for its unique tradition of sheep-herding festivals dating back to the 14th century."
 
-Millingham, Dorset might not even exist. But "small village", "Dorset", "sheep-herding", "14th century tradition" — these are all strings of words that commonly appear together in descriptions of English villages, so the model assembled them into a statistically probable village description. It sounds perfectly reasonable. It's also entirely fabricated.
+Millingham, Dorset might not even exist. But "small village", "Dorset", "sheep-herding", "14th century tradition", these are all strings of words that commonly appear together in descriptions of English villages, so the model assembled them into a statistically probable village description. It sounds perfectly reasonable. It's also entirely fabricated.
 
 ### 5. The Calculation Error
 
-Language models are bad at math. They don't calculate — they predict what the answer to a calculation probably looks like.
+Language models are bad at math. They don't calculate, they predict what the answer to a calculation probably looks like.
 
 > "A $47 item with 15% off costs $39.95."
 
@@ -82,7 +83,7 @@ Correct answer: $39.95. The model got it right. But ask it something harder:
 
 > "If 7 people split a $143.50 restaurant bill with a 18% tip, each person pays $24.22."
 
-Correct answer: about $24.18. The model is close but wrong — off by four cents. At scale, these small errors compound. This is why ChatGPT now has a data analysis mode that runs actual Python for calculations instead of relying on the language model to predict math.
+Correct answer: about $24.18. The model is close but wrong, off by four cents. At scale, these small errors compound. This is why ChatGPT now has a data analysis mode that runs actual Python for calculations instead of relying on the language model to predict math.
 
 ## How to Catch Hallucinations Before They Bite You
 
@@ -100,7 +101,7 @@ Run it. Don't just read it and assume it works. AI-generated code might use depr
 
 ### For Numbers and Statistics
 
-If you see a specific number — 47%, $3.2 billion, 12.4 million users — and there's no source linked, it's probably made up. AI models are terrible at producing accurate statistics because the "most plausible number" is rarely the correct one.
+If you see a specific number, 47%, $3.2 billion, 12.4 million users, and there's no source linked, it's probably made up. AI models are terrible at producing accurate statistics because the "most plausible number" is rarely the correct one.
 
 ### The Quick Sanity Check
 
@@ -110,9 +111,9 @@ After reading an AI response, ask yourself: "Do I know this to be true, or does 
 
 This sounds backwards, but hallucination isn't always bad. It's a feature in creative tasks:
 
-- Brainstorming ideas — you want the model to generate things that don't exist
-- Writing fiction — "making things up" is literally the goal
-- Exploring "what if" scenarios — the model's ability to generate plausible alternatives is valuable
+- Brainstorming ideas, you want the model to generate things that don't exist
+- Writing fiction, "making things up" is literally the goal
+- Exploring "what if" scenarios, the model's ability to generate plausible alternatives is valuable
 
 The harm comes when you treat creative output as factual output. The skill isn't avoiding AI hallucination. It's knowing which mode you're in.
 
@@ -130,7 +131,7 @@ Claude tends to be more conservative about uncertain information and will say "I
 
 **Will this problem get fixed?**
 
-Hallucination rates are improving with each generation, but it's unlikely to ever reach zero with current language model architecture. Some researchers argue hallucination isn't a bug to fix — it's a trade-off. The same mechanism that lets models generate creative, useful text also lets them generate plausible-sounding falsehoods.
+Hallucination rates are improving with each generation, but it's unlikely to ever reach zero with current language model architecture. Some researchers argue hallucination isn't a bug to fix, it's a trade-off. The same mechanism that lets models generate creative, useful text also lets them generate plausible-sounding falsehoods.
 
 **How do I explain hallucination to my team without making them distrust AI entirely?**
 

@@ -1,8 +1,8 @@
 ---
-title: "Midjourney Prompts That Actually Work — A Non-Artist's Trial-and-Error Log"
+title: "Midjourney Prompts That Actually Work, A Non-Artist's Trial-and-Error Log"
 description: "I have zero art background and have generated thousands of Midjourney images. Here's what I've learned about writing prompts that produce consistently good results."
 date: "2026-05-03"
-lastModified: "2026-05-12"
+lastModified: 2026-05-16
 category: "Guides"
 tags: ["Midjourney", "AI art", "prompt engineering", "image generation", "tutorial"]
 author: "AI Learning Hub"
@@ -10,7 +10,7 @@ author: "AI Learning Hub"
 
 ## TL;DR
 
-Midjourney is still the best AI image generator in 2026, but the quality gap between a bad prompt and a good one is enormous. The secret isn't complicated vocabulary — it's understanding the parameters, using style references, and accepting that your first attempt will probably suck. Great results come from 3-5 iterations, not one perfect prompt.
+Midjourney is still the best AI image generator in 2026, but the quality gap between a bad prompt and a good one is enormous. The secret isn't complicated vocabulary, it's understanding the parameters, using style references, and accepting that your first attempt will probably suck. Great results come from 3-5 iterations, not one perfect prompt.
 
 ---
 
@@ -37,11 +37,11 @@ professional food photography --ar 4:5 --v 6.1 --s 300
 ```
 
 And here's why each piece is there:
-- **"a chef plating a dish"** — specific action, not just "a chef"
-- **"warm overhead lighting, steam rising"** — atmosphere creates realism
-- **"shallow depth of field"** — camera direction that guides the composition
-- **"professional food photography"** — style anchor
-- **`--ar 4:5 --v 6.1 --s 300`** — technical parameters (more on these below)
+- **"a chef plating a dish"**, specific action, not just "a chef"
+- **"warm overhead lighting, steam rising"**, atmosphere creates realism
+- **"shallow depth of field"**, camera direction that guides the composition
+- **"professional food photography"**, style anchor
+- **`--ar 4:5 --v 6.1 --s 300`**, technical parameters (more on these below)
 
 A bad version of the same idea: "cool chef cooking food in restaurant, high quality, beautiful." That prompt gives Midjourney nothing to grab onto.
 
@@ -70,7 +70,7 @@ This controls how much Midjourney applies its "artistic eye" to your prompt.
 - **250-500:** Balanced. This is my default range. Midjourney's artistic touch helps, but it doesn't run away with the image.
 - **750-1000:** High artistic interpretation. Beautiful results, but they may wander far from your prompt. Good for exploration, bad for specific requirements.
 
-My mistake early on: I used `--s 750` for everything because the results looked pretty. But they all looked the same — generic, over-stylized, Instagram-filter energy. Lower stylize gives you more control.
+My mistake early on: I used `--s 750` for everything because the results looked pretty. But they all looked the same, generic, over-stylized, Instagram-filter energy. Lower stylize gives you more control.
 
 ### Chaos (`--c` or `--chaos`, range 0-100)
 
@@ -105,20 +105,20 @@ This tells Midjourney to weight url1 twice as heavily as url2. The feature works
 After thousands of generations, these are the style descriptors that consistently work:
 
 **Photography styles:**
-- `professional food photography` — warm, natural light, soft shadows
-- `cinematic lighting, shot on Arri Alexa` — dramatic contrast, film-like color
-- `documentary style, available light` — natural, unposed realism
-- `macro photography, f/2.8` — extreme close-up with blurred background
+- `professional food photography`, warm, natural light, soft shadows
+- `cinematic lighting, shot on Arri Alexa`, dramatic contrast, film-like color
+- `documentary style, available light`, natural, unposed realism
+- `macro photography, f/2.8`, extreme close-up with blurred background
 
 **Illustration styles:**
-- `line art illustration, minimalist, flat color` — clean editorial look
-- `children's book illustration, watercolor texture` — soft, storybook feel
-- `technical illustration, blueprint style` — diagrammatic, instructional
+- `line art illustration, minimalist, flat color`, clean editorial look
+- `children's book illustration, watercolor texture`, soft, storybook feel
+- `technical illustration, blueprint style`, diagrammatic, instructional
 
 **Design styles:**
-- `isometric 3D render, soft shadows, matte` — modern SaaS illustration look
-- `brutalist architecture photography, overcast sky` — heavy, dramatic structures
-- `Swiss design poster, bold typography, grid layout` — clean graphic design
+- `isometric 3D render, soft shadows, matte`, modern SaaS illustration look
+- `brutalist architecture photography, overcast sky`, heavy, dramatic structures
+- `Swiss design poster, bold typography, grid layout`, clean graphic design
 
 The key is picking one style and committing. "Oil painting meets digital art meets watercolor" confuses the model. Pick a lane.
 
@@ -196,4 +196,4 @@ Yes, with a paid plan. The free trial doesn't include commercial rights. If you'
 
 **Why do my results look worse than the examples I see online?**
 
-Selection bias. People post their best results after dozens of attempts, not their first tries. Also, good prompts are specific — they name lighting, composition, camera settings, specific materials. "Beautiful landscape" gives you a stock photo from 2005. "Foggy mountain valley at dawn, alpenglow on peaks, anamorphic lens flare, cinematic color grading --ar 21:9" gives you something worth posting.
+Selection bias. People post their best results after dozens of attempts, not their first tries. Also, good prompts are specific, they name lighting, composition, camera settings, specific materials. "Beautiful landscape" gives you a stock photo from 2005. "Foggy mountain valley at dawn, alpenglow on peaks, anamorphic lens flare, cinematic color grading --ar 21:9" gives you something worth posting.

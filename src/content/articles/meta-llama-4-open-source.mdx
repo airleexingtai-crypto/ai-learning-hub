@@ -1,0 +1,43 @@
+---
+title: "Meta Just Released Llama 4 as Full Open Source. The AI Business Model Just Changed"
+description: "Meta released Llama 4 under Apache 2.0 license with no commercial restrictions. At 405B parameters, it matches GPT-5.5 on most benchmarks. The proprietary AI model business just got a lot harder to justify."
+date: "2026-05-15"
+lastModified: 2026-05-16
+category: "News"
+tags: ["Meta", "Llama", "open source", "AI models", "LLM", "GPT-5.5"]
+author: "AI Learning Hub"
+---
+
+Meta released Llama 4 yesterday. Full weights. Apache 2.0 license. No commercial restrictions. No "contact us for enterprise pricing." You can download it right now from Hugging Face or Meta's own repo.
+
+The 405B-parameter model matches GPT-5.5 on MMLU, HumanEval, and most reasoning benchmarks. On coding tasks, it's slightly behind Claude Opus 4.7. On long-form writing, it's good, not great, comparable to GPT-4o from late 2025. The 70B variant trades some capability for being actually runnable on consumer hardware.
+
+## The part that matters
+
+The license. Apache 2.0. That means you can fine-tune it, build products on it, sell access to it, and never pay Meta a cent. No revenue sharing. No "you must display 'powered by Llama' on your app." No loophole where the license changes if you get too big.
+
+Zuckerberg's accompanying post was short. The key line: "Open source AI is catching up faster than anyone predicted. We think the ecosystem around Llama will create more value than selling API access ever would."
+
+He might be right. Or he might be rationalizing the fact that Meta couldn't compete with OpenAI and Anthropic on model quality and chose a different game. Either way, the outcome is the same: 405 billion parameters of frontier-grade AI, free to use, for anyone.
+
+## Who this hurts
+
+OpenAI first. The company's $200/month Pro tier is built on access to GPT-5.5. When a free model matches your flagship on most tasks, $200 becomes a harder sell. OpenAI still has advantages: the chat interface, the GPT Store ecosystem, DALL-E, voice mode, the brand. But the technical moat just got narrower.
+
+Anthropic less directly. Claude's advantage has always been more about writing quality and careful reasoning than raw benchmark performance. Nobody picks Claude over ChatGPT because it's cheaper. They pick it because the writing is better. Llama 4's writing is not better. Anthropic's moat might hold longer than OpenAI's.
+
+The biggest winner: developers building AI products. Inference costs for Llama 4 on Groq or together.ai run about 80% cheaper than GPT-5.5 API calls. At scale, that difference pays for entire engineering teams.
+
+## What this doesn't mean
+
+It doesn't mean training frontier models is free. Llama 4 reportedly cost Meta around $400 million to train. Meta can afford that because it's Meta: training a SOTA model is a marketing expense for a company that makes $160 billion a year from ads. The compute cost isn't a line item they need to recoup.
+
+It also doesn't mean open source automatically wins. OpenAI and Anthropic can still ship faster, integrate tighter, and build products around their models that open source can't match. The GPT Store has thousands of specialized agents that don't exist for Llama. The Claude ecosystem has managed agents with Dreaming, a feature that requires infrastructure, not just model weights.
+
+But the pricing argument is gone. A year ago, you could argue frontier AI was worth $200/month because the alternative was dramatically worse models or nothing at all. After Llama 4, the alternative is a model that's roughly as good for roughly free. That changes what premium AI companies can charge for.
+
+## One thing I'm watching
+
+Meta said Llama 4 was trained on "publicly available data" and that the training corpus would be published "in the coming weeks." If they actually release the dataset composition, it'll be the most transparency any major lab has provided about training data. If they don't, the "publicly available" language will get scrutinized hard.
+
+The weights are up. The benchmarks are real. The license is real. Go grab it and see for yourself.
