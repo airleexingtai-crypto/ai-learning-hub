@@ -1,0 +1,126 @@
+---
+title: "How to Run AI on Your Own Computer (No Cloud, No Subscription, No Privacy Nightmares)"
+description: "You don't need ChatGPT to use a powerful AI model. With Ollama and LM Studio, you can run GPT-4-class models on your laptop for free, privately, and offline. Here's how to set it up in 10 minutes."
+date: "2026-05-18"
+lastModified: 2026-05-18
+category: "Guides"
+tags: ["local AI", "Ollama", "LM Studio", "privacy", "Llama", "beginner", "open source"]
+author: "AI Learning Hub"
+featured: true
+---
+
+## TL;DR
+
+Running AI locally means downloading a model to your computer and chatting with it through an app. No internet needed, no subscription, no data leaving your machine. In 2026, open-weight models match GPT-4 class performance, and tools like Ollama get you from zero to a working setup in one terminal command. You need a computer with at least 8GB of RAM to run something useful. The whole thing is free.
+
+## Why Bother?
+
+Cloud AI, ChatGPT, Claude, Gemini, is convenient. It's also expensive if you use it heavily, needs an internet connection, and sends everything you type to someone else's server. For plenty of people, that's fine. For plenty of others, it's not.
+
+Local AI trades a bit of setup time for three things cloud AI can't give you.
+
+### Privacy
+
+Your prompts, your documents, your code. None of it leaves your machine. If you work with sensitive data, client information, or just don't want every question you ask training the next model, local is the only option.
+
+### Cost
+
+No $20/month subscription. No per-token API charges. Once you have the hardware and the software, both free, usage costs zero dollars forever.
+
+### Control
+
+You pick the model. You adjust the parameters. You're not subject to someone else's content filter, rate limit, or sudden price increase. The model is yours.
+
+## What You Need
+
+The hardware bar is lower than most people think. Here's the honest breakdown:
+
+| Model Size | Minimum RAM | Runs Well On |
+|------------|-------------|--------------|
+| 3B to 4B | 4 to 5 GB | Most laptops from the past 3 years |
+| 7B to 8B | 6 to 8 GB | 16GB MacBook, mid-range gaming PC |
+| 14B | 10 to 12 GB | 32GB MacBook Pro, RTX 3060+ |
+| 32B | 20+ GB | M2 Max/Ultra, RTX 3090/4090 |
+| 70B+ | 40+ GB | Multi-GPU setups, Mac Studio Ultra |
+
+The sweet spot for most people is the 7B to 8B range. Models this size are capable for writing, research, coding help, and general Q&A. They're not as sharp as Claude Opus or GPT-5.5 at complex reasoning, but for 80% of what people use AI for, they're more than enough.
+
+Macs with Apple Silicon (M1/M2/M3) are particularly good at this because of unified memory. The CPU and GPU share the same pool of RAM, so a 32GB Mac can run models that would need a dedicated GPU on a PC.
+
+## The Two Tools That Matter
+
+### Ollama (Terminal-First)
+
+Ollama is the closest thing to a standard for running local models. It handles downloading, running, and serving models through an API. All from the command line.
+
+Install it with one command on Mac or Linux. On Windows, grab the installer.
+
+```bash
+# Pull a model
+ollama pull llama4:8b
+
+# Chat with it
+ollama run llama4:8b
+```
+
+That's it. Two commands and you're talking to a local AI. Ollama also exposes an OpenAI-compatible API at `http://localhost:11434`, which means any app built to work with ChatGPT can point at your local model instead. VS Code extensions, coding tools, custom scripts, they all work.
+
+Pick Ollama if you're comfortable with a terminal and want the fastest path from zero to API.
+
+### LM Studio (Desktop App)
+
+LM Studio is the visual alternative. It's a desktop app with a built-in model browser that connects to Hugging Face, a settings panel for adjusting temperature and context length, and a local server mode that exposes the same kind of API Ollama does.
+
+It's the better choice if you don't want to touch a terminal, or if you like browsing and comparing models visually. The experience is closer to downloading an app than configuring a server.
+
+Both tools coexist fine on the same machine. A common workflow: use LM Studio to explore and test models, then switch to Ollama for anything you want to integrate into a script or workflow.
+
+## Which Model to Download First
+
+The model landscape changes fast, but as of May 2026, here's where to start.
+
+Llama 4 Scout (8B) is Meta's latest small model. GPT-4-class quality on consumer hardware. Start here.
+
+Qwen 3 (8B) handles reasoning well, and works equally well in Chinese and English.
+
+Gemma 3 (4B) is Google's lightweight model. Runs on almost anything, punches well above its size.
+
+Qwen 2.5 Coder (32B) is the pick if you have the hardware and want coding help.
+
+DeepSeek V3 (7B) is good for reasoning-heavy tasks. Open weights.
+
+All of these are in both Ollama's library and LM Studio's browser. Start with Llama 4 Scout 8B. It's the best general-purpose model that runs on consumer hardware right now.
+
+## Setup in 10 Minutes
+
+The zero-to-working path for both tools.
+
+Ollama on Mac or Linux:
+
+```bash
+# Step 1: Install
+curl -fsSL https://ollama.com/install.sh | sh
+
+# Step 2: Pull a model
+ollama pull llama4:8b
+
+# Step 3: Chat
+ollama run llama4:8b
+```
+
+LM Studio on any platform:
+
+1. Download from lmstudio.ai
+2. Open the app, go to the Discover tab
+3. Search "Llama 4 Scout 8B" and click Download
+4. Go to Chat, select the model, start typing
+
+Either path takes under 10 minutes. The download is usually the longest part. These models are 4 to 8 GB.
+
+## What You Give Up
+
+Local AI has real trade-offs. The models are smaller than the frontier cloud models, so they'll sometimes fail at tasks that Claude or GPT-5.5 handle easily. You're also responsible for keeping models updated, managing disk space, and troubleshooting when something doesn't work.
+
+The biggest gap is multimodal. Local models can chat and analyze text, but they can't natively process images or audio the way cloud models can. Not without extra setup and more specialized tools. That's changing fast, but it's not there yet.
+
+For most text-based work, writing, research, coding, brainstorming, summarizing, local models in 2026 are good enough. The privacy and cost advantages make them the better default for a growing number of people. And once you realize the model on your laptop answers instantly, with no spinner, no rate limit, and no usage dashboard, going back to a cloud chatbot feels slower than it should.

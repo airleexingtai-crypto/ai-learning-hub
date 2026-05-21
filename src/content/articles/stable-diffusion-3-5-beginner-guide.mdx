@@ -1,0 +1,144 @@
+---
+title: "How to Run Stable Diffusion 3.5 on Your Computer: A Beginner's Guide (No Tech Background Needed)"
+description: "You don't need a subscription to generate AI images. With Stable Diffusion 3.5, ComfyUI, and a mid-range GPU, you can run an unlimited image generator on your own machine for free. Here's the step-by-step setup."
+date: "2026-05-22"
+lastModified: 2026-05-22
+category: "Guides"
+tags: ["Stable Diffusion", "SD3.5", "AI image generation", "ComfyUI", "local AI", "beginner", "open source"]
+author: "AI Learning Hub"
+featured: true
+---
+
+## TL;DR
+
+Stable Diffusion 3.5 is a free, open-source AI image generator you run on your own computer. No subscription, no content filters, no internet required after setup. You need a computer with at least 8GB of VRAM, about 50GB of free disk space, and the patience to follow a few setup steps. If your computer cannot handle it locally, you can run SD3.5 on cloud GPUs for about $0.50 an hour. This guide covers both paths.
+
+## Why Run Your Own Image Generator
+
+Midjourney is easier. DALL-E is built into ChatGPT. Both cost money, both send your prompts to someone else's server, and both have content policies that restrict what you can generate. For a lot of people, that tradeoff is fine. The convenience is worth the $10 or $20 a month.
+
+Local AI image generation trades setup time for three things cloud services cannot give you:
+
+No subscription. After the hardware and installation, generating images costs zero dollars. Generate a hundred images. Generate a thousand. The marginal cost is your electricity bill.
+
+No content filter looking over your shoulder. Stable Diffusion does not have guardrails built into the model. You control what you generate, for better or worse.
+
+No internet dependency. Generate images on a plane. Generate images during an outage. The model runs entirely on your machine.
+
+In 2026, the open-weight image models have closed the gap with proprietary tools. SD3.5 Large, the 8-billion-parameter model, produces images that rival Midjourney V6 in prompt adherence and aesthetic quality on many categories. It is not better across the board. Midjourney still wins on pure "prettiness." But for technical accuracy, specific compositions, and cost, local is genuinely competitive.
+
+## What Hardware You Need
+
+The short answer: an NVIDIA GPU with at least 8GB of VRAM. The longer answer depends on which version of the model you run:
+
+- **SD3.5 Large FP8 (recommended for most people)**: 8GB VRAM minimum, 12GB comfortable
+- **SD3.5 Large (full precision)**: 12GB VRAM minimum, 16GB recommended
+- **SD3.5 Medium (2.5B parameters)**: 6GB VRAM works, good for laptops
+- **SD3.5 Large Turbo (distilled, fewer steps)**: 8GB VRAM, faster but slightly lower quality
+
+System memory matters too. Have at least 16GB of RAM. The model files are large, around 16GB for the full version, and they load into system memory before moving to the GPU. Free disk space: budget 50GB for models, the ComfyUI installation, and output images.
+
+AMD and Intel GPUs can work through DirectML or ROCm translation layers. The setup is more involved, and generation will be slower. If you have a non-NVIDIA GPU, the cloud GPU path is often less frustrating.
+
+macOS with Apple Silicon works. The M2, M3, and M4 chips have enough unified memory for the FP8 model, and ComfyUI has native Metal support. Performance lags behind a dedicated NVIDIA card, but it is usable.
+
+## Option 1: ComfyUI Local Installation (Windows)
+
+This is the setup that gives you full control. ComfyUI uses a node-based interface. You drag wires between boxes instead of typing commands. It looks intimidating at first. It is not. After your first successful generation, the workflow makes intuitive sense.
+
+Step 1: Install Python. Go to python.org, download Python 3.11, check the box that says "Add to PATH" during installation. Do not install Python 3.12 or newer. Some dependencies are not compatible yet.
+
+Step 2: Install Git. Download from git-scm.com. Accept the defaults.
+
+Step 3: Download ComfyUI. Open a terminal in the folder where you want it installed. Run:
+
+```
+git clone https://github.com/comfyanonymous/ComfyUI.git
+cd ComfyUI
+pip install -r requirements.txt
+```
+
+Step 4: Download the SD3.5 model files. You need the main model plus three CLIP text encoder files. Go to huggingface.co/stabilityai/stable-diffusion-3.5-large and download:
+
+- `sd3.5_large.safetensors` (the main model, about 16GB)
+- `clip_g.safetensors`
+- `clip_l.safetensors`
+- `t5xxl_fp16.safetensors`
+
+Place the main model in `ComfyUI/models/checkpoints/`. Place the CLIP files in `ComfyUI/models/clip/`.
+
+For the FP8 version, which uses less VRAM and is just as good for most purposes, download `sd3.5_large_fp8_scaled.safetensors` instead of the full model.
+
+Step 5: Launch ComfyUI. In the terminal, from the ComfyUI folder:
+
+```
+python main.py
+```
+
+Open a browser and go to `http://localhost:8188`. You should see a node graph with a default workflow. Click "Queue Prompt" to generate a test image. The first generation takes a few minutes while the model loads. Subsequent generations are faster.
+
+## Option 2: Easy Diffusion (One Click Install)
+
+If you read the ComfyUI instructions and your eyes glazed over, use Easy Diffusion instead. It has a real one-click installer for Windows, Mac, and Linux. Download from the project's GitHub page. Run the installer. It handles Python, Git, model downloads, and configuration automatically.
+
+Easy Diffusion gives you a clean web interface. Type a prompt, choose a style, hit generate. No nodes, no wires, no terminal commands. It supports ControlNet for pose and composition control, face restoration, and image upscaling. It is the closest thing to a Midjourney experience on your own hardware.
+
+The tradeoff: less control. ComfyUI's node system lets you build custom pipelines, mix models, and tune every parameter. Easy Diffusion prioritizes simplicity. Start with Easy Diffusion if you want to generate images today. Switch to ComfyUI later when you want more control.
+
+## Option 3: Cloud GPU (No Hardware Required)
+
+Your computer does not have a GPU that meets the requirements. You can rent one for about $0.50 to $1.50 an hour.
+
+The simplest cloud path is Hugging Face Spaces. Go to huggingface.co, search for "SD3.5 ComfyUI space," and click to launch. The free tier gives you a few generations. Paid tiers start around $0.50 an hour on a T4 GPU.
+
+For more power, RunPod and Massed Compute offer RTX 3090 and 4090 instances billed by the second. You deploy a ComfyUI template, connect via your browser, and generate images on hardware you do not own. When you are done, stop the instance. You pay only for the minutes you used.
+
+This is the lowest-friction way to try SD3.5. If you like it, the local install is worth the effort. If you only generate images occasionally, renting a cloud GPU costs less than a Midjourney subscription.
+
+## Your First Prompt: What Actually Works
+
+SD3.5 responds to natural language prompts better than older Stable Diffusion versions. You do not need the keyword-salad style of SD1.5 prompts. Write in sentences. Describe what you want to see.
+
+A bad prompt: "cat, 8k, unreal engine, hyperrealistic, detailed, masterpiece, trending on artstation"
+
+A good prompt: "A photograph of a tabby cat sitting on a windowsill in afternoon sunlight, dust motes floating in the air, shallow depth of field, 85mm lens"
+
+Be specific about subject, setting, lighting, camera angle, and style. Add negative prompts for what you do not want: "blurry, distorted, extra fingers, watermark, text."
+
+Three parameters matter most:
+
+- **Steps**: 28 to 35 for the full model. 4 to 8 for the Turbo version. More steps does not always mean better. After 35, diminishing returns hit hard.
+- **CFG Scale**: 3.5 to 5.0 for SD3.5. Lower than older models. Too high and the image looks overcooked and crunchy.
+- **Resolution**: Start with 1024x1024 for square. 1344x768 for landscape. 768x1344 for portrait. The model was trained on these aspect ratios. Going far outside them produces artifacts.
+
+## What SD3.5 Is Good At (and What It Is Not)
+
+SD3.5 excels at photorealism, product mockups, architectural visualization, and fantasy illustration. Prompt adherence is significantly better than SDXL. You can describe a scene with multiple objects in specific positions, and the model will get most of them right most of the time.
+
+It struggles with text rendering inside images. If your prompt asks for a sign that says "Grand Opening" or a book cover with a title, expect garbled letters. This is a fundamental limitation of diffusion models that has not been fully solved.
+
+Hands and faces are improved but still not perfect. SD3.5 makes fewer anatomical errors than its predecessors. When it does make them, they are subtler, an extra joint on a finger rather than a hand with seven fingers. Face restoration tools, built into Easy Diffusion and available as ComfyUI nodes, clean up most issues automatically.
+
+Exact replication of specific people or objects is not reliable. You can prompt for "a golden retriever puppy" and get one. You cannot prompt for "my golden retriever named Max" and get your specific dog. The model draws from what it learned during training, a statistical average of all the golden retriever photos it saw. For personalization, you need to fine-tune or use LoRA adapters, which is a topic for another guide.
+
+## Going Further
+
+Once you are comfortable generating images from text prompts, the next step is ControlNet. It lets you guide the model with a reference image: a stick figure for pose, a rough sketch for composition, a depth map for spatial layout. ControlNet turns SD3.5 from a slot machine into a tool.
+
+We also recommend reading [our Midjourney prompt guide](/blog/midjourney-prompt-guide) to understand how the two tools approach generation differently. Many creators use both: SD3.5 when they need precise control or unlimited free generations, Midjourney when they need quick iterations with high aesthetic polish.
+
+If you want to run AI entirely offline, check out [our guide to running AI models locally](/blog/run-ai-locally-beginner-guide), which covers Ollama, LM Studio, and the broader ecosystem of open-weight AI tools you can run without a cloud subscription.
+
+## FAQ
+
+**Is Stable Diffusion really free?**
+Yes. The model weights are released under a permissive license by Stability AI. ComfyUI and Easy Diffusion are free and open source. The only costs are your computer hardware and electricity. No subscription, no generation limits, no watermark.
+
+**Can I use SD3.5 images commercially?**
+Generally yes, but check the specific license for the model version you download. Stability AI releases models under the Stability AI Community License, which allows commercial use with some restrictions. If you fine-tune the model or use third-party checkpoints, those may have different terms.
+
+**How does SD3.5 compare to Midjourney?**
+Midjourney is more polished out of the box. The default aesthetic is tuned to produce pretty images with minimal prompting. SD3.5 gives you more control but asks for more specific prompts. A skilled SD3.5 user can match Midjourney quality on most categories. A beginner will get better results from Midjourney. The gap narrows every six months.
+
+**Do I need to know how to code?**
+No. Easy Diffusion requires zero technical knowledge. ComfyUI requires a willingness to follow instructions and learn a visual interface, but no actual programming. The terminal commands in this guide are copy-and-paste. If you can follow a recipe, you can install SD3.5.
