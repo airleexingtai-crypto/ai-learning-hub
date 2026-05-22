@@ -88,6 +88,34 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <ScrollReveal />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="AI Learning Hub RSS"
+          href="/rss.xml"
+        />
+        <link
+          rel="alternate"
+          type="application/atom+xml"
+          title="AI Learning Hub Atom"
+          href="/atom.xml"
+        />
+        {/* Google Analytics */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-NPZ4BWE5VQ"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-NPZ4BWE5VQ', { anonymize_ip: true });
+            `,
+          }}
+        />
+        {/* Google AdSense */}
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6304085792373924"

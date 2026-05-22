@@ -7,18 +7,14 @@ export function generateOrganizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "AI Learning Hub",
+    name: "MasterAI.blog",
     url: SITE_URL,
     logo: {
       "@type": "ImageObject",
-      url: `${SITE_URL}/images/logo.png`,
+      url: `${SITE_URL}/images/logo.svg`,
       width: 512,
       height: 512,
     },
-    sameAs: [
-      "https://twitter.com/ailearninghub",
-      "https://github.com/ailearninghub",
-    ],
   };
 }
 
@@ -151,9 +147,9 @@ export function generateWebSiteSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "AI Learning Hub",
+    name: "MasterAI.blog",
     description:
-      "Comprehensive AI tutorials, guides, and insights. Learn ChatGPT, Claude, Midjourney, and more.",
+      "Practical AI tutorials, guides, and insights. Learn ChatGPT, Claude, Midjourney, and more from hands-on experience.",
     url: SITE_URL,
     potentialAction: {
       "@type": "SearchAction",
@@ -196,10 +192,10 @@ function baseArticleProps(article: ArticleMeta) {
     publisher: {
       "@type": "Organization",
       "@id": `${SITE_URL}#organization`,
-      name: "AI Learning Hub",
+      name: "MasterAI.blog",
       logo: {
         "@type": "ImageObject",
-        url: `${SITE_URL}/images/logo.png`,
+        url: `${SITE_URL}/images/logo.svg`,
         width: 512,
         height: 512,
       },

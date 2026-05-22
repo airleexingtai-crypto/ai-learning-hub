@@ -16,7 +16,7 @@ import {
   generateBreadcrumbSchema,
 } from "@/lib/seo";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://ailearninghub.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://masterai.blog";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -42,7 +42,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? article.meta.image.startsWith("http")
       ? article.meta.image
       : `${SITE_URL}${article.meta.image}`
-    : `${SITE_URL}/images/og-default.jpg`;
+    : `${SITE_URL}/images/og-default.svg`;
 
   return {
     title: article.meta.title,

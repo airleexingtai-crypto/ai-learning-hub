@@ -18,14 +18,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${SITE_URL}/privacy`, lastModified: new Date(), changeFrequency: "yearly" as const, priority: 0.2 },
   ];
 
-  const articlePages = articles.map((article) => ({
-    url: `${SITE_URL}/blog/${article.slug}`,
-    lastModified: article.lastModified
-      ? new Date(article.lastModified)
-      : new Date(article.date),
-    changeFrequency: "weekly" as const,
-    priority: 0.8,
-  }));
+  const articlePages = articles.map((article) => {
+    const isTutorial = article.category === "Tutorial" || article.category === "Guides";
+    const isNews = article.category === "News";
+    return {
+      url: `${SITE_URL}/blog/${article.slug}`,
+      lastModified: article.lastModified
+        ? new Date(article.lastModified)
+        : new Date(article.date),
+      changeFrequency: (isNews ? "weekly" : "monthly") as "weekly" | "monthly",
+      priority: isTutorial ? 0.9 : isNews ? 0.6 : 0.8,
+    };
+  });
 
   return [...staticPages, ...articlePages];
 }

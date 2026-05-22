@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AI Learning Hub</title>
+    <link>https://masterai.blog</link>
+    <description>Comprehensive AI tutorials, guides, and insights. Learn ChatGPT, Claude, Midjourney, and more.</description>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 May 2026 09:20:42 GMT</lastBuildDate>
+    <atom:link href="https://masterai.blog/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://masterai.blog/atom.xml" rel="alternate" type="application/atom+xml"/>
+    <item>
+      <title>Claude Code&apos;s Pricing Tug-of-War: What the Pro Plan Scare Means for Developers</title>
+      <link>https://masterai.blog/blog/claude-code-pricing-war-may-2026</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/claude-code-pricing-war-may-2026</guid>
+      <description>Anthropic nearly pulled Claude Code from its $20 Pro plan in April, OpenAI fired back with free Codex months, and Microsoft is yanking internal licenses. The AI coding tool pricing war is just getting started.</description>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>Claude Code</category>
+      <category>Anthropic</category>
+      <category>OpenAI</category>
+      <category>AI coding</category>
+      <category>pricing</category>
+      <category>developer tools</category>
+    </item>
+    <item>
+      <title>NVIDIA&apos;s Blackwell Ultra Is Sold Out Through Mid-2026. Here&apos;s What That Means for AI Prices</title>
+      <link>https://masterai.blog/blog/nvidia-blackwell-ultra-sold-out-2026</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/nvidia-blackwell-ultra-sold-out-2026</guid>
+      <description>NVIDIA&apos;s Blackwell Ultra GPUs have a 3.6 million unit backlog from cloud providers. Demand is doubling year over year. AI inference costs are supposed to drop. The supply chain says not so fast.</description>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>NVIDIA</category>
+      <category>Blackwell Ultra</category>
+      <category>AI chips</category>
+      <category>GPU</category>
+      <category>infrastructure</category>
+      <category>AI costs</category>
+    </item>
+    <item>
+      <title>How to Run Stable Diffusion 3.5 on Your Computer: A Beginner&apos;s Guide (No Tech Background Needed)</title>
+      <link>https://masterai.blog/blog/stable-diffusion-3-5-beginner-guide</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/stable-diffusion-3-5-beginner-guide</guid>
+      <description>You don&apos;t need a subscription to generate AI images. With Stable Diffusion 3.5, ComfyUI, and a mid-range GPU, you can run an unlimited image generator on your own machine for free. Here&apos;s the step-by-step setup.</description>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <category>Guides</category>
+      <category>Stable Diffusion</category>
+      <category>SD3.5</category>
+      <category>AI image generation</category>
+      <category>ComfyUI</category>
+      <category>local AI</category>
+      <category>beginner</category>
+      <category>open source</category>
+    </item>
+    <item>
+      <title>Suno vs Udio: Which AI Music Generator Actually Makes Good Songs in 2026</title>
+      <link>https://masterai.blog/blog/suno-vs-udio-ai-music-generator</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/suno-vs-udio-ai-music-generator</guid>
+      <description>After testing both Suno v5 and Udio across pop, hip-hop, jazz, and orchestral tracks, here&apos;s which AI music generator to pick, when to use each, and what both still get wrong about making actual music.</description>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <category>Tool Guides</category>
+      <category>Suno</category>
+      <category>Udio</category>
+      <category>AI music</category>
+      <category>music generator</category>
+      <category>AI tools</category>
+      <category>content creation</category>
+    </item>
+    <item>
+      <title>Musk v. Altman Trial Goes to the Jury: Three Weeks of Testimony, $150 Billion at Stake, and One Messy Verdict Ahead</title>
+      <link>https://masterai.blog/blog/musk-altman-trial-jury-deliberates</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/musk-altman-trial-jury-deliberates</guid>
+      <description>Closing arguments wrapped May 14 in the Musk v. Altman trial. The nine-person jury began deliberating May 18. Here&apos;s everything that happened in the courtroom, what the jury has to decide, and what&apos;s actually at stake for the AI industry.</description>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>OpenAI</category>
+      <category>Elon Musk</category>
+      <category>Sam Altman</category>
+      <category>lawsuit</category>
+      <category>trial</category>
+      <category>AI industry</category>
+    </item>
+    <item>
+      <title>How to Run AI on Your Own Computer (No Cloud, No Subscription, No Privacy Nightmares)</title>
+      <link>https://masterai.blog/blog/run-ai-locally-beginner-guide</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/run-ai-locally-beginner-guide</guid>
+      <description>You don&apos;t need ChatGPT to use a powerful AI model. With Ollama and LM Studio, you can run GPT-4-class models on your laptop for free, privately, and offline. Here&apos;s how to set it up in 10 minutes.</description>
+      <pubDate>Mon, 18 May 2026 00:00:00 GMT</pubDate>
+      <category>Guides</category>
+      <category>local AI</category>
+      <category>Ollama</category>
+      <category>LM Studio</category>
+      <category>privacy</category>
+      <category>Llama</category>
+      <category>beginner</category>
+      <category>open source</category>
+    </item>
+    <item>
+      <title>Google Just Banned &apos;AI Poisoning&apos; — Here&apos;s What It Means for Search Visibility</title>
+      <link>https://masterai.blog/blog/google-bans-ai-poisoning-geo</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/google-bans-ai-poisoning-geo</guid>
+      <description>Google updated its spam policy on May 16 to ban AI poisoning, the practice of manipulating AI model outputs through adversarial prompts. Sites caught doing it face 180-day removal from AI Overviews.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>Google</category>
+      <category>GEO</category>
+      <category>AI search</category>
+      <category>SEO</category>
+      <category>AI Overviews</category>
+      <category>search policy</category>
+    </item>
+    <item>
+      <title>Malta Becomes First Country to Give Every Citizen Free ChatGPT Plus</title>
+      <link>https://masterai.blog/blog/malta-free-chatgpt-plus</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/malta-free-chatgpt-plus</guid>
+      <description>Malta&apos;s government struck a world-first deal with OpenAI to provide free ChatGPT Plus to all 570,000 citizens. The catch: everyone must complete an AI literacy course first.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>OpenAI</category>
+      <category>ChatGPT</category>
+      <category>Malta</category>
+      <category>AI literacy</category>
+      <category>government</category>
+      <category>digital policy</category>
+    </item>
+    <item>
+      <title>OpenAI Shakes Up Leadership, Acquires Voice AI Startup, and Shuts Down Sora</title>
+      <link>https://masterai.blog/blog/openai-restructure-voice-ipo</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/openai-restructure-voice-ipo</guid>
+      <description>Greg Brockman takes over product strategy as OpenAI merges ChatGPT and Codex into a unified agent platform. The company also quietly acquired voice-cloning startup Weights.gg and shut down Sora.</description>
+      <pubDate>Sun, 17 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>OpenAI</category>
+      <category>ChatGPT</category>
+      <category>voice AI</category>
+      <category>Greg Brockman</category>
+      <category>IPO</category>
+      <category>AI agents</category>
+    </item>
+    <item>
+      <title>AI Coding for People Who&apos;ve Never Written a Line of Code</title>
+      <link>https://masterai.blog/blog/ai-coding-for-beginners</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/ai-coding-for-beginners</guid>
+      <description>You don&apos;t need to be a programmer to build things with AI. Here&apos;s exactly how to go from zero to shipping a working project in 2026, using tools that write the code for you.</description>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <category>Guides</category>
+      <category>AI coding</category>
+      <category>no-code</category>
+      <category>AI for beginners</category>
+      <category>cursor</category>
+      <category>bolt.new</category>
+      <category>lovable</category>
+      <category>v0</category>
+    </item>
+    <item>
+      <title>AI Video Generation: What Actually Works in 2026 (Sora, Runway, Veo, and the Rest)</title>
+      <link>https://masterai.blog/blog/ai-video-generation-guide</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/ai-video-generation-guide</guid>
+      <description>AI video went from &apos;interesting demo&apos; to &apos;production tool&apos; in twelve months. After testing every major platform, here&apos;s what each one does well, what they still can&apos;t do, and who should pay for which one.</description>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <category>Guides</category>
+      <category>AI video</category>
+      <category>Sora</category>
+      <category>Runway</category>
+      <category>Veo</category>
+      <category>video generation</category>
+      <category>AI tools</category>
+      <category>content creation</category>
+    </item>
+    <item>
+      <title>GitHub Copilot in 2026: The AI That Now Writes, Tests, and Ships Your Code</title>
+      <link>https://masterai.blog/blog/github-copilot-complete-guide</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/github-copilot-complete-guide</guid>
+      <description>Copilot evolved from autocomplete to a full development platform. After using it daily across three production projects, here&apos;s what it actually does well, what it still gets wrong, and how to integrate it into a real workflow.</description>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <category>Tool Guides</category>
+      <category>GitHub Copilot</category>
+      <category>AI coding</category>
+      <category>developer tools</category>
+      <category>pair programming</category>
+      <category>Copilot agent</category>
+    </item>
+    <item>
+      <title>Google Gemini in 2026: What It Actually Does Better Than Everyone Else</title>
+      <link>https://masterai.blog/blog/google-gemini-complete-guide</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/google-gemini-complete-guide</guid>
+      <description>Gemini 2.5 Pro changed the game with a 1M-token context window and Deep Research. After three months of daily use alongside ChatGPT and Claude, here&apos;s where Gemini wins, where it falls short, and how to use it for work that actually matters.</description>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <category>Tool Guides</category>
+      <category>Google Gemini</category>
+      <category>AI tools</category>
+      <category>Gemini tutorial</category>
+      <category>Gemini 2.5</category>
+      <category>AI comparison</category>
+    </item>
+    <item>
+      <title>Perplexity AI: The Search Engine That Reads 100 Pages So You Don&apos;t Have To</title>
+      <link>https://masterai.blog/blog/perplexity-ai-complete-guide</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/perplexity-ai-complete-guide</guid>
+      <description>Perplexity went from niche research tool to Google alternative in 18 months. Here&apos;s how it actually works, what it does better than Google, and the specific workflows where it saves hours every week.</description>
+      <pubDate>Sat, 16 May 2026 00:00:00 GMT</pubDate>
+      <category>Tool Guides</category>
+      <category>Perplexity AI</category>
+      <category>AI search</category>
+      <category>research tools</category>
+      <category>Google alternative</category>
+      <category>AI tools</category>
+    </item>
+    <item>
+      <title>The First Real AI Job Report Is Out. The Numbers Are Better and Worse Than You&apos;d Expect</title>
+      <link>https://masterai.blog/blog/bls-ai-jobs-report-q1-2026</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/bls-ai-jobs-report-q1-2026</guid>
+      <description>The BLS finally separated AI-related job displacement from general tech layoffs. The data: 47,000 jobs displaced by AI in Q1 2026, but 89,000 new AI-adjacent roles created. The shift is real. It&apos;s also weirdly specific.</description>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>AI jobs</category>
+      <category>labor market</category>
+      <category>BLS</category>
+      <category>automation</category>
+      <category>career</category>
+      <category>data</category>
+    </item>
+    <item>
+      <title>Google I/O 2026: &apos;Remy&apos; Is Google&apos;s 24/7 AI Agent, and It Lives Inside Your Phone</title>
+      <link>https://masterai.blog/blog/google-io-2026-remy-agent</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/google-io-2026-remy-agent</guid>
+      <description>Google just showed Remy at I/O, an always-on AI agent that controls your apps, manages your inbox, and takes actions while you sleep. It&apos;s either the most useful AI product yet or the most invasive.</description>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>Google</category>
+      <category>I/O</category>
+      <category>Remy</category>
+      <category>AI agent</category>
+      <category>Gemini</category>
+      <category>Android</category>
+    </item>
+    <item>
+      <title>Meta Just Released Llama 4 as Full Open Source. The AI Business Model Just Changed</title>
+      <link>https://masterai.blog/blog/meta-llama-4-open-source</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/meta-llama-4-open-source</guid>
+      <description>Meta released Llama 4 under Apache 2.0 license with no commercial restrictions. At 405B parameters, it matches GPT-5.5 on most benchmarks. The proprietary AI model business just got a lot harder to justify.</description>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>Meta</category>
+      <category>Llama</category>
+      <category>open source</category>
+      <category>AI models</category>
+      <category>LLM</category>
+      <category>GPT-5.5</category>
+    </item>
+    <item>
+      <title>Anthropic Taught Claude to &apos;Dream&apos;, and It Made the Model 6x Better at Real Work</title>
+      <link>https://masterai.blog/blog/anthropic-claude-dreaming</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/anthropic-claude-dreaming</guid>
+      <description>Claude Managed Agents now review past sessions, identify patterns, and refine their own performance over time. Early users report dramatically higher task completion rates without any prompt engineering.</description>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>Anthropic</category>
+      <category>Claude</category>
+      <category>AI agents</category>
+      <category>Dreaming</category>
+      <category>memory</category>
+      <category>Managed Agents</category>
+    </item>
+    <item>
+      <title>China Just Issued the World&apos;s First Full AI Agent Regulations</title>
+      <link>https://masterai.blog/blog/china-ai-agent-regulation</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/china-ai-agent-regulation</guid>
+      <description>China&apos;s new AI agent guidelines create a three-tier risk system across 19 industries. Agents in healthcare, finance, and transportation face the strictest controls, and can&apos;t act beyond what users explicitly authorize.</description>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>China</category>
+      <category>regulation</category>
+      <category>AI agents</category>
+      <category>policy</category>
+      <category>AI safety</category>
+      <category>governance</category>
+    </item>
+    <item>
+      <title>Anthropic&apos;s Claude Just Became the First AI to Autonomously Hack a Corporate Network</title>
+      <link>https://masterai.blog/blog/claude-mythos-cyber-offensive</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/claude-mythos-cyber-offensive</guid>
+      <description>The UK&apos;s AI Safety Institute confirms Claude Mythos completed a 32-step cyber attack from reconnaissance to full domain takeover. Frontier AI offense capability is now doubling every four months.</description>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>Anthropic</category>
+      <category>Claude</category>
+      <category>cybersecurity</category>
+      <category>AI safety</category>
+      <category>AISI</category>
+      <category>Mythos</category>
+    </item>
+    <item>
+      <title>Europe&apos;s Top Court Just Ruled That AI Companies Must Pay for News Content</title>
+      <link>https://masterai.blog/blog/eu-copyright-ai-ruling</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/eu-copyright-ai-ruling</guid>
+      <description>The European Court of Justice confirmed that platforms using news content to train or inform AI systems must pay publishers &apos;fair compensation.&apos; The ruling reshapes the economics of AI training data across the EU.</description>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>EU</category>
+      <category>copyright</category>
+      <category>regulation</category>
+      <category>AI training</category>
+      <category>publishers</category>
+      <category>GDPR</category>
+    </item>
+    <item>
+      <title>A Fields Medalist Says GPT-5.5 Pro Did PhD-Level Math in an Hour. Here&apos;s What That Actually Means</title>
+      <link>https://masterai.blog/blog/gpt55-pro-math-breakthrough</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/gpt55-pro-math-breakthrough</guid>
+      <description>Timothy Gowers, one of the world&apos;s top mathematicians, reports that OpenAI&apos;s latest model produced original research-grade mathematics in about 60 minutes. The math community is taking it seriously, with caveats.</description>
+      <pubDate>Thu, 14 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>OpenAI</category>
+      <category>GPT-5.5</category>
+      <category>mathematics</category>
+      <category>research</category>
+      <category>Timothy Gowers</category>
+      <category>benchmarks</category>
+    </item>
+    <item>
+      <title>I Replaced 6 Hours of Weekly Busywork with AI. Here&apos;s Exactly What I Automated (and What I Didn&apos;t)</title>
+      <link>https://masterai.blog/blog/ai-productivity-automation-guide</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/ai-productivity-automation-guide</guid>
+      <description>A real breakdown of which tasks AI actually handles well for productivity, which ones it makes worse, and how to set up a weekly AI workflow that saves time without the hype.</description>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <category>Guides</category>
+      <category>productivity</category>
+      <category>AI tools</category>
+      <category>automation</category>
+      <category>ChatGPT</category>
+      <category>Claude</category>
+      <category>time management</category>
+    </item>
+    <item>
+      <title>DeepSeek V4.1 Lands in June With Multimodal, MCP, and a $7.3B War Chest</title>
+      <link>https://masterai.blog/blog/deepseek-v41-enterprise-pivot</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/deepseek-v41-enterprise-pivot</guid>
+      <description>DeepSeek&apos;s V4.1 now has a confirmed June window, a $7.3 billion funding round, and three major upgrades: full multimodal, native MCP support, and an enterprise toolchain. The company is pivoting hard from research darling to paid platform.</description>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>DeepSeek</category>
+      <category>China</category>
+      <category>open source</category>
+      <category>enterprise</category>
+      <category>MCP</category>
+      <category>multimodal</category>
+      <category>funding</category>
+    </item>
+    <item>
+      <title>GitLab Is Cutting 30% of Its Countries and Betting the Company on AI Agents</title>
+      <link>https://masterai.blog/blog/gitlab-ai-restructuring</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/gitlab-ai-restructuring</guid>
+      <description>GitLab&apos;s &apos;Act 2&apos; restructuring means fewer countries, flatter management, and a bet that AI agents will write most code by 2028. The stock dropped 8.2%.</description>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>GitLab</category>
+      <category>AI agents</category>
+      <category>developer tools</category>
+      <category>restructuring</category>
+      <category>coding</category>
+    </item>
+    <item>
+      <title>Nadella Takes the Stand in Musk-Altman Trial: &apos;We Have Each Other&apos;s Phone Numbers&apos;</title>
+      <link>https://masterai.blog/blog/nadella-testifies-musk-altman-trial</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/nadella-testifies-musk-altman-trial</guid>
+      <description>Microsoft&apos;s CEO testified that Musk never contacted him about concerns over OpenAI&apos;s direction. The testimony undercuts Musk&apos;s central claim in the case.</description>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>OpenAI</category>
+      <category>Microsoft</category>
+      <category>Elon Musk</category>
+      <category>Sam Altman</category>
+      <category>lawsuit</category>
+    </item>
+    <item>
+      <title>Microsoft Just Capped Its OpenAI Payday at $380 Billion. Here&apos;s Why That&apos;s Actually Good News for OpenAI</title>
+      <link>https://masterai.blog/blog/openai-microsoft-deal-restructured</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/openai-microsoft-deal-restructured</guid>
+      <description>The Microsoft-OpenAI deal just got rewired. A $380B revenue-sharing cap replaces what could have been a $1.35 trillion obligation, freeing OpenAI for a 2027 IPO.</description>
+      <pubDate>Wed, 13 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>OpenAI</category>
+      <category>Microsoft</category>
+      <category>investment</category>
+      <category>IPO</category>
+      <category>partnership</category>
+    </item>
+    <item>
+      <title>AI Agents Explained: What They Are, How They Work, and How to Build One</title>
+      <link>https://masterai.blog/blog/ai-agents-beginner-guide</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/ai-agents-beginner-guide</guid>
+      <description>AI agents are the next evolution beyond chatbots, systems that don&apos;t just answer questions, but plan, use tools, and take action. Here&apos;s what you need to know.</description>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <category>Guides</category>
+      <category>AI agents</category>
+      <category>beginner</category>
+      <category>tutorial</category>
+      <category>agentic AI</category>
+      <category>automation</category>
+    </item>
+    <item>
+      <title>The AI Industry Has a $300 Billion Problem No One Wants to Talk About</title>
+      <link>https://masterai.blog/blog/ai-industry-money-problem</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/ai-industry-money-problem</guid>
+      <description>AI companies are burning cash at an unprecedented rate. The technology is real, but the economics don&apos;t add up. Here&apos;s the honest math behind the AI boom.</description>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <category>Tool Guides</category>
+      <category>AI industry</category>
+      <category>investment</category>
+      <category>Scaling Law</category>
+      <category>business model</category>
+      <category>analysis</category>
+    </item>
+    <item>
+      <title>Claude Code in 2026: The Terminal AI That Developers Actually Love</title>
+      <link>https://masterai.blog/blog/claude-code-developer-guide</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/claude-code-developer-guide</guid>
+      <description>Claude Code has become the preferred coding tool for 75% of developers who&apos;ve tried it. Here&apos;s what it does, how its agent system works, and how to set it up for maximum productivity.</description>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <category>Tool Guides</category>
+      <category>Claude</category>
+      <category>Claude Code</category>
+      <category>AI coding</category>
+      <category>developer tools</category>
+      <category>terminal</category>
+    </item>
+    <item>
+      <title>Cursor in 2026: The AI Code Editor That Thinks Like a Dev Team</title>
+      <link>https://masterai.blog/blog/cursor-ai-coding-guide</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/cursor-ai-coding-guide</guid>
+      <description>Cursor has evolved from an AI-enhanced editor into an agent orchestration platform. Here&apos;s a hands-on guide to what it actually does, how its agents work, and whether it&apos;s worth $20/month.</description>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <category>Tool Guides</category>
+      <category>Cursor</category>
+      <category>AI coding</category>
+      <category>agent</category>
+      <category>developer tools</category>
+      <category>IDE</category>
+    </item>
+    <item>
+      <title>Jobs AI Still Can&apos;t Touch (And Probably Won&apos;t For a Long Time)</title>
+      <link>https://masterai.blog/blog/jobs-ai-cant-replace</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/jobs-ai-cant-replace</guid>
+      <description>I spent weeks researching which jobs are actually safe from AI. Not the clickbait lists. Real jobs, with real reasoning, based on talking to people who do them.</description>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <category>Guides</category>
+      <category>AI jobs</category>
+      <category>career</category>
+      <category>future of work</category>
+      <category>automation</category>
+      <category>job security</category>
+    </item>
+    <item>
+      <title>Learning Still Matters in the AI Era, More Than Ever, Actually</title>
+      <link>https://masterai.blog/blog/learning-in-the-ai-era</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/learning-in-the-ai-era</guid>
+      <description>AI makes learning both more important and much harder. The real point of learning isn&apos;t to reproduce what AI can do. It&apos;s to know when AI is wrong.</description>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
+      <category>Guides</category>
+      <category>learning</category>
+      <category>AI skills</category>
+      <category>career</category>
+      <category>education</category>
+      <category>critical thinking</category>
+    </item>
+    <item>
+      <title>30 AI Terms Explained in Plain English (No CS Degree Needed)</title>
+      <link>https://masterai.blog/blog/ai-terms-explained</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/ai-terms-explained</guid>
+      <description>LLM, RAG, fine-tuning, tokens, temperature, AI jargon is out of control. Here&apos;s what each term actually means, explained the way you&apos;d explain it to a friend over coffee.</description>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <category>Guides</category>
+      <category>AI basics</category>
+      <category>glossary</category>
+      <category>beginner</category>
+      <category>LLM</category>
+      <category>terminology</category>
+    </item>
+    <item>
+      <title>How to Spot When AI Is Making Stuff Up (And What to Do About It)</title>
+      <link>https://masterai.blog/blog/how-to-spot-ai-hallucinations</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/how-to-spot-ai-hallucinations</guid>
+      <description>AI hallucination isn&apos;t a rare bug, it&apos;s built into how language models work. Here&apos;s how to catch it before you embarrass yourself by repeating fake facts.</description>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <category>Guides</category>
+      <category>AI basics</category>
+      <category>hallucination</category>
+      <category>safety</category>
+      <category>critical thinking</category>
+      <category>beginner</category>
+    </item>
+    <item>
+      <title>How to Write Your First AI Prompt (Without the Jargon)</title>
+      <link>https://masterai.blog/blog/how-to-write-your-first-ai-prompt</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/how-to-write-your-first-ai-prompt</guid>
+      <description>You don&apos;t need a prompt engineering course. You just need to understand three things: context, specificity, and iteration. Here&apos;s how to get useful results from AI on your first day.</description>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <category>Guides</category>
+      <category>beginner</category>
+      <category>prompts</category>
+      <category>ChatGPT</category>
+      <category>tutorial</category>
+      <category>getting started</category>
+    </item>
+    <item>
+      <title>Pentagon Awards $500M AI Contract to Scale AI, The Military AI Buildout Accelerates</title>
+      <link>https://masterai.blog/blog/pentagon-500m-ai-contract</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/pentagon-500m-ai-contract</guid>
+      <description>The Pentagon&apos;s CDAO gave Scale AI a $500M contract, 5x the previous deal. Meanwhile, Anthropic was excluded after rejecting military terms. The military AI vendor market is splitting.</description>
+      <pubDate>Mon, 11 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>Pentagon</category>
+      <category>defense</category>
+      <category>Scale AI</category>
+      <category>military AI</category>
+      <category>government</category>
+    </item>
+    <item>
+      <title>Anthropic Hits $30B Revenue, Inks $40B Google Deal, The Numbers Behind the AI Arms Race</title>
+      <link>https://masterai.blog/blog/anthropic-30b-google-deal</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/anthropic-30b-google-deal</guid>
+      <description>Anthropic&apos;s revenue exploded from $9B to $30B in months as it secured a $40B Google investment and leased SpaceX compute. The AI infrastructure buildout has no precedent.</description>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>Anthropic</category>
+      <category>Google</category>
+      <category>AI investment</category>
+      <category>infrastructure</category>
+      <category>Claude</category>
+    </item>
+    <item>
+      <title>Cerebras IPO Pops 68% on Day One, Then Drops 10%. What the Wild First Week Actually Means</title>
+      <link>https://masterai.blog/blog/cerebras-ipo-oversubscribed</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/cerebras-ipo-oversubscribed</guid>
+      <description>Cerebras Systems priced at $185, opened at $350, closed its first day at $311, then slid 10% on day two. The AI chip maker&apos;s debut was the biggest U.S. tech IPO since Uber. Here&apos;s what the numbers say about the AI hardware bet.</description>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>Cerebras</category>
+      <category>IPO</category>
+      <category>AI chips</category>
+      <category>hardware</category>
+      <category>NVIDIA</category>
+      <category>investment</category>
+      <category>CBRS</category>
+    </item>
+    <item>
+      <title>How to Actually Use ChatGPT (Not the Generic Tips Everyone Repeats)</title>
+      <link>https://masterai.blog/blog/getting-started-with-chatgpt</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/getting-started-with-chatgpt</guid>
+      <description>I&apos;ve been using ChatGPT daily since late 2022. Here&apos;s what I wish someone had told me on day one, from prompts that work to settings most people miss.</description>
+      <pubDate>Sun, 10 May 2026 00:00:00 GMT</pubDate>
+      <category>Tool Guides</category>
+      <category>ChatGPT</category>
+      <category>OpenAI</category>
+      <category>beginner</category>
+      <category>prompts</category>
+      <category>tutorial</category>
+    </item>
+    <item>
+      <title>Google Disrupts First Confirmed AI-Powered Zero-Day Attack</title>
+      <link>https://masterai.blog/blog/google-disrupts-ai-zero-day-attack</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/google-disrupts-ai-zero-day-attack</guid>
+      <description>For the first time, criminals used a large language model to discover and exploit an unknown security vulnerability. Google&apos;s threat intelligence team says the era of AI-driven cyber attacks is here.</description>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>AI security</category>
+      <category>Google</category>
+      <category>cybersecurity</category>
+      <category>zero-day</category>
+      <category>LLM</category>
+    </item>
+    <item>
+      <title>Musk vs. Altman, Meta&apos;s 8,000 Layoffs, and China Blocks AI Acquisition, This Week&apos;s AI Industry Shakeup</title>
+      <link>https://masterai.blog/blog/musk-altman-ai-drama</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/musk-altman-ai-drama</guid>
+      <description>The AI industry is going through growing pains. Elon Musk escalated his legal war with Sam Altman, Meta cut 10% of its workforce, and China blocked Meta&apos;s Manus acquisition.</description>
+      <pubDate>Sat, 09 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>OpenAI</category>
+      <category>Meta</category>
+      <category>xAI</category>
+      <category>China</category>
+      <category>industry</category>
+      <category>layoffs</category>
+    </item>
+    <item>
+      <title>Agentic AI Goes Mainstream: 74% of Fortune 500 Now Running Autonomous Agents</title>
+      <link>https://masterai.blog/blog/agentic-ai-goes-mainstream</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/agentic-ai-goes-mainstream</guid>
+      <description>The AI industry has shifted from chatbots to autonomous agents that take actions, not just answer questions. Three-quarters of Fortune 500 companies have deployed at least one. Here&apos;s what that actually looks like on the ground.</description>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>AI agents</category>
+      <category>enterprise</category>
+      <category>Fortune 500</category>
+      <category>automation</category>
+      <category>Anthropic</category>
+    </item>
+    <item>
+      <title>I Use All Three AI Assistants Every Week. Here&apos;s When I Pick Each One</title>
+      <link>https://masterai.blog/blog/chatgpt-vs-claude-vs-gemini</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/chatgpt-vs-claude-vs-gemini</guid>
+      <description>ChatGPT, Claude, and Gemini each do something best. After using all three for months, here&apos;s my actual routine: what I use when, why, and what still sucks about each one.</description>
+      <pubDate>Fri, 08 May 2026 00:00:00 GMT</pubDate>
+      <category>Tool Guides</category>
+      <category>ChatGPT</category>
+      <category>Claude</category>
+      <category>Gemini</category>
+      <category>comparison</category>
+      <category>AI assistants</category>
+      <category>review</category>
+    </item>
+    <item>
+      <title>Apple Opens the Walled Garden: iOS 27 Will Let You Replace Siri with Claude or Gemini</title>
+      <link>https://masterai.blog/blog/apple-ios27-third-party-ai</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/apple-ios27-third-party-ai</guid>
+      <description>For the first time, Apple will allow third-party AI models as the default assistant on iPhones. Users will be able to choose Gemini or Claude instead of Siri.</description>
+      <pubDate>Thu, 07 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>Apple</category>
+      <category>iOS</category>
+      <category>Siri</category>
+      <category>Claude</category>
+      <category>Gemini</category>
+      <category>AI assistant</category>
+    </item>
+    <item>
+      <title>China&apos;s Coding Model Surge: Four Frontier Releases in 12 Days</title>
+      <link>https://masterai.blog/blog/china-coding-model-surge</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/china-coding-model-surge</guid>
+      <description>Four Chinese labs released near-frontier open-weights coding models in under two weeks, at a fraction of the cost of Western alternatives. The AI race just became genuinely multipolar.</description>
+      <pubDate>Wed, 06 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>China</category>
+      <category>coding</category>
+      <category>open source</category>
+      <category>DeepSeek</category>
+      <category>AI models</category>
+    </item>
+    <item>
+      <title>AI Explained Without the Hype (Or the Math)</title>
+      <link>https://masterai.blog/blog/introduction-to-ai-for-beginners</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/introduction-to-ai-for-beginners</guid>
+      <description>You don&apos;t need a CS degree to understand what AI actually is, how it works, or what it means for your life. Plain English, honest trade-offs, no corporate buzzwords.</description>
+      <pubDate>Tue, 05 May 2026 00:00:00 GMT</pubDate>
+      <category>Guides</category>
+      <category>AI basics</category>
+      <category>beginner</category>
+      <category>machine learning</category>
+      <category>introduction</category>
+      <category>explained</category>
+    </item>
+    <item>
+      <title>Midjourney Prompts That Actually Work, A Non-Artist&apos;s Trial-and-Error Log</title>
+      <link>https://masterai.blog/blog/midjourney-prompt-guide</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/midjourney-prompt-guide</guid>
+      <description>I have zero art background and have generated thousands of Midjourney images. Here&apos;s what I&apos;ve learned about writing prompts that produce consistently good results.</description>
+      <pubDate>Sun, 03 May 2026 00:00:00 GMT</pubDate>
+      <category>Guides</category>
+      <category>Midjourney</category>
+      <category>AI art</category>
+      <category>prompt engineering</category>
+      <category>image generation</category>
+      <category>tutorial</category>
+    </item>
+  </channel>
+</rss>

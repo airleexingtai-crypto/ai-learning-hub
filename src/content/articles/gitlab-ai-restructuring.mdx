@@ -1,25 +1,53 @@
 ---
-title: "GitLab Is Cutting 30% of Its Countries and Betting the Company on AI Agents"
-description: "GitLab's 'Act 2' restructuring means fewer countries, flatter management, and a bet that AI agents will write most code by 2028. The stock dropped 8.2%."
-date: "2026-05-13"
-lastModified: 2026-05-16
-category: "News"
-tags: ["GitLab", "AI agents", "developer tools", "restructuring", "coding"]
-author: "AI Learning Hub"
+title: GitLab Is Cutting 30% of Its Countries and Betting the Company on AI Agents
+description: >-
+  GitLab's 'Act 2' restructuring means fewer countries, flatter management, and
+  a bet that AI agents will write most code by 2028. The stock dropped 8.2%.
+date: '2026-05-13'
+lastModified: 2026-05-16T00:00:00.000Z
+category: News
+tags:
+  - GitLab
+  - AI agents
+  - developer tools
+  - restructuring
+  - coding
+author: Alex Chen
+image: /images/articles/coding.jpg
 ---
 
 GitLab announced a restructuring on Monday that CEO Bill Staples called "Act 2." In plain terms: the company is cutting operations in up to 30% of countries, flattening its management structure, and betting that AI agents will write the majority of code within two years.
 
-The market didn't like the uncertainty. GitLab stock dropped 8.2% after hours.
+The market did not like the uncertainty. GitLab stock dropped 8.2% after hours.
+
+## What got GitLab here
+
+To understand why this restructuring is happening, you need to understand GitLab's position in the market. The company went public in October 2021 at a $11 billion valuation, riding the DevOps wave. Its core product, a complete platform for hosting code, running CI/CD pipelines, managing projects, and deploying software, competes directly with Microsoft's GitHub. For years, GitLab's pitch was simple: we do everything GitHub does, but on one integrated platform, and you can self-host it.
+
+That positioning worked when the market cared about self-hosting and open-core licensing. But the ground shifted. GitHub Copilot launched in 2021 and quickly became the default AI coding assistant, pulling millions of developers into Microsoft's platform. GitHub's revenue grew accordingly. GitLab responded with Duo, its own AI assistant, but Duo has not matched Copilot in adoption, developer mindshare, or feature velocity. When developers choose a platform based on AI features, the self-hosting argument matters less than it used to.
+
+Meanwhile, GitLab's financials tell a story of a company that needs to change something. Revenue grew 31% year-over-year to $732 million in fiscal 2025, healthy by most standards. But the company is not profitable on a GAAP basis, and its stock trades well below its IPO price. Investors are asking: what is the growth story for the next five years, when GitHub has Copilot, AWS has CodeWhisperer, and every cloud provider is bundling AI coding tools into their platform?
+
+Staples seems to have concluded that the answer is not "keep doing what we are doing but a little better." It is a bet-the-company pivot on AI agents.
+
+## The "Act 2" bet
 
 Staples laid out the reasoning in a memo that, for a corporate restructuring document, was unusually direct. "Software will be built by machines but guided by humans," he wrote. He said GitLab's current organizational structure was "built for a world where humans wrote the code." That world, in his view, is ending.
 
-GitLab isn't the first company to make this pivot, but the scale is notable. This isn't a 5% workforce trim dressed up as an AI story. The company is physically exiting countries and collapsing management layers. For a company with roughly 2,200 employees, a 30% country footprint cut signals hundreds of roles affected across sales, support, and regional operations.
+GitLab is not the first company to make this pivot, but the scale is notable. This is not a 5% workforce trim dressed up as an AI story. The company is physically exiting countries and collapsing management layers. For a company with roughly 2,200 employees, a 30% country footprint cut signals hundreds of roles affected across sales, support, and regional operations.
 
-The strategy has a clear internal logic. If AI agents handle code generation, code review, and CI/CD pipeline management, then you need fewer people managing the workflow and more people who can build and supervise the agents themselves. GitLab is trading regional coverage for AI engineering density.
+The strategy has a clear internal logic. Consider what a developer's workflow looks like if AI agents handle code generation, code review, and CI/CD pipeline management. The developer becomes a supervisor and architect rather than a line-by-line coder. The platform that hosts the code, runs the tests, deploys the builds, and manages the infrastructure becomes the central hub, not the IDE. GitLab already owns that platform. By doubling down on agent-native workflows, GitLab is betting that the IDE-Copilot integration GitHub relies on becomes less important over time. If agents write most of the code, developers spend more time in GitLab's merge request interface than in VS Code. That is the bet.
+
+What specific features does "Act 2" involve? Staples referenced three areas in the memo. First, AI-native code review: agents that automatically review every merge request, suggest improvements, and detect bugs before human reviewers see the code. Second, autonomous pipeline management: agents that detect build failures, diagnose the root cause, and propose or apply fixes without human intervention. Third, agentic planning: agents that take a feature request or issue description and generate an implementation plan, including which files to modify, what tests to write, and what edge cases to handle. Some of these features exist in early form. The restructuring is about making them the core product, not a side experiment.
 
 The risk is timing. AI coding tools have gotten good, fast. Claude Code and Cursor handle full features from a text prompt. Amazon's Q Developer injected code fixes directly into production pipelines at scale last quarter. The technology is real. But "AI agents write most code by 2028" is still a bet, not a certainty.
 
-If the tools stall, or if enterprise adoption moves slower than Staples expects, GitLab will have thinned its operations for a future that didn't arrive on schedule. If the bet pays off, GitLab positions itself as the platform where AI-built code gets stored, reviewed, and deployed, and that's a business model with real power.
+If the tools stall, or if enterprise adoption moves slower than Staples expects, GitLab will have thinned its operations for a future that did not arrive on schedule. If the bet pays off, GitLab positions itself as the platform where AI-built code gets stored, reviewed, and deployed, and that is a business model with real power.
 
-One detail: GitLab's restructuring follows a pattern. Microsoft, Google, and Amazon have all reorganized engineering teams this year to prioritize AI-native workflows. The difference is that GitLab is doing it publicly, with a timeline, and without the cushion of a trillion-dollar parent company.
+## The competitive picture
+
+One detail worth highlighting: GitLab's restructuring follows a pattern. Microsoft, Google, and Amazon have all reorganized engineering teams this year to prioritize AI-native workflows. The difference is that GitLab is doing it publicly, with a timeline, and without the cushion of a trillion-dollar parent company.
+
+GitHub, backed by Microsoft, can afford to experiment with Copilot for years without immediate profit pressure. GitLab cannot. If "Act 2" does not show results within 18 to 24 months, the pressure to find a buyer or change strategy again will be intense. Salesforce was rumored to be interested in acquiring GitLab in mid-2024. That interest may return if the restructuring proves too aggressive.
+
+I think Staples is right about the direction. AI will write more code each year. The question is whether the winning platform will be the one that hosts the code or the one that owns the coding assistant. Right now, GitHub has both. GitLab's restructuring is a bet that owning the code platform matters more than owning the assistant in the editor. We will know by 2028 whether that bet was right.

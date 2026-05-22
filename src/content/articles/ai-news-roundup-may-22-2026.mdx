@@ -1,0 +1,73 @@
+---
+title: "AI This Week: Google Search Gets a Brain Transplant, Anthropic's SpaceX Deal, and Cerebras Goes Public"
+description: "Google I/O 2026 just delivered the biggest search overhaul in 25 years. Anthropic booked SpaceX's entire Colossus supercluster. Cerebras popped 68% on its IPO. Here's what it all means for how we find information, who controls AI compute, and where the money is going."
+date: "2026-05-22"
+category: "News"
+tags: ["Google I/O", "Anthropic", "Cerebras", "NVIDIA", "AI search", "IPO", "SpaceX"]
+author: "Alex Chen"
+image: /images/articles/ai-news-roundup-may-22.jpg
+---
+
+This was not a normal week in AI. Google killed the ten blue links. Anthropic rented a supercomputer from SpaceX. Cerebras went public at a valuation nobody predicted. Three stories that would each be the biggest AI news in a typical month landed within five days of each other.
+
+I have been tracking AI news daily for over a year, and the velocity right now is unprecedented. Not just the announcements themselves, but what they signal about where the industry is headed: search is becoming an agent, compute is becoming a geopolitical asset, and AI chip investing is entering a new phase.
+
+## Google I/O 2026: the search box grows a brain
+
+Google announced the biggest change to Search in 25 years at I/O on May 19 ([full breakdown of the Remy agent and what it means here](/blog/google-io-2026-remy-agent)). The core shift: Gemini 3.5 Flash now powers AI Mode globally, and the traditional search box has been replaced with a dynamic input that accepts text, images, video, files, and active Chrome tabs.
+
+The numbers driving this are massive. AI Mode now has over a billion monthly users, with query volume doubling each quarter. AI Overviews reach 2.5 billion users. For context, ChatGPT reports about 900 million weekly active users. Google's AI reach already exceeds OpenAI's, and the gap is widening.
+
+The feature that matters most for publishers: Information Agents. These are background AI workers that monitor the web for you, tracking apartment listings, product drops, market movements, and push updates when something changes. They never sleep, they never open a browser, and they never click an ad.
+
+For anyone who runs a website, the Ahrefs data from this week is sobering. AI Overviews now cost top-ranking pages 58% of their clicks on average, up from 34.5% eight months ago. The Reuters Institute reports media executives expect a 43% drop in search referrals over three years. If you built a business on Google traffic, your business model is being rewritten by someone else's AI.
+
+I run this blog, so I am watching this closely. The response is not to panic about AI search. It is to write content that deserves to be cited: original analysis, tested workflows, specific comparisons that a language model cannot generate from its training data. Generic content dies first.
+
+## Anthropic's SpaceX supercluster deal
+
+Anthropic secured full access to SpaceX's Colossus 1 supercluster in Memphis: over 300 megawatts, 220,000-plus NVIDIA GPUs. The deal lands weeks before SpaceX's planned $1.75 trillion IPO, giving underwriters a flagship AI customer.
+
+Anthropic immediately doubled Claude Code rate limits and raised API ceilings on Opus models, part of the [ongoing AI developer tool pricing war I covered earlier](/blog/claude-code-pricing-war-may-2026). The revenue trajectory is staggering: reportedly from $9 billion to $45 billion ARR in months. CEO Dario Amodei said they planned for 10x growth and got 80x.
+
+The deal has an unusual clause: Elon Musk retained the right to "reclaim the compute" if Anthropic's models harm humanity. I am not sure whether to read this as genuine safety governance or as Musk keeping power over a competitor to xAI. Probably both.
+
+Anthropic also launched an enterprise joint venture with Blackstone, Goldman Sachs, Apollo, and General Atlantic. It is a distribution play to push Claude into private equity portfolio companies. OpenAI countered with "DeployCo," a $4 billion enterprise consulting subsidiary. The competition is shifting from "who has the best model" to "who has the best distribution and enterprise integration."
+
+A detail worth noting: Anthropic was excluded from expanded Pentagon classified AI contracts that included OpenAI, Google, Microsoft, AWS, and NVIDIA. The company's safety stance has real business consequences.
+
+## Cerebras IPO: the first credible NVIDIA alternative goes public
+
+Cerebras priced at $185 on May 14, opened at $350, and closed day one at $311, a 68% gain. I wrote about the [full first-week numbers and what the 20x oversubscription signals here](/blog/cerebras-ipo-oversubscribed). Market cap crossed $100 billion. The $5.5 billion raise is the largest U.S. tech IPO since Uber in 2019.
+
+The WSE-3 chip at the center of this story is genuinely different from anything NVIDIA sells. A single wafer-scale chip with 4 trillion transistors and 44GB of SRAM. For inference on models under 120 billion parameters, it hits 2,400 tokens per second, more than double NVIDIA's Blackwell B300 at 1,040 tokens per second on comparable workloads.
+
+OpenAI signed a $24.6 billion contract with Cerebras. The deal includes a non-compete clause blocking Cerebras from selling to "specific OpenAI competitors," which everyone reads as Anthropic. OpenAI is reportedly running GPT-5.4 and GPT-5.5 inference on Cerebras hardware.
+
+The risk is the same risk every NVIDIA challenger faces: the CUDA software moat and customer inertia. Cerebras's architecture works well for models that fit in 44GB of SRAM. For the largest models, DeepSeek V4 at 1.6 trillion parameters for instance, you need multiple wafers, and the inter-wafer bandwidth becomes the bottleneck. The WSE-3 is not a universal NVIDIA replacement. It is a specialized tool for a specific class of inference workloads.
+
+## What connects these three stories
+
+Each story points in the same direction: AI is moving from a model race to an infrastructure and distribution race.
+
+Google is winning distribution. With a billion-plus AI Mode users and the default search position on every Android phone, they do not need the best model. They need a good enough model, which Gemini 3.5 Flash is, and unmatched reach.
+
+Anthropic is winning the enterprise. The SpaceX compute deal, the PE joint venture, the Gates Foundation partnership. This is a company building industrial-grade AI deployment, not a chatbot.
+
+Cerebras represents the infrastructure bet. The picks-and-shovels thesis says foundation model companies may or may not build sustainable businesses, but they all need chips. Cerebras's IPO pop says institutional investors believe the AI chip market is big enough for more than one winner.
+
+For the rest of us, developers, content creators, people just trying to understand what AI means for their work, this week clarified something important. The companies controlling AI are no longer just building technology. They are building the pipes that determine who gets to use it, on what terms, and at what cost. The shift from "build a better model" to "control the infrastructure" is the story of 2026 so far.
+
+## FAQ
+
+**Q: Is Google Search really dead?**
+
+A: Not dead. Changed. The ten blue links are gone as the default experience for many queries, replaced by AI-generated answers, interactive widgets, and conversational follow-ups. If your site relies on Google traffic, you need a strategy for being cited inside AI answers, not just ranking in link lists.
+
+**Q: Why does the Anthropic-SpaceX deal matter to me?**
+
+A: It signals that compute access is becoming the binding constraint on AI deployment. When the largest AI companies book entire superclusters months in advance, smaller companies and individual developers get priced out of the infrastructure they need to compete.
+
+**Q: Should I buy Cerebras stock?**
+
+A: I do not give investment advice. What I can say is that an 83% revenue concentration with a single customer (OpenAI) is a risk worth understanding before making any decision.

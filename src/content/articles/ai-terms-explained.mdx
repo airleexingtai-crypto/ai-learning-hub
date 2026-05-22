@@ -1,12 +1,21 @@
 ---
-title: "30 AI Terms Explained in Plain English (No CS Degree Needed)"
-description: "LLM, RAG, fine-tuning, tokens, temperature, AI jargon is out of control. Here's what each term actually means, explained the way you'd explain it to a friend over coffee."
-date: "2026-05-11"
-lastModified: 2026-05-16
-category: "Guides"
-tags: ["AI basics", "glossary", "beginner", "LLM", "terminology"]
-author: "AI Learning Hub"
+title: 30 AI Terms Explained in Plain English (No CS Degree Needed)
+description: >-
+  LLM, RAG, fine-tuning, tokens, temperature, AI jargon is out of control.
+  Here's what each term actually means, explained the way you'd explain it to a
+  friend over coffee.
+date: '2026-05-11'
+lastModified: 2026-05-16T00:00:00.000Z
+category: Guides
+tags:
+  - AI basics
+  - glossary
+  - beginner
+  - LLM
+  - terminology
+author: Alex Chen
 featured: true
+image: /images/articles/study.jpg
 ---
 
 ## TL;DR
@@ -19,117 +28,117 @@ I've sat through meetings where people threw around "RAG pipeline" and "temperat
 
 No definitions over 100 words. No circular explanations. If a term needs more context, I say so.
 
-## The Core Terms (Start Here)
+## The core terms (start here)
 
-**Artificial Intelligence (AI)**
+Artificial Intelligence (AI)
 Computers doing things that normally need human brains: understanding language, recognizing images, making decisions. It's an umbrella term. Most things called "AI" today are actually machine learning.
 
-**Machine Learning (ML)**
+Machine Learning (ML)
 A way of building AI where the computer learns from examples instead of following fixed rules. Show it a million labeled pictures, it figures out the patterns. Traditional programming: you write rules. ML: the machine writes the rules based on data.
 
-**Deep Learning**
+Deep Learning
 Machine learning with many layers. More layers = the model can find more subtle patterns. Powers everything from voice recognition to ChatGPT. Think of it as ML on steroids.
 
-**Neural Network**
+Neural Network
 The computing structure behind deep learning. Loosely inspired by how brains work: interconnected nodes passing signals, with each connection having a "weight" that adjusts during training. It's not a brain simulation, it's a mathematical system that happens to work well for pattern recognition.
 
-**Large Language Model (LLM)**
+Large Language Model (LLM)
 The specific type of AI behind ChatGPT, Claude, and Gemini. Trained on enormous amounts of text. Its only job: predict the next word in a sequence. At the scale of trillions of examples, next-word prediction becomes writing essays, debugging code, and translating languages.
 
-**Generative AI**
+Generative AI
 AI that creates new content (text, images, music, code, video) rather than just classifying or analyzing. ChatGPT, Midjourney, DALL-E, and Sora are all generative AI. This category got most of the attention starting in late 2022.
 
-## How Models Work
+## How models work
 
-**Training**
+Training
 The process of feeding data through a neural network and adjusting its internal "weights" until it produces good outputs. Training a large model takes months, costs millions, and uses enough electricity to power a small town.
 
-**Parameters**
+Parameters
 The adjustable "knobs" inside a neural network. More parameters generally means the model can learn more complex patterns, but also costs more to train and run. GPT-3 had 175 billion. GPT-4 is rumored to have over a trillion.
 
-**Tokens**
+Tokens
 How AI models break text into pieces. A token is roughly ¾ of a word in English. "I love AI" = about 4 tokens. Models have token limits (context windows) that determine how much text they can handle at once.
 
-**Context Window**
+Context Window
 How much text a model can "see" at one time. Think of it as the model's short-term memory. GPT-4: 128K tokens (about 96,000 words). Claude: 200K tokens (about 150,000 words, a full book). Gemini: 1M tokens.
 
-**Inference**
+Inference
 When you type a prompt and the model generates a response, that's inference. It's the "using" phase, as opposed to training (the "learning" phase). Inference costs money because it runs on expensive GPUs.
 
-**Hallucination**
+Hallucination
 When AI confidently makes something up. It invents facts, citations, historical events, and API functions, all delivered in the same confident tone as true statements. Hallucination is inherent to how language models work. They predict plausible text, not true text.
 
-**Temperature**
+Temperature
 Controls how "creative" vs. "predictable" the model's output is. Low temperature = safe, repetitive, factual. High temperature = creative, varied, more likely to hallucinate. Most chatbots keep it moderate.
 
-## Training Techniques
+## Training techniques
 
-**Fine-tuning**
+Fine-tuning
 Taking a pre-trained model and training it further on a specific dataset. Turns a general-purpose model into a specialist. A fine-tuned model might be great at medical transcription or legal document review while the base model is mediocre at both.
 
-**RAG (Retrieval-Augmented Generation)**
+RAG (Retrieval-Augmented Generation)
 Giving the model access to a search engine or document database so it can look up facts instead of relying on memory. Reduces hallucination. Most "chat with your documents" features use RAG.
 
-**RLHF (Reinforcement Learning from Human Feedback)**
+RLHF (Reinforcement Learning from Human Feedback)
 Training technique where humans rate the model's outputs and the model learns to produce responses humans prefer. This is why ChatGPT feels more helpful than raw GPT-4, it's been tuned to give the kinds of answers human testers liked.
 
-**Pre-training**
+Pre-training
 The initial, most expensive phase of training where the model learns general language patterns from internet-scale data. This is what Ilya Sutskever meant when he said "the pre-training era is over", we're running out of new high-quality text to train on.
 
-## Types of AI Systems
+## Types of AI systems
 
-**Chatbot**
+Chatbot
 An AI you talk to in a conversational interface. ChatGPT, Claude, and Gemini are chatbots built on top of LLMs. The chatbot layer handles conversation flow, memory, and safety.
 
-**AI Agent**
+AI Agent
 An AI system that doesn't just answer questions, it takes actions. It can browse the web, send emails, write and run code, update databases. The hot trend of 2025-2026. 74% of Fortune 500 companies have deployed at least one agent.
 
-**Multimodal AI**
+Multimodal AI
 An AI that can work with multiple types of input and output: text, images, audio, video. GPT-4o is multimodal (it can see images and hear audio). Older models like GPT-3.5 were text-only.
 
-**Open Source Model**
+Open Source Model
 A model whose weights are publicly available for anyone to use, modify, or fine-tune. Examples: Llama (Meta), DeepSeek, Qwen, Mistral. Contrast with proprietary models like GPT-4 and Claude.
 
-## Everyday AI Use
+## Everyday AI use
 
-**Prompt**
+Prompt
 The text you type to an AI. A better prompt = a better response. But "prompt engineering" is mostly just clear communication and being specific about what you want.
 
-**System Prompt**
+System Prompt
 Hidden instructions the AI follows before it sees your message. Sets the AI's behavior: "You are a helpful assistant. Be concise. Don't make up facts." Users can sometimes override this with their own Custom Instructions.
 
-**Custom Instructions**
+Custom Instructions
 User-defined preferences that get added to every conversation. Available in ChatGPT (Settings → Personalization). Example: "I'm a software developer. Use code examples. Keep answers brief. Don't explain basic concepts I should already know."
 
-**Embeddings**
+Embeddings
 A way of converting text into lists of numbers that capture meaning. Words with similar meanings get similar numbers. Used for semantic search, recommendation systems, and RAG. Not something most users need to think about.
 
-## The Industry
+## The industry
 
-**AGI (Artificial General Intelligence)**
+AGI (Artificial General Intelligence)
 AI that matches or exceeds human intelligence across most tasks. Does not exist yet. Depending on who you ask, it's either 3 years away or 30 years away. The term is mostly used for fundraising.
 
-**Frontier Model**
+Frontier Model
 The most advanced, most capable AI models at any given time. Currently: GPT-5.5, Claude Opus 4.7, Gemini 2.5 Pro, DeepSeek V4. "Frontier" is a moving target, today's frontier is next year's baseline.
 
-**GPU (Graphics Processing Unit)**
+GPU (Graphics Processing Unit)
 The hardware that makes AI possible. Originally designed for video game graphics, GPUs happen to be great at the matrix math that neural networks need. NVIDIA makes most of them. The bottleneck of the entire AI industry.
 
-**Compute**
+Compute
 Shorthand for "computing power." When people say "training GPT-5 cost $500 million in compute," they mean electricity + GPU time + data center costs. Compute is the main input cost for AI, like steel is for construction.
 
 ---
 
 ## FAQ
 
-**Do I need to memorize all of these?**
+Do I need to memorize all of these?
 
 No. Start with the first six (AI, ML, Deep Learning, LLM, Generative AI, Neural Networks). Those cover 80% of what you'll hear in casual conversation. Pick up the rest as you encounter them.
 
-**What's the difference between an LLM and a chatbot?**
+What's the difference between an LLM and a chatbot?
 
 An LLM is the engine. A chatbot is the car. ChatGPT is a chatbot built on top of GPT-4 (the LLM). The chatbot adds conversation management, safety filters, memory, and the chat interface.
 
-**Why does the definition of AGI keep changing?**
+Why does the definition of AGI keep changing?
 
 Because "general intelligence" is hard to define, and every time AI masters something impressive (chess, Go, protein folding), people say "that's not real intelligence." The goalposts move. This is called the AI effect.

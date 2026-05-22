@@ -41,9 +41,10 @@ export default function PrivacyPage() {
               <ul className="space-y-2 pl-5 list-disc mt-3">
                 <li>
                   <strong className="text-[var(--text)]">Usage Data:</strong>{" "}
-                  We use privacy-focused analytics (Umami) to understand how
-                  visitors interact with our content. This data is anonymized
-                  and does not include personally identifiable information.
+                  We use privacy-focused analytics (Google Analytics 4 with
+                  anonymized IPs) to understand how visitors interact with our
+                  content. This data is anonymized and does not include
+                  personally identifiable information.
                 </li>
                 <li>
                   <strong className="text-[var(--text)]">Contact Form:</strong>{" "}
@@ -67,10 +68,9 @@ export default function PrivacyPage() {
               <p>
                 This site uses minimal cookies for essential functionality.
                 We do not use tracking cookies for advertising purposes. Our
-                analytics provider (Umami) is cookie-free by default. Google
-                AdSense, if enabled in the future, may set its own cookies —
-                you will be notified and given the option to manage preferences
-                before any ad cookies are deployed.
+                analytics provider (Google Analytics 4) uses first-party
+                cookies with anonymized IP addresses. Google AdSense may set
+                its own cookies for ad personalization.
               </p>
             </section>
 
@@ -81,12 +81,12 @@ export default function PrivacyPage() {
               <p>We may use the following third-party services:</p>
               <ul className="space-y-2 pl-5 list-disc mt-3">
                 <li>
-                  <strong className="text-[var(--text)]">Vercel:</strong> Hosting
-                  provider. May collect standard server logs.
+                  <strong className="text-[var(--text)]">Cloudflare Pages:</strong>{" "}
+                  Hosting provider. May collect standard server logs.
                 </li>
                 <li>
-                  <strong className="text-[var(--text)]">Umami:</strong>{" "}
-                  Privacy-focused analytics. No personal data collected.
+                  <strong className="text-[var(--text)]">Google Analytics:</strong>{" "}
+                  Site traffic analytics with anonymized IP addresses.
                 </li>
                 <li>
                   <strong className="text-[var(--text)]">Google AdSense:</strong>{" "}

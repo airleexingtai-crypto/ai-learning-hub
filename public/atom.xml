@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AI Learning Hub</title>
+  <link href="https://masterai.blog" rel="alternate"/>
+  <link href="https://masterai.blog/atom.xml" rel="self"/>
+  <id>https://masterai.blog</id>
+  <updated>2026-05-21T09:20:42.164Z</updated>
+  <subtitle>Comprehensive AI tutorials, guides, and insights. Learn ChatGPT, Claude, Midjourney, and more.</subtitle>
+  <entry>
+    <title>Claude Code&apos;s Pricing Tug-of-War: What the Pro Plan Scare Means for Developers</title>
+    <link href="https://masterai.blog/blog/claude-code-pricing-war-may-2026"/>
+    <id>https://masterai.blog/blog/claude-code-pricing-war-may-2026</id>
+    <published>2026-05-22</published>
+    <updated>2026-05-22</updated>
+    <summary>Anthropic nearly pulled Claude Code from its $20 Pro plan in April, OpenAI fired back with free Codex months, and Microsoft is yanking internal licenses. The AI coding tool pricing war is just getting started.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>NVIDIA&apos;s Blackwell Ultra Is Sold Out Through Mid-2026. Here&apos;s What That Means for AI Prices</title>
+    <link href="https://masterai.blog/blog/nvidia-blackwell-ultra-sold-out-2026"/>
+    <id>https://masterai.blog/blog/nvidia-blackwell-ultra-sold-out-2026</id>
+    <published>2026-05-22</published>
+    <updated>2026-05-22</updated>
+    <summary>NVIDIA&apos;s Blackwell Ultra GPUs have a 3.6 million unit backlog from cloud providers. Demand is doubling year over year. AI inference costs are supposed to drop. The supply chain says not so fast.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>How to Run Stable Diffusion 3.5 on Your Computer: A Beginner&apos;s Guide (No Tech Background Needed)</title>
+    <link href="https://masterai.blog/blog/stable-diffusion-3-5-beginner-guide"/>
+    <id>https://masterai.blog/blog/stable-diffusion-3-5-beginner-guide</id>
+    <published>2026-05-22</published>
+    <updated>2026-05-22</updated>
+    <summary>You don&apos;t need a subscription to generate AI images. With Stable Diffusion 3.5, ComfyUI, and a mid-range GPU, you can run an unlimited image generator on your own machine for free. Here&apos;s the step-by-step setup.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Guides"/>
+  </entry>
+  <entry>
+    <title>Suno vs Udio: Which AI Music Generator Actually Makes Good Songs in 2026</title>
+    <link href="https://masterai.blog/blog/suno-vs-udio-ai-music-generator"/>
+    <id>https://masterai.blog/blog/suno-vs-udio-ai-music-generator</id>
+    <published>2026-05-22</published>
+    <updated>2026-05-22</updated>
+    <summary>After testing both Suno v5 and Udio across pop, hip-hop, jazz, and orchestral tracks, here&apos;s which AI music generator to pick, when to use each, and what both still get wrong about making actual music.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Tool Guides"/>
+  </entry>
+  <entry>
+    <title>Musk v. Altman Trial Goes to the Jury: Three Weeks of Testimony, $150 Billion at Stake, and One Messy Verdict Ahead</title>
+    <link href="https://masterai.blog/blog/musk-altman-trial-jury-deliberates"/>
+    <id>https://masterai.blog/blog/musk-altman-trial-jury-deliberates</id>
+    <published>2026-05-18</published>
+    <updated>2026-05-18</updated>
+    <summary>Closing arguments wrapped May 14 in the Musk v. Altman trial. The nine-person jury began deliberating May 18. Here&apos;s everything that happened in the courtroom, what the jury has to decide, and what&apos;s actually at stake for the AI industry.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>How to Run AI on Your Own Computer (No Cloud, No Subscription, No Privacy Nightmares)</title>
+    <link href="https://masterai.blog/blog/run-ai-locally-beginner-guide"/>
+    <id>https://masterai.blog/blog/run-ai-locally-beginner-guide</id>
+    <published>2026-05-18</published>
+    <updated>2026-05-18</updated>
+    <summary>You don&apos;t need ChatGPT to use a powerful AI model. With Ollama and LM Studio, you can run GPT-4-class models on your laptop for free, privately, and offline. Here&apos;s how to set it up in 10 minutes.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Guides"/>
+  </entry>
+  <entry>
+    <title>Google Just Banned &apos;AI Poisoning&apos; — Here&apos;s What It Means for Search Visibility</title>
+    <link href="https://masterai.blog/blog/google-bans-ai-poisoning-geo"/>
+    <id>https://masterai.blog/blog/google-bans-ai-poisoning-geo</id>
+    <published>2026-05-17</published>
+    <updated>2026-05-17</updated>
+    <summary>Google updated its spam policy on May 16 to ban AI poisoning, the practice of manipulating AI model outputs through adversarial prompts. Sites caught doing it face 180-day removal from AI Overviews.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>Malta Becomes First Country to Give Every Citizen Free ChatGPT Plus</title>
+    <link href="https://masterai.blog/blog/malta-free-chatgpt-plus"/>
+    <id>https://masterai.blog/blog/malta-free-chatgpt-plus</id>
+    <published>2026-05-17</published>
+    <updated>2026-05-17</updated>
+    <summary>Malta&apos;s government struck a world-first deal with OpenAI to provide free ChatGPT Plus to all 570,000 citizens. The catch: everyone must complete an AI literacy course first.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>OpenAI Shakes Up Leadership, Acquires Voice AI Startup, and Shuts Down Sora</title>
+    <link href="https://masterai.blog/blog/openai-restructure-voice-ipo"/>
+    <id>https://masterai.blog/blog/openai-restructure-voice-ipo</id>
+    <published>2026-05-17</published>
+    <updated>2026-05-17</updated>
+    <summary>Greg Brockman takes over product strategy as OpenAI merges ChatGPT and Codex into a unified agent platform. The company also quietly acquired voice-cloning startup Weights.gg and shut down Sora.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>AI Coding for People Who&apos;ve Never Written a Line of Code</title>
+    <link href="https://masterai.blog/blog/ai-coding-for-beginners"/>
+    <id>https://masterai.blog/blog/ai-coding-for-beginners</id>
+    <published>2026-05-16</published>
+    <updated>2026-05-16</updated>
+    <summary>You don&apos;t need to be a programmer to build things with AI. Here&apos;s exactly how to go from zero to shipping a working project in 2026, using tools that write the code for you.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Guides"/>
+  </entry>
+  <entry>
+    <title>AI Video Generation: What Actually Works in 2026 (Sora, Runway, Veo, and the Rest)</title>
+    <link href="https://masterai.blog/blog/ai-video-generation-guide"/>
+    <id>https://masterai.blog/blog/ai-video-generation-guide</id>
+    <published>2026-05-16</published>
+    <updated>2026-05-16</updated>
+    <summary>AI video went from &apos;interesting demo&apos; to &apos;production tool&apos; in twelve months. After testing every major platform, here&apos;s what each one does well, what they still can&apos;t do, and who should pay for which one.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Guides"/>
+  </entry>
+  <entry>
+    <title>GitHub Copilot in 2026: The AI That Now Writes, Tests, and Ships Your Code</title>
+    <link href="https://masterai.blog/blog/github-copilot-complete-guide"/>
+    <id>https://masterai.blog/blog/github-copilot-complete-guide</id>
+    <published>2026-05-16</published>
+    <updated>2026-05-16</updated>
+    <summary>Copilot evolved from autocomplete to a full development platform. After using it daily across three production projects, here&apos;s what it actually does well, what it still gets wrong, and how to integrate it into a real workflow.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Tool Guides"/>
+  </entry>
+  <entry>
+    <title>Google Gemini in 2026: What It Actually Does Better Than Everyone Else</title>
+    <link href="https://masterai.blog/blog/google-gemini-complete-guide"/>
+    <id>https://masterai.blog/blog/google-gemini-complete-guide</id>
+    <published>2026-05-16</published>
+    <updated>2026-05-16</updated>
+    <summary>Gemini 2.5 Pro changed the game with a 1M-token context window and Deep Research. After three months of daily use alongside ChatGPT and Claude, here&apos;s where Gemini wins, where it falls short, and how to use it for work that actually matters.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Tool Guides"/>
+  </entry>
+  <entry>
+    <title>Perplexity AI: The Search Engine That Reads 100 Pages So You Don&apos;t Have To</title>
+    <link href="https://masterai.blog/blog/perplexity-ai-complete-guide"/>
+    <id>https://masterai.blog/blog/perplexity-ai-complete-guide</id>
+    <published>2026-05-16</published>
+    <updated>2026-05-16</updated>
+    <summary>Perplexity went from niche research tool to Google alternative in 18 months. Here&apos;s how it actually works, what it does better than Google, and the specific workflows where it saves hours every week.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Tool Guides"/>
+  </entry>
+  <entry>
+    <title>The First Real AI Job Report Is Out. The Numbers Are Better and Worse Than You&apos;d Expect</title>
+    <link href="https://masterai.blog/blog/bls-ai-jobs-report-q1-2026"/>
+    <id>https://masterai.blog/blog/bls-ai-jobs-report-q1-2026</id>
+    <published>2026-05-15</published>
+    <updated>2026-05-16</updated>
+    <summary>The BLS finally separated AI-related job displacement from general tech layoffs. The data: 47,000 jobs displaced by AI in Q1 2026, but 89,000 new AI-adjacent roles created. The shift is real. It&apos;s also weirdly specific.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>Google I/O 2026: &apos;Remy&apos; Is Google&apos;s 24/7 AI Agent, and It Lives Inside Your Phone</title>
+    <link href="https://masterai.blog/blog/google-io-2026-remy-agent"/>
+    <id>https://masterai.blog/blog/google-io-2026-remy-agent</id>
+    <published>2026-05-15</published>
+    <updated>2026-05-16</updated>
+    <summary>Google just showed Remy at I/O, an always-on AI agent that controls your apps, manages your inbox, and takes actions while you sleep. It&apos;s either the most useful AI product yet or the most invasive.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>Meta Just Released Llama 4 as Full Open Source. The AI Business Model Just Changed</title>
+    <link href="https://masterai.blog/blog/meta-llama-4-open-source"/>
+    <id>https://masterai.blog/blog/meta-llama-4-open-source</id>
+    <published>2026-05-15</published>
+    <updated>2026-05-16</updated>
+    <summary>Meta released Llama 4 under Apache 2.0 license with no commercial restrictions. At 405B parameters, it matches GPT-5.5 on most benchmarks. The proprietary AI model business just got a lot harder to justify.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>Anthropic Taught Claude to &apos;Dream&apos;, and It Made the Model 6x Better at Real Work</title>
+    <link href="https://masterai.blog/blog/anthropic-claude-dreaming"/>
+    <id>https://masterai.blog/blog/anthropic-claude-dreaming</id>
+    <published>2026-05-14</published>
+    <updated>2026-05-16</updated>
+    <summary>Claude Managed Agents now review past sessions, identify patterns, and refine their own performance over time. Early users report dramatically higher task completion rates without any prompt engineering.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>China Just Issued the World&apos;s First Full AI Agent Regulations</title>
+    <link href="https://masterai.blog/blog/china-ai-agent-regulation"/>
+    <id>https://masterai.blog/blog/china-ai-agent-regulation</id>
+    <published>2026-05-14</published>
+    <updated>2026-05-16</updated>
+    <summary>China&apos;s new AI agent guidelines create a three-tier risk system across 19 industries. Agents in healthcare, finance, and transportation face the strictest controls, and can&apos;t act beyond what users explicitly authorize.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>Anthropic&apos;s Claude Just Became the First AI to Autonomously Hack a Corporate Network</title>
+    <link href="https://masterai.blog/blog/claude-mythos-cyber-offensive"/>
+    <id>https://masterai.blog/blog/claude-mythos-cyber-offensive</id>
+    <published>2026-05-14</published>
+    <updated>2026-05-16</updated>
+    <summary>The UK&apos;s AI Safety Institute confirms Claude Mythos completed a 32-step cyber attack from reconnaissance to full domain takeover. Frontier AI offense capability is now doubling every four months.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>Europe&apos;s Top Court Just Ruled That AI Companies Must Pay for News Content</title>
+    <link href="https://masterai.blog/blog/eu-copyright-ai-ruling"/>
+    <id>https://masterai.blog/blog/eu-copyright-ai-ruling</id>
+    <published>2026-05-14</published>
+    <updated>2026-05-16</updated>
+    <summary>The European Court of Justice confirmed that platforms using news content to train or inform AI systems must pay publishers &apos;fair compensation.&apos; The ruling reshapes the economics of AI training data across the EU.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>A Fields Medalist Says GPT-5.5 Pro Did PhD-Level Math in an Hour. Here&apos;s What That Actually Means</title>
+    <link href="https://masterai.blog/blog/gpt55-pro-math-breakthrough"/>
+    <id>https://masterai.blog/blog/gpt55-pro-math-breakthrough</id>
+    <published>2026-05-14</published>
+    <updated>2026-05-16</updated>
+    <summary>Timothy Gowers, one of the world&apos;s top mathematicians, reports that OpenAI&apos;s latest model produced original research-grade mathematics in about 60 minutes. The math community is taking it seriously, with caveats.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>I Replaced 6 Hours of Weekly Busywork with AI. Here&apos;s Exactly What I Automated (and What I Didn&apos;t)</title>
+    <link href="https://masterai.blog/blog/ai-productivity-automation-guide"/>
+    <id>https://masterai.blog/blog/ai-productivity-automation-guide</id>
+    <published>2026-05-13</published>
+    <updated>2026-05-16</updated>
+    <summary>A real breakdown of which tasks AI actually handles well for productivity, which ones it makes worse, and how to set up a weekly AI workflow that saves time without the hype.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Guides"/>
+  </entry>
+  <entry>
+    <title>DeepSeek V4.1 Lands in June With Multimodal, MCP, and a $7.3B War Chest</title>
+    <link href="https://masterai.blog/blog/deepseek-v41-enterprise-pivot"/>
+    <id>https://masterai.blog/blog/deepseek-v41-enterprise-pivot</id>
+    <published>2026-05-13</published>
+    <updated>2026-05-18</updated>
+    <summary>DeepSeek&apos;s V4.1 now has a confirmed June window, a $7.3 billion funding round, and three major upgrades: full multimodal, native MCP support, and an enterprise toolchain. The company is pivoting hard from research darling to paid platform.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>GitLab Is Cutting 30% of Its Countries and Betting the Company on AI Agents</title>
+    <link href="https://masterai.blog/blog/gitlab-ai-restructuring"/>
+    <id>https://masterai.blog/blog/gitlab-ai-restructuring</id>
+    <published>2026-05-13</published>
+    <updated>2026-05-16</updated>
+    <summary>GitLab&apos;s &apos;Act 2&apos; restructuring means fewer countries, flatter management, and a bet that AI agents will write most code by 2028. The stock dropped 8.2%.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>Nadella Takes the Stand in Musk-Altman Trial: &apos;We Have Each Other&apos;s Phone Numbers&apos;</title>
+    <link href="https://masterai.blog/blog/nadella-testifies-musk-altman-trial"/>
+    <id>https://masterai.blog/blog/nadella-testifies-musk-altman-trial</id>
+    <published>2026-05-13</published>
+    <updated>2026-05-16</updated>
+    <summary>Microsoft&apos;s CEO testified that Musk never contacted him about concerns over OpenAI&apos;s direction. The testimony undercuts Musk&apos;s central claim in the case.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>Microsoft Just Capped Its OpenAI Payday at $380 Billion. Here&apos;s Why That&apos;s Actually Good News for OpenAI</title>
+    <link href="https://masterai.blog/blog/openai-microsoft-deal-restructured"/>
+    <id>https://masterai.blog/blog/openai-microsoft-deal-restructured</id>
+    <published>2026-05-13</published>
+    <updated>2026-05-16</updated>
+    <summary>The Microsoft-OpenAI deal just got rewired. A $380B revenue-sharing cap replaces what could have been a $1.35 trillion obligation, freeing OpenAI for a 2027 IPO.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>AI Agents Explained: What They Are, How They Work, and How to Build One</title>
+    <link href="https://masterai.blog/blog/ai-agents-beginner-guide"/>
+    <id>https://masterai.blog/blog/ai-agents-beginner-guide</id>
+    <published>2026-05-12</published>
+    <updated>2026-05-16</updated>
+    <summary>AI agents are the next evolution beyond chatbots, systems that don&apos;t just answer questions, but plan, use tools, and take action. Here&apos;s what you need to know.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Guides"/>
+  </entry>
+  <entry>
+    <title>The AI Industry Has a $300 Billion Problem No One Wants to Talk About</title>
+    <link href="https://masterai.blog/blog/ai-industry-money-problem"/>
+    <id>https://masterai.blog/blog/ai-industry-money-problem</id>
+    <published>2026-05-12</published>
+    <updated>2026-05-16</updated>
+    <summary>AI companies are burning cash at an unprecedented rate. The technology is real, but the economics don&apos;t add up. Here&apos;s the honest math behind the AI boom.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Tool Guides"/>
+  </entry>
+  <entry>
+    <title>Claude Code in 2026: The Terminal AI That Developers Actually Love</title>
+    <link href="https://masterai.blog/blog/claude-code-developer-guide"/>
+    <id>https://masterai.blog/blog/claude-code-developer-guide</id>
+    <published>2026-05-12</published>
+    <updated>2026-05-16</updated>
+    <summary>Claude Code has become the preferred coding tool for 75% of developers who&apos;ve tried it. Here&apos;s what it does, how its agent system works, and how to set it up for maximum productivity.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Tool Guides"/>
+  </entry>
+  <entry>
+    <title>Cursor in 2026: The AI Code Editor That Thinks Like a Dev Team</title>
+    <link href="https://masterai.blog/blog/cursor-ai-coding-guide"/>
+    <id>https://masterai.blog/blog/cursor-ai-coding-guide</id>
+    <published>2026-05-12</published>
+    <updated>2026-05-16</updated>
+    <summary>Cursor has evolved from an AI-enhanced editor into an agent orchestration platform. Here&apos;s a hands-on guide to what it actually does, how its agents work, and whether it&apos;s worth $20/month.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Tool Guides"/>
+  </entry>
+  <entry>
+    <title>Jobs AI Still Can&apos;t Touch (And Probably Won&apos;t For a Long Time)</title>
+    <link href="https://masterai.blog/blog/jobs-ai-cant-replace"/>
+    <id>https://masterai.blog/blog/jobs-ai-cant-replace</id>
+    <published>2026-05-12</published>
+    <updated>2026-05-16</updated>
+    <summary>I spent weeks researching which jobs are actually safe from AI. Not the clickbait lists. Real jobs, with real reasoning, based on talking to people who do them.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Guides"/>
+  </entry>
+  <entry>
+    <title>Learning Still Matters in the AI Era, More Than Ever, Actually</title>
+    <link href="https://masterai.blog/blog/learning-in-the-ai-era"/>
+    <id>https://masterai.blog/blog/learning-in-the-ai-era</id>
+    <published>2026-05-12</published>
+    <updated>2026-05-16</updated>
+    <summary>AI makes learning both more important and much harder. The real point of learning isn&apos;t to reproduce what AI can do. It&apos;s to know when AI is wrong.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Guides"/>
+  </entry>
+  <entry>
+    <title>30 AI Terms Explained in Plain English (No CS Degree Needed)</title>
+    <link href="https://masterai.blog/blog/ai-terms-explained"/>
+    <id>https://masterai.blog/blog/ai-terms-explained</id>
+    <published>2026-05-11</published>
+    <updated>2026-05-16</updated>
+    <summary>LLM, RAG, fine-tuning, tokens, temperature, AI jargon is out of control. Here&apos;s what each term actually means, explained the way you&apos;d explain it to a friend over coffee.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Guides"/>
+  </entry>
+  <entry>
+    <title>How to Spot When AI Is Making Stuff Up (And What to Do About It)</title>
+    <link href="https://masterai.blog/blog/how-to-spot-ai-hallucinations"/>
+    <id>https://masterai.blog/blog/how-to-spot-ai-hallucinations</id>
+    <published>2026-05-11</published>
+    <updated>2026-05-16</updated>
+    <summary>AI hallucination isn&apos;t a rare bug, it&apos;s built into how language models work. Here&apos;s how to catch it before you embarrass yourself by repeating fake facts.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Guides"/>
+  </entry>
+  <entry>
+    <title>How to Write Your First AI Prompt (Without the Jargon)</title>
+    <link href="https://masterai.blog/blog/how-to-write-your-first-ai-prompt"/>
+    <id>https://masterai.blog/blog/how-to-write-your-first-ai-prompt</id>
+    <published>2026-05-11</published>
+    <updated>2026-05-16</updated>
+    <summary>You don&apos;t need a prompt engineering course. You just need to understand three things: context, specificity, and iteration. Here&apos;s how to get useful results from AI on your first day.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Guides"/>
+  </entry>
+  <entry>
+    <title>Pentagon Awards $500M AI Contract to Scale AI, The Military AI Buildout Accelerates</title>
+    <link href="https://masterai.blog/blog/pentagon-500m-ai-contract"/>
+    <id>https://masterai.blog/blog/pentagon-500m-ai-contract</id>
+    <published>2026-05-11</published>
+    <updated>2026-05-16</updated>
+    <summary>The Pentagon&apos;s CDAO gave Scale AI a $500M contract, 5x the previous deal. Meanwhile, Anthropic was excluded after rejecting military terms. The military AI vendor market is splitting.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>Anthropic Hits $30B Revenue, Inks $40B Google Deal, The Numbers Behind the AI Arms Race</title>
+    <link href="https://masterai.blog/blog/anthropic-30b-google-deal"/>
+    <id>https://masterai.blog/blog/anthropic-30b-google-deal</id>
+    <published>2026-05-10</published>
+    <updated>2026-05-16</updated>
+    <summary>Anthropic&apos;s revenue exploded from $9B to $30B in months as it secured a $40B Google investment and leased SpaceX compute. The AI infrastructure buildout has no precedent.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>Cerebras IPO Pops 68% on Day One, Then Drops 10%. What the Wild First Week Actually Means</title>
+    <link href="https://masterai.blog/blog/cerebras-ipo-oversubscribed"/>
+    <id>https://masterai.blog/blog/cerebras-ipo-oversubscribed</id>
+    <published>2026-05-10</published>
+    <updated>2026-05-18</updated>
+    <summary>Cerebras Systems priced at $185, opened at $350, closed its first day at $311, then slid 10% on day two. The AI chip maker&apos;s debut was the biggest U.S. tech IPO since Uber. Here&apos;s what the numbers say about the AI hardware bet.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>How to Actually Use ChatGPT (Not the Generic Tips Everyone Repeats)</title>
+    <link href="https://masterai.blog/blog/getting-started-with-chatgpt"/>
+    <id>https://masterai.blog/blog/getting-started-with-chatgpt</id>
+    <published>2026-05-10</published>
+    <updated>2026-05-12</updated>
+    <summary>I&apos;ve been using ChatGPT daily since late 2022. Here&apos;s what I wish someone had told me on day one, from prompts that work to settings most people miss.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Tool Guides"/>
+  </entry>
+  <entry>
+    <title>Google Disrupts First Confirmed AI-Powered Zero-Day Attack</title>
+    <link href="https://masterai.blog/blog/google-disrupts-ai-zero-day-attack"/>
+    <id>https://masterai.blog/blog/google-disrupts-ai-zero-day-attack</id>
+    <published>2026-05-09</published>
+    <updated>2026-05-16</updated>
+    <summary>For the first time, criminals used a large language model to discover and exploit an unknown security vulnerability. Google&apos;s threat intelligence team says the era of AI-driven cyber attacks is here.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>Musk vs. Altman, Meta&apos;s 8,000 Layoffs, and China Blocks AI Acquisition, This Week&apos;s AI Industry Shakeup</title>
+    <link href="https://masterai.blog/blog/musk-altman-ai-drama"/>
+    <id>https://masterai.blog/blog/musk-altman-ai-drama</id>
+    <published>2026-05-09</published>
+    <updated>2026-05-16</updated>
+    <summary>The AI industry is going through growing pains. Elon Musk escalated his legal war with Sam Altman, Meta cut 10% of its workforce, and China blocked Meta&apos;s Manus acquisition.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>Agentic AI Goes Mainstream: 74% of Fortune 500 Now Running Autonomous Agents</title>
+    <link href="https://masterai.blog/blog/agentic-ai-goes-mainstream"/>
+    <id>https://masterai.blog/blog/agentic-ai-goes-mainstream</id>
+    <published>2026-05-08</published>
+    <updated>2026-05-16</updated>
+    <summary>The AI industry has shifted from chatbots to autonomous agents that take actions, not just answer questions. Three-quarters of Fortune 500 companies have deployed at least one. Here&apos;s what that actually looks like on the ground.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>I Use All Three AI Assistants Every Week. Here&apos;s When I Pick Each One</title>
+    <link href="https://masterai.blog/blog/chatgpt-vs-claude-vs-gemini"/>
+    <id>https://masterai.blog/blog/chatgpt-vs-claude-vs-gemini</id>
+    <published>2026-05-08</published>
+    <updated>2026-05-12</updated>
+    <summary>ChatGPT, Claude, and Gemini each do something best. After using all three for months, here&apos;s my actual routine: what I use when, why, and what still sucks about each one.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Tool Guides"/>
+  </entry>
+  <entry>
+    <title>Apple Opens the Walled Garden: iOS 27 Will Let You Replace Siri with Claude or Gemini</title>
+    <link href="https://masterai.blog/blog/apple-ios27-third-party-ai"/>
+    <id>https://masterai.blog/blog/apple-ios27-third-party-ai</id>
+    <published>2026-05-07</published>
+    <updated>2026-05-16</updated>
+    <summary>For the first time, Apple will allow third-party AI models as the default assistant on iPhones. Users will be able to choose Gemini or Claude instead of Siri.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>China&apos;s Coding Model Surge: Four Frontier Releases in 12 Days</title>
+    <link href="https://masterai.blog/blog/china-coding-model-surge"/>
+    <id>https://masterai.blog/blog/china-coding-model-surge</id>
+    <published>2026-05-06</published>
+    <updated>2026-05-16</updated>
+    <summary>Four Chinese labs released near-frontier open-weights coding models in under two weeks, at a fraction of the cost of Western alternatives. The AI race just became genuinely multipolar.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>AI Explained Without the Hype (Or the Math)</title>
+    <link href="https://masterai.blog/blog/introduction-to-ai-for-beginners"/>
+    <id>https://masterai.blog/blog/introduction-to-ai-for-beginners</id>
+    <published>2026-05-05</published>
+    <updated>2026-05-12</updated>
+    <summary>You don&apos;t need a CS degree to understand what AI actually is, how it works, or what it means for your life. Plain English, honest trade-offs, no corporate buzzwords.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Guides"/>
+  </entry>
+  <entry>
+    <title>Midjourney Prompts That Actually Work, A Non-Artist&apos;s Trial-and-Error Log</title>
+    <link href="https://masterai.blog/blog/midjourney-prompt-guide"/>
+    <id>https://masterai.blog/blog/midjourney-prompt-guide</id>
+    <published>2026-05-03</published>
+    <updated>2026-05-16</updated>
+    <summary>I have zero art background and have generated thousands of Midjourney images. Here&apos;s what I&apos;ve learned about writing prompts that produce consistently good results.</summary>
+    <author><name>AI Learning Hub</name></author>
+    <category term="Guides"/>
+  </entry>
+</feed>

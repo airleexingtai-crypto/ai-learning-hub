@@ -1,12 +1,21 @@
 ---
-title: "AI Agents Explained: What They Are, How They Work, and How to Build One"
-description: "AI agents are the next evolution beyond chatbots, systems that don't just answer questions, but plan, use tools, and take action. Here's what you need to know."
-date: "2026-05-12"
-lastModified: 2026-05-16
-category: "Guides"
-tags: ["AI agents", "beginner", "tutorial", "agentic AI", "automation"]
-author: "AI Learning Hub"
+title: 'AI Agents Explained: What They Are, How They Work, and How to Build One'
+description: >-
+  AI agents are the next evolution beyond chatbots, systems that don't just
+  answer questions, but plan, use tools, and take action. Here's what you need
+  to know.
+date: '2026-05-12'
+lastModified: 2026-05-16T00:00:00.000Z
+category: Guides
+tags:
+  - AI agents
+  - beginner
+  - tutorial
+  - agentic AI
+  - automation
+author: Alex Chen
 featured: true
+image: /images/articles/robot.jpg
 ---
 
 ## TL;DR
@@ -19,7 +28,7 @@ The first time I used an AI agent, not a chatbot, but something that actually we
 
 Six months later, the same type of agent is booking meetings, processing invoices, reviewing code, and managing cloud infrastructure. The technology is moving fast enough that what felt like a toy in January is genuinely useful in May.
 
-## The Difference Between a Chatbot and an Agent
+## The difference between a chatbot and an agent
 
 A chatbot responds to your messages. You ask a question, it answers. You give it a task, it does that one thing. The interaction is reactive and single-turn.
 
@@ -39,14 +48,14 @@ Agent = LLM + Planning + Memory + Tools
 
 The LLM is the brain. Planning is the ability to break a goal into steps and adapt when things go wrong. Memory means the agent remembers what it did before and learns from it. Tools are the external capabilities, APIs, databases, web browsers, code interpreters, that let it affect the world beyond just generating text.
 
-## The ReAct Loop, How Agents Actually Think
+## The ReAct loop: how agents actually think
 
 The most common pattern for AI agents is called ReAct: Reasoning + Acting. It's a loop:
 
-1. **Think:** "What do I need to do next? What do I already know? What's still unclear?"
-2. **Act:** Execute a tool call, search the web, run a calculation, read a file
-3. **Observe:** Look at what happened. Did the search return useful results? Did the code run without errors?
-4. **Repeat:** Based on the observation, decide the next action
+1. Think: "What do I need to do next? What do I already know? What's still unclear?"
+2. Act: Execute a tool call, search the web, run a calculation, read a file
+3. Observe: Look at what happened. Did the search return useful results? Did the code run without errors?
+4. Repeat: Based on the observation, decide the next action
 
 This loop continues until the agent determines it has enough information to complete the task. A good agent knows when to stop. A bad agent loops forever, burning tokens on increasingly desperate searches.
 
@@ -65,11 +74,11 @@ Thought: Task complete. I have the cheapest option.
 Action: respond("The cheapest flight is Spirit flight 487, SFO→JFK, May 19, $189. Two stops in Denver and Chicago. Total travel time: 8h 15m.")
 ```
 
-## Where to Start Building
+## Where to start building
 
 ### Path A: No-Code (30 minutes to first agent)
 
-Start with **Dify** or **Coze**. These are drag-and-drop platforms where you:
+Start with Dify or Coze. These are drag-and-drop platforms where you:
 1. Connect an LLM (bring your own API key or use the built-in one)
 2. Upload knowledge documents (PDFs, websites, databases)
 3. Add tools (web search, code execution, API calls)
@@ -111,19 +120,19 @@ agent.run("What's the population of Tokyo divided by the population of London?")
 
 This gives you a working ReAct agent in about 20 lines. From here, add more tools, switch to LangGraph for complex workflows, or use CrewAI to build multi-agent teams.
 
-### The Tools That Matter Most
+### The tools that matter most
 
 The difference between a toy agent and a useful one is the tools you give it. Start with:
 
-- **Web search**, The agent needs current information beyond its training data
-- **Code execution**, For calculations, data analysis, and automation (sandboxed!)
-- **Database access**, Read and write to your actual data
-- **Email/communication**, The agent can reach you (or your team) when it needs input
-- **Calendar**, Schedule-aware agents that know when you're available
+- Web search: the agent needs current information beyond its training data
+- Code execution: for calculations, data analysis, and automation (sandboxed!)
+- Database access: read and write to your actual data
+- Email/communication: the agent can reach you (or your team) when it needs input
+- Calendar: schedule-aware agents that know when you're available
 
 Every tool you add increases the agent's capabilities and the risk of it doing something you don't want. The golden rule: any tool that costs money, modifies data, or contacts people should require human approval before executing.
 
-## When Not to Use an Agent
+## When not to use an agent
 
 Not everything needs to be an agent. I've seen teams spend weeks building agent systems for tasks that a 50-line script handles perfectly.
 
@@ -139,18 +148,18 @@ The best candidates for agents: tasks that require multiple steps across differe
 
 ## FAQ
 
-**How is an agent different from a GPT or custom GPT?**
+How is an agent different from a GPT or custom GPT?
 
 A custom GPT is a specialized chatbot, it answers questions in a specific domain using uploaded knowledge. An agent takes actions in the world beyond generating text. The line blurs as platforms add capabilities, but the core difference is: chatbots respond, agents act.
 
-**Can agents replace employees?**
+Can agents replace employees?
 
 They replace tasks, not roles. A customer support agent might handle 70% of incoming tickets automatically, but the remaining 30%, the complex, emotional, or unprecedented cases, still need humans. What changes is that the human's job becomes more interesting: they handle the hard cases instead of the repetitive ones.
 
-**What's the simplest agent I can build today?**
+What's the simplest agent I can build today?
 
 Go to Dify.ai (free tier), connect your OpenAI or Anthropic API key, upload a PDF of your company's employee handbook, and create a "knowledge base Q&A" agent. It'll answer questions about PTO policies, benefits, and expense procedures. This takes 15 minutes and gives you a real, useful agent.
 
-**How do I keep an agent safe?**
+How do I keep an agent safe?
 
 Three rules: sandbox code execution (never let an agent run arbitrary commands on your actual machine), require human approval for destructive or money-related actions, and log everything the agent does so you can audit its decisions later. Start conservative and loosen constraints as you build trust.
