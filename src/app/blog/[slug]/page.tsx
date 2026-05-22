@@ -232,6 +232,18 @@ export default async function ArticlePage({ params }: Props) {
           </div>
         </NarrowContainer>
 
+        {/* Featured Image */}
+        {article.meta.image && (
+          <NarrowContainer>
+            <img
+              src={article.meta.image}
+              alt={article.meta.title}
+              className="w-full rounded-lg md:rounded-xl object-cover max-h-[400px] mb-10"
+              loading="eager"
+            />
+          </NarrowContainer>
+        )}
+
         {/* Article Content */}
         <NarrowContainer>
           <div className="prose">
