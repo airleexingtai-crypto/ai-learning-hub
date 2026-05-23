@@ -5,9 +5,65 @@
     <link>https://masterai.blog</link>
     <description>Comprehensive AI tutorials, guides, and insights. Learn ChatGPT, Claude, Midjourney, and more.</description>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 May 2026 09:20:42 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 23 May 2026 05:43:05 GMT</lastBuildDate>
     <atom:link href="https://masterai.blog/rss.xml" rel="self" type="application/rss+xml"/>
     <atom:link href="https://masterai.blog/atom.xml" rel="alternate" type="application/atom+xml"/>
+    <item>
+      <title>AI for Marketers: 10 Ways to Use ChatGPT and Claude for Content, Ads, and Analytics</title>
+      <link>https://masterai.blog/blog/ai-for-marketers-guide</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/ai-for-marketers-guide</guid>
+      <description>Stop prompting like a tourist. Here are ten specific ways to use ChatGPT and Claude for marketing work that actually ships: content briefs, ad copy variants, customer research, analytics queries, and more. Each one is a workflow you can use today.</description>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <category>Guides</category>
+      <category>ChatGPT</category>
+      <category>Claude</category>
+      <category>AI marketing</category>
+      <category>content creation</category>
+      <category>AI ads</category>
+      <category>marketing tools</category>
+    </item>
+    <item>
+      <title>AI Today: xAI&apos;s $20B War Chest, California&apos;s AI Regulation Pivot, and DeepSeek V4.1 Countdown</title>
+      <link>https://masterai.blog/blog/ai-news-roundup-may-23-2026</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/ai-news-roundup-may-23-2026</guid>
+      <description>xAI just dropped $20B on the world&apos;s largest GPU cluster. California quietly replaced SB-1047 with something more practical. DeepSeek V4.1 is weeks away with a $73B funding round behind it. Here is what changed and why it matters.</description>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>xAI</category>
+      <category>DeepSeek</category>
+      <category>AI regulation</category>
+      <category>Meta Llama 4</category>
+      <category>California AI</category>
+      <category>AI funding</category>
+    </item>
+    <item>
+      <title>ChatGPT Privacy Settings You Should Change Right Now: A Step-by-Step Guide</title>
+      <link>https://masterai.blog/blog/chatgpt-privacy-settings-guide</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/chatgpt-privacy-settings-guide</guid>
+      <description>ChatGPT saves your conversations and uses them for training by default. Here is exactly how to stop that, which settings matter most, and what still gets collected even after you flip every privacy toggle. Step-by-step, with screenshots described.</description>
+      <pubDate>Sat, 23 May 2026 00:00:00 GMT</pubDate>
+      <category>Guides</category>
+      <category>ChatGPT</category>
+      <category>privacy</category>
+      <category>AI security</category>
+      <category>data protection</category>
+      <category>AI safety</category>
+    </item>
+    <item>
+      <title>AI This Week: Google Search Gets a Brain Transplant, Anthropic&apos;s SpaceX Deal, and Cerebras Goes Public</title>
+      <link>https://masterai.blog/blog/ai-news-roundup-may-22-2026</link>
+      <guid isPermaLink="true">https://masterai.blog/blog/ai-news-roundup-may-22-2026</guid>
+      <description>Google I/O 2026 just delivered the biggest search overhaul in 25 years. Anthropic booked SpaceX&apos;s entire Colossus supercluster. Cerebras popped 68% on its IPO. Here&apos;s what it all means for how we find information, who controls AI compute, and where the money is going.</description>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <category>News</category>
+      <category>Google I/O</category>
+      <category>Anthropic</category>
+      <category>Cerebras</category>
+      <category>NVIDIA</category>
+      <category>AI search</category>
+      <category>IPO</category>
+      <category>SpaceX</category>
+    </item>
     <item>
       <title>Claude Code&apos;s Pricing Tug-of-War: What the Pro Plan Scare Means for Developers</title>
       <link>https://masterai.blog/blog/claude-code-pricing-war-may-2026</link>

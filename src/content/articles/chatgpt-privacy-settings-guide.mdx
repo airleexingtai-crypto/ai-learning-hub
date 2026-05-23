@@ -1,0 +1,134 @@
+---
+title: "ChatGPT Privacy Settings You Should Change Right Now: A Step-by-Step Guide"
+description: "ChatGPT saves your conversations and uses them for training by default. Here is exactly how to stop that, which settings matter most, and what still gets collected even after you flip every privacy toggle. Step-by-step, with screenshots described."
+date: "2026-05-23"
+category: "Guides"
+tags: ["ChatGPT", "privacy", "AI security", "data protection", "AI safety"]
+author: "Alex Chen"
+featured: true
+image: /images/articles/security.jpg
+---
+
+## TL;DR
+
+ChatGPT has one default setting that you need to change immediately: "Improve the model for everyone." It is on by default. It means your conversations get fed back into training data. Turning it off takes 30 seconds and blocks future chats from training use. But there are four other settings worth checking, and even with everything off, some data still gets retained. Here is exactly what to do, what each setting actually controls, and what privacy you get after you are done.
+
+## Step 1: Turn off model training (30 seconds)
+
+This is the big one. OpenAI uses your conversations to train future models unless you tell it to stop.
+
+Here is how to turn it off:
+
+1. Open ChatGPT in a browser or the desktop app. Log in.
+2. Click your profile icon in the top right. Select **Settings**.
+3. In the left sidebar, click **Data controls**.
+4. Find the toggle labeled **"Improve the model for everyone"**.
+5. Turn it **off**.
+6. Click **Done** to save.
+
+That is it. New conversations from this point forward will not be used for training. The setting syncs across your devices, so you only need to do this once.
+
+What this does NOT do: it does not retroactively remove your old conversations from training data. Anything you chatted about before you turned this off was already eligible for training use. More on handling old data in Step 3.
+
+## Step 2: Submit a formal privacy request (5 minutes, stronger protection)
+
+The in-app toggle is convenient. A formal privacy request is harder for a company to retroactively change the terms of. I do both.
+
+Go to [privacy.openai.com](https://privacy.openai.com) and follow these steps:
+
+1. Click **"Make a Privacy Request."**
+2. Select **"I have a consumer ChatGPT account."**
+3. Choose **"Do not train on my content."**
+4. Enter your email address and select your region from the dropdown.
+5. Click **Submit Request.**
+6. Check your email. Click the confirmation link.
+
+You will get a confirmation email. Archive it. If OpenAI ever changes its data policy, having submitted a formal opt-out gives you a paper trail that the toggle alone does not.
+
+European users have additional rights under GDPR, including the right to erasure and the right to object to automated decision-making. The same privacy portal handles those requests.
+
+## Step 3: Delete old conversations that were already used for training
+
+Since the toggle only applies to future conversations, you need to handle your existing chat history separately.
+
+Here is the workflow:
+
+1. Go to **Settings → Data controls → Chat History**.
+2. Turn off chat history saving. This prevents new chats from being stored.
+3. Go back to your chat list. Delete individual conversations by clicking the trash icon on each one. Focus on conversations where you shared anything personal: your name, your job, your location, anything about your family, financial details, health information, or work projects.
+4. Deleted conversations are purged from OpenAI's servers within 30 days.
+
+If you have hundreds of conversations, this is tedious. There is no bulk delete button in the standard interface as of May 2026. If you want a clean slate, you can delete your entire account through the privacy portal and create a new one. This is nuclear, but sometimes the right call.
+
+Before you delete everything, consider downloading your data first. The privacy portal has a "Download My Data" option. It gives you a zip file of everything OpenAI has stored about your account. Worth looking at once, even if you do not plan to delete anything.
+
+## Step 4: Turn off Memory
+
+ChatGPT Memory is a feature that remembers details about you across conversations: your name, your preferences, your projects. It is convenient. It is also a privacy risk, because everything in memory sits on OpenAI's servers and could theoretically be accessed.
+
+To turn it off:
+
+1. Go to **Settings → Personalization**.
+2. Find the **Memory** toggle.
+3. Turn it **off**.
+
+When you disable Memory, ChatGPT stops storing cross-conversation details. It will still remember things within a single conversation thread, but once that chat ends, the information is gone.
+
+You can also view and delete specific memories without turning the whole feature off. Go to **Settings → Personalization → Manage Memory**. You will see a list of everything ChatGPT has remembered about you. Delete anything that you would not want someone else reading.
+
+## Step 5: Use Temporary Chat for sensitive conversations
+
+For conversations where you are pasting a resume, discussing a medical question, sharing financial details, or uploading a work document, use Temporary Chat.
+
+To start one:
+
+1. Click the model selector dropdown at the top of a new chat.
+2. Select **"Temporary Chat"** from the list.
+
+Temporary chats do not appear in your history. They do not use or create memories. They are not used for training. They are still retained for up to 30 days for safety and abuse monitoring, which is a frustrating but probably necessary carve-out. If you say something that triggers a safety flag, OpenAI keeps it for review. For normal conversations, Temporary Chat is the closest thing to ephemeral messaging that ChatGPT offers.
+
+## What stays on even after you flip everything off
+
+You need to know what these settings do not protect, because the gap between what users think "private" means and what it actually means is where problems live.
+
+**Safety monitoring retention**: Even with all privacy settings maxed out, OpenAI retains conversations for up to 30 days for abuse and safety monitoring. This applies to Temporary Chats too. If you discuss something that triggers an automated safety review, a human reviewer may read it.
+
+**Metadata**: OpenAI collects device information, IP addresses, usage patterns, and interaction data regardless of your training opt-out. This is standard telemetry, similar to what every web service collects. The training opt-out covers conversation content, not metadata.
+
+**Third-party plugins and GPTs**: If you use third-party GPTs or plugins, those developers have their own privacy policies. OpenAI's settings do not govern what a third-party GPT developer does with your data. Treat every third-party GPT like you are handing your conversation to a stranger, because you might be.
+
+**Shared conversations**: If you share a ChatGPT conversation link with someone, that link is accessible to anyone who has it. Shared links are not protected by your privacy settings. OpenAI can index them. Do not share conversations that contain personal information.
+
+## Team, Enterprise, and API accounts: different defaults
+
+If you use ChatGPT through a Team or Enterprise account, your conversations are not used for training by default. You do not need to do anything. Your account admin controls these settings at the organization level.
+
+If you use the OpenAI API, your inputs and outputs are also excluded from training by default, and have been since March 2023. API data is retained for 30 days for abuse monitoring, after which it is deleted unless you have a zero data retention agreement with OpenAI.
+
+If you use Sora or Operator, those have separate training controls. The privacy portal opt-out covers Sora but not Operator as of May 2026. Check each product's settings individually.
+
+## How this compares to other AI platforms
+
+**Claude**: Anthropic does not train on user conversations by default for consumer accounts, and has never done so. API data is not used for training. This is the strongest privacy posture among major AI providers.
+
+**Google Gemini**: Google uses conversation data for training by default on consumer accounts. The opt-out is in Gemini's settings under "Gemini Apps Activity." Human reviewers may read samples of your conversations regardless of your setting.
+
+**Perplexity**: Perplexity Pro subscribers can opt out of training data use. Free tier data may be used to improve models. The setting is under Account → Privacy.
+
+If privacy is your top priority, Claude's default-off approach is the strongest. ChatGPT with all toggles off is close behind. Gemini and Perplexity require more active management.
+
+For a broader comparison of AI chatbot capabilities and privacy practices, see [ChatGPT vs Claude vs Gemini, which one fits your workflow](/blog/chatgpt-vs-claude-vs-gemini). If you are also concerned about [how to spot AI-generated content and deepfakes](/blog/how-to-spot-ai-hallucinations), those detection skills pair naturally with good privacy hygiene.
+
+## FAQ
+
+**Q: Does turning off training data affect ChatGPT's performance for me?**
+A: No. The model works the same way whether or not your data is used for training. The training opt-out affects future model versions, not your current experience.
+
+**Q: Can OpenAI still read my conversations if I opt out?**
+A: Yes, in limited circumstances. Automated systems scan for abuse and safety violations. Human reviewers may access flagged conversations. This is true even with Temporary Chat and all privacy settings enabled.
+
+**Q: What happens if I delete my account?**
+A: Your data is deleted within 30 days. The privacy portal handles account deletion. You will lose access to your chat history, saved GPTs, and any active subscriptions. If you want to preserve your data, download it first, then delete the account.
+
+**Q: Do I need to do this on the mobile app too?**
+A: No. The settings sync across devices. Change it once on any platform and it applies everywhere you use ChatGPT with that account.

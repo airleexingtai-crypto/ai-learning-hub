@@ -1,0 +1,125 @@
+---
+title: "AI for Marketers: 10 Ways to Use ChatGPT and Claude for Content, Ads, and Analytics"
+description: "Stop prompting like a tourist. Here are ten specific ways to use ChatGPT and Claude for marketing work that actually ships: content briefs, ad copy variants, customer research, analytics queries, and more. Each one is a workflow you can use today."
+date: "2026-05-23"
+category: "Guides"
+tags: ["ChatGPT", "Claude", "AI marketing", "content creation", "AI ads", "marketing tools"]
+author: "Alex Chen"
+featured: true
+image: /images/articles/meeting.jpg
+---
+
+## TL;DR
+
+AI is not going to run your marketing department. But it will make the people in it dramatically faster if you use it for specific, repeatable tasks rather than vague "write me a blog post" prompts. After a year of testing these tools across content, ads, email, and analytics workflows, here are the ten things that work reliably, the prompts that get results, and the stuff that still needs a human.
+
+## 1. Content briefs that actually guide writers
+
+Most content briefs are either too vague to be useful or too long to read. Claude is good at the middle ground: structured, specific, and short.
+
+Instead of asking it to write a brief from scratch, feed it your top-performing article and ask for the pattern.
+
+**Prompt**: "Here is an article that performed well for us [paste article]. Extract the structural template: H2 pattern, average paragraph length, tone markers, data density, and call-to-action placement. Then apply that template to a new topic: [topic]. Output a content brief under 400 words."
+
+What you get is not a generic "write about X" document. It is a structural mirror of something that already worked, applied to a new subject. I use this for every article on this blog. The brief takes two minutes instead of 45.
+
+## 2. Ad copy variants that do not sound like AI
+
+AI-written ads have a tell. They use words like "unlock," "elevate," and "transform" in combinations no human copywriter would choose. The fix is constraint, not creativity.
+
+**Prompt**: "Write 10 Facebook ad headlines for [product]. Rules: no words ending in -ate, no exclamation points, each headline under 8 words, every headline must include a specific number or a concrete detail about the product."
+
+The constraints force the model out of its default vocabulary. The results are rougher, shorter, and more specific. Exactly what performs in a feed where everyone is scrolling past AI slop at 60 mph.
+
+I run the same prompt for Google Ads with a 30-character limit per headline. Then I pick the three best, tweak them manually, and launch. Total time: 10 minutes. Before this workflow: an hour of staring at a blank doc.
+
+## 3. Customer research synthesis from raw transcripts
+
+You have five user interview transcripts, each 45 minutes long. You need insights by tomorrow. ChatGPT and Claude can both handle this, but Claude is better at long documents.
+
+**Workflow**: Upload all transcripts. Prompt: "Identify the five most common pain points across these interviews. For each one, quote the exact language the customer used, then summarize the underlying need in one sentence. Flag any pain point that appeared in at least three of the five interviews."
+
+The key is asking for exact quotes alongside summaries. The quotes keep you connected to the real customer voice. The summaries give you the pattern. Without the quotes, the AI smooths everything into generic insights. "Customers want better onboarding" is not useful. "I spent 40 minutes trying to figure out where the export button was, and I almost gave up" is.
+
+## 4. Email sequences with branching logic
+
+Email marketing tools have visual automation builders. They are slow to set up and hard to change. Claude can draft the entire sequence logic in plain text, which you then implement.
+
+**Prompt**: "Design a 5-email welcome sequence for [product]. For each email: subject line, preview text, body direction (not full copy), and the trigger condition. Include a branch: if the user clicked email 2's CTA, they go to email 3A (case study). If they did not, they go to email 3B (FAQ and objection handling). Output as a decision tree."
+
+You get the architecture in 30 seconds. Write the actual copy yourself, or use the AI for first drafts of each email body, but the structure is where the time savings lives.
+
+## 5. Landing page copy structured for conversion
+
+Landing pages have a formula. Hero, problem, solution, social proof, features, pricing, FAQ, CTA. Most people know this. They still spend hours rearranging sections.
+
+**Prompt**: "Write landing page copy for [product] targeted at [audience]. Structure: hero headline + subheadline (under 20 words total), three pain points with one-sentence expansions, a 'how it works' section in exactly three steps, a social proof section with placeholder quotes, and a final CTA. No adjectives in the hero section. Every feature must be stated as an outcome for the user."
+
+The "every feature as an outcome" rule turns the output from "our platform has AI-powered analytics" to "know which ad creative is winning without opening a spreadsheet." One is a feature. The other is a reason to care.
+
+## 6. Analytics dashboards using plain English queries
+
+ChatGPT's data analysis mode can read CSVs, Google Analytics exports, and ad platform reports. You do not need SQL. You need clear questions.
+
+**Workflow**: Export your last 90 days of Google Analytics traffic data as a CSV. Upload it. Prompt: "Which five blog posts had the highest bounce rate despite getting significant search traffic (over 500 visits)? Show me the post, traffic, bounce rate, and average time on page. Then suggest one content fix for each post based on the data pattern."
+
+The model reads the file, runs the filter, and gives you a ranked list with suggestions. Is it as precise as a data analyst writing custom SQL? No. Is it good enough to find the three articles you should rewrite this week? Yes. Most marketing teams never look at this data because the analytics interface is annoying. ChatGPT removes that friction.
+
+## 7. Competitor content gap analysis
+
+You cannot read every competitor article. Claude can.
+
+**Workflow**: Give Claude a list of competitor URLs. Ask it to visit each one using its browsing capability, or paste the content yourself. Prompt: "Read these five competitor articles about [topic]. Identify: what specific subtopics did all of them cover, what did none of them cover, and what is one angle on this topic that would be genuinely original based on what is missing from all five."
+
+The output tells you where the content gap is. Not the keyword gap, those tools already exist, but the *argument* gap. The thing nobody is saying about this topic that is worth saying. That is how you write content that ranks in AI Overviews: say something a language model cannot generate from its training data.
+
+## 8. Social media content calendars from a single pillar article
+
+One long article can become 15 social posts. Most people do not do this because the reformatting is a chore. AI handles the reformatting.
+
+**Prompt**: "Take this article [paste article] and create a two-week social media content calendar. Include: 5 LinkedIn posts (professional tone, 150-200 words each, pulling different insights from the article), 5 Twitter/X posts (under 280 characters each, including one controversial take and one question), and 5 short-form video scripts for TikTok/Reels (30-60 seconds each, hook-first format). Schedule them for optimal posting times for a B2B audience."
+
+The controversial take and the question generate engagement. The rest fills a calendar that would take half a day to build manually.
+
+## 9. A/B test hypotheses generated from user behavior data
+
+Most A/B tests start with someone's gut feeling. AI lets you test systematically by generating hypotheses from actual data patterns.
+
+**Prompt**: "Here is our checkout funnel data for the last 60 days: [paste data]. Where is the biggest drop-off, and what are three A/B test hypotheses that could address it? For each hypothesis: the variable to change, the expected impact, and the metric that defines success."
+
+The model identifies the friction point and suggests tests. You still need to run them. You still need enough traffic for statistical significance. But the hypothesis generation, which used to come from a brainstorming meeting that cost $2,000 in salary time, now comes from a prompt.
+
+## 10. Repurposing customer support tickets into FAQ and help content
+
+Your support team answers the same questions every day. Those answers should be content. But nobody has time to rewrite support responses into articles.
+
+**Prompt**: "Here are 20 customer support tickets and our team's responses [paste]. Group the questions into categories. For the top three categories by frequency, write a short help article (200-300 words each) in a Q&A format. Use the actual language from our support responses, not corporate-speak."
+
+You get three help articles drafted from real customer language. After a quick edit pass, they go live. Search engines love this content because it matches exact query language. Customers love it because it answers their question without filing a ticket.
+
+## What AI still cannot do for marketing
+
+It cannot feel the brand. AI can mimic a tone. It cannot know that a specific word choice will offend a specific segment of your audience because of something that happened in your industry last quarter.
+
+It cannot own the numbers. The analytics suggestions are directional. Before you reallocate a $50,000 ad budget based on an AI recommendation, verify the math yourself.
+
+It cannot write copy that sounds like a specific person. The more distinct your brand voice, the worse AI performs at replicating it. If your brand sounds like everyone else, AI will nail it. If your brand sounds like you, you still need to write the important stuff yourself.
+
+## How to actually integrate this into your workflow
+
+Start with one workflow. Content briefs or ad copy variants, whichever you do most often. Use it for a week. Measure the time saved. Then add the next one.
+
+The marketers who get the most out of AI are not the ones using it for everything. They are the ones who identified the three highest-volume, most repetitive tasks in their week and built AI workflows specifically for those.
+
+If you are also using [AI for content creation workflows](/blog/ai-productivity-automation-guide), the content brief and repurposing workflows pair well with a broader automation setup. For teams exploring [AI coding tools](/blog/cursor-ai-coding-guide), the same principle applies: automate the repetitive parts, keep the creative direction human.
+
+## FAQ
+
+**Q: ChatGPT or Claude for marketing work?**
+A: Both. Claude for long documents, content briefs, customer research synthesis, anywhere you are processing large amounts of text. ChatGPT for data analysis, quick ad copy iterations, and anything involving uploaded CSV files. At $20/month each, using both costs less than one hour of a marketer's salary.
+
+**Q: Will AI replace marketing jobs?**
+A: It will replace the parts of marketing jobs that are pure production: writing 50 ad variants, formatting reports, building content calendars. The strategy, the brand judgment, the understanding of what a specific audience will respond to, that stays human. The marketer who uses AI replaces the marketer who does not.
+
+**Q: How do I avoid AI-sounding marketing copy?**
+A: Use constraints in your prompts. Ban specific words. Require concrete details. Ask for sentence fragments. Edit the output in a separate session from the generation. If you prompt for copy and then immediately publish it, it will sound like AI. If you prompt for a draft and then rewrite the parts that make you cringe, it will sound like you.

@@ -4,8 +4,48 @@
   <link href="https://masterai.blog" rel="alternate"/>
   <link href="https://masterai.blog/atom.xml" rel="self"/>
   <id>https://masterai.blog</id>
-  <updated>2026-05-21T09:20:42.164Z</updated>
+  <updated>2026-05-23T05:43:05.824Z</updated>
   <subtitle>Comprehensive AI tutorials, guides, and insights. Learn ChatGPT, Claude, Midjourney, and more.</subtitle>
+  <entry>
+    <title>AI for Marketers: 10 Ways to Use ChatGPT and Claude for Content, Ads, and Analytics</title>
+    <link href="https://masterai.blog/blog/ai-for-marketers-guide"/>
+    <id>https://masterai.blog/blog/ai-for-marketers-guide</id>
+    <published>2026-05-23</published>
+    <updated>2026-05-23</updated>
+    <summary>Stop prompting like a tourist. Here are ten specific ways to use ChatGPT and Claude for marketing work that actually ships: content briefs, ad copy variants, customer research, analytics queries, and more. Each one is a workflow you can use today.</summary>
+    <author><name>Alex Chen</name></author>
+    <category term="Guides"/>
+  </entry>
+  <entry>
+    <title>AI Today: xAI&apos;s $20B War Chest, California&apos;s AI Regulation Pivot, and DeepSeek V4.1 Countdown</title>
+    <link href="https://masterai.blog/blog/ai-news-roundup-may-23-2026"/>
+    <id>https://masterai.blog/blog/ai-news-roundup-may-23-2026</id>
+    <published>2026-05-23</published>
+    <updated>2026-05-23</updated>
+    <summary>xAI just dropped $20B on the world&apos;s largest GPU cluster. California quietly replaced SB-1047 with something more practical. DeepSeek V4.1 is weeks away with a $73B funding round behind it. Here is what changed and why it matters.</summary>
+    <author><name>Alex Chen</name></author>
+    <category term="News"/>
+  </entry>
+  <entry>
+    <title>ChatGPT Privacy Settings You Should Change Right Now: A Step-by-Step Guide</title>
+    <link href="https://masterai.blog/blog/chatgpt-privacy-settings-guide"/>
+    <id>https://masterai.blog/blog/chatgpt-privacy-settings-guide</id>
+    <published>2026-05-23</published>
+    <updated>2026-05-23</updated>
+    <summary>ChatGPT saves your conversations and uses them for training by default. Here is exactly how to stop that, which settings matter most, and what still gets collected even after you flip every privacy toggle. Step-by-step, with screenshots described.</summary>
+    <author><name>Alex Chen</name></author>
+    <category term="Guides"/>
+  </entry>
+  <entry>
+    <title>AI This Week: Google Search Gets a Brain Transplant, Anthropic&apos;s SpaceX Deal, and Cerebras Goes Public</title>
+    <link href="https://masterai.blog/blog/ai-news-roundup-may-22-2026"/>
+    <id>https://masterai.blog/blog/ai-news-roundup-may-22-2026</id>
+    <published>2026-05-22</published>
+    <updated>2026-05-22</updated>
+    <summary>Google I/O 2026 just delivered the biggest search overhaul in 25 years. Anthropic booked SpaceX&apos;s entire Colossus supercluster. Cerebras popped 68% on its IPO. Here&apos;s what it all means for how we find information, who controls AI compute, and where the money is going.</summary>
+    <author><name>Alex Chen</name></author>
+    <category term="News"/>
+  </entry>
   <entry>
     <title>Claude Code&apos;s Pricing Tug-of-War: What the Pro Plan Scare Means for Developers</title>
     <link href="https://masterai.blog/blog/claude-code-pricing-war-may-2026"/>
@@ -13,7 +53,7 @@
     <published>2026-05-22</published>
     <updated>2026-05-22</updated>
     <summary>Anthropic nearly pulled Claude Code from its $20 Pro plan in April, OpenAI fired back with free Codex months, and Microsoft is yanking internal licenses. The AI coding tool pricing war is just getting started.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -23,7 +63,7 @@
     <published>2026-05-22</published>
     <updated>2026-05-22</updated>
     <summary>NVIDIA&apos;s Blackwell Ultra GPUs have a 3.6 million unit backlog from cloud providers. Demand is doubling year over year. AI inference costs are supposed to drop. The supply chain says not so fast.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -33,7 +73,7 @@
     <published>2026-05-22</published>
     <updated>2026-05-22</updated>
     <summary>You don&apos;t need a subscription to generate AI images. With Stable Diffusion 3.5, ComfyUI, and a mid-range GPU, you can run an unlimited image generator on your own machine for free. Here&apos;s the step-by-step setup.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Guides"/>
   </entry>
   <entry>
@@ -43,7 +83,7 @@
     <published>2026-05-22</published>
     <updated>2026-05-22</updated>
     <summary>After testing both Suno v5 and Udio across pop, hip-hop, jazz, and orchestral tracks, here&apos;s which AI music generator to pick, when to use each, and what both still get wrong about making actual music.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Tool Guides"/>
   </entry>
   <entry>
@@ -53,7 +93,7 @@
     <published>2026-05-18</published>
     <updated>2026-05-18</updated>
     <summary>Closing arguments wrapped May 14 in the Musk v. Altman trial. The nine-person jury began deliberating May 18. Here&apos;s everything that happened in the courtroom, what the jury has to decide, and what&apos;s actually at stake for the AI industry.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -63,7 +103,7 @@
     <published>2026-05-18</published>
     <updated>2026-05-18</updated>
     <summary>You don&apos;t need ChatGPT to use a powerful AI model. With Ollama and LM Studio, you can run GPT-4-class models on your laptop for free, privately, and offline. Here&apos;s how to set it up in 10 minutes.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Guides"/>
   </entry>
   <entry>
@@ -73,7 +113,7 @@
     <published>2026-05-17</published>
     <updated>2026-05-17</updated>
     <summary>Google updated its spam policy on May 16 to ban AI poisoning, the practice of manipulating AI model outputs through adversarial prompts. Sites caught doing it face 180-day removal from AI Overviews.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -83,7 +123,7 @@
     <published>2026-05-17</published>
     <updated>2026-05-17</updated>
     <summary>Malta&apos;s government struck a world-first deal with OpenAI to provide free ChatGPT Plus to all 570,000 citizens. The catch: everyone must complete an AI literacy course first.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -93,7 +133,7 @@
     <published>2026-05-17</published>
     <updated>2026-05-17</updated>
     <summary>Greg Brockman takes over product strategy as OpenAI merges ChatGPT and Codex into a unified agent platform. The company also quietly acquired voice-cloning startup Weights.gg and shut down Sora.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -103,7 +143,7 @@
     <published>2026-05-16</published>
     <updated>2026-05-16</updated>
     <summary>You don&apos;t need to be a programmer to build things with AI. Here&apos;s exactly how to go from zero to shipping a working project in 2026, using tools that write the code for you.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Guides"/>
   </entry>
   <entry>
@@ -113,7 +153,7 @@
     <published>2026-05-16</published>
     <updated>2026-05-16</updated>
     <summary>AI video went from &apos;interesting demo&apos; to &apos;production tool&apos; in twelve months. After testing every major platform, here&apos;s what each one does well, what they still can&apos;t do, and who should pay for which one.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Guides"/>
   </entry>
   <entry>
@@ -123,7 +163,7 @@
     <published>2026-05-16</published>
     <updated>2026-05-16</updated>
     <summary>Copilot evolved from autocomplete to a full development platform. After using it daily across three production projects, here&apos;s what it actually does well, what it still gets wrong, and how to integrate it into a real workflow.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Tool Guides"/>
   </entry>
   <entry>
@@ -133,7 +173,7 @@
     <published>2026-05-16</published>
     <updated>2026-05-16</updated>
     <summary>Gemini 2.5 Pro changed the game with a 1M-token context window and Deep Research. After three months of daily use alongside ChatGPT and Claude, here&apos;s where Gemini wins, where it falls short, and how to use it for work that actually matters.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Tool Guides"/>
   </entry>
   <entry>
@@ -143,7 +183,7 @@
     <published>2026-05-16</published>
     <updated>2026-05-16</updated>
     <summary>Perplexity went from niche research tool to Google alternative in 18 months. Here&apos;s how it actually works, what it does better than Google, and the specific workflows where it saves hours every week.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Tool Guides"/>
   </entry>
   <entry>
@@ -153,7 +193,7 @@
     <published>2026-05-15</published>
     <updated>2026-05-16</updated>
     <summary>The BLS finally separated AI-related job displacement from general tech layoffs. The data: 47,000 jobs displaced by AI in Q1 2026, but 89,000 new AI-adjacent roles created. The shift is real. It&apos;s also weirdly specific.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -163,7 +203,7 @@
     <published>2026-05-15</published>
     <updated>2026-05-16</updated>
     <summary>Google just showed Remy at I/O, an always-on AI agent that controls your apps, manages your inbox, and takes actions while you sleep. It&apos;s either the most useful AI product yet or the most invasive.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -173,7 +213,7 @@
     <published>2026-05-15</published>
     <updated>2026-05-16</updated>
     <summary>Meta released Llama 4 under Apache 2.0 license with no commercial restrictions. At 405B parameters, it matches GPT-5.5 on most benchmarks. The proprietary AI model business just got a lot harder to justify.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -183,7 +223,7 @@
     <published>2026-05-14</published>
     <updated>2026-05-16</updated>
     <summary>Claude Managed Agents now review past sessions, identify patterns, and refine their own performance over time. Early users report dramatically higher task completion rates without any prompt engineering.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -193,7 +233,7 @@
     <published>2026-05-14</published>
     <updated>2026-05-16</updated>
     <summary>China&apos;s new AI agent guidelines create a three-tier risk system across 19 industries. Agents in healthcare, finance, and transportation face the strictest controls, and can&apos;t act beyond what users explicitly authorize.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -203,7 +243,7 @@
     <published>2026-05-14</published>
     <updated>2026-05-16</updated>
     <summary>The UK&apos;s AI Safety Institute confirms Claude Mythos completed a 32-step cyber attack from reconnaissance to full domain takeover. Frontier AI offense capability is now doubling every four months.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -213,7 +253,7 @@
     <published>2026-05-14</published>
     <updated>2026-05-16</updated>
     <summary>The European Court of Justice confirmed that platforms using news content to train or inform AI systems must pay publishers &apos;fair compensation.&apos; The ruling reshapes the economics of AI training data across the EU.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -223,7 +263,7 @@
     <published>2026-05-14</published>
     <updated>2026-05-16</updated>
     <summary>Timothy Gowers, one of the world&apos;s top mathematicians, reports that OpenAI&apos;s latest model produced original research-grade mathematics in about 60 minutes. The math community is taking it seriously, with caveats.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -233,7 +273,7 @@
     <published>2026-05-13</published>
     <updated>2026-05-16</updated>
     <summary>A real breakdown of which tasks AI actually handles well for productivity, which ones it makes worse, and how to set up a weekly AI workflow that saves time without the hype.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Guides"/>
   </entry>
   <entry>
@@ -243,7 +283,7 @@
     <published>2026-05-13</published>
     <updated>2026-05-18</updated>
     <summary>DeepSeek&apos;s V4.1 now has a confirmed June window, a $7.3 billion funding round, and three major upgrades: full multimodal, native MCP support, and an enterprise toolchain. The company is pivoting hard from research darling to paid platform.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -253,7 +293,7 @@
     <published>2026-05-13</published>
     <updated>2026-05-16</updated>
     <summary>GitLab&apos;s &apos;Act 2&apos; restructuring means fewer countries, flatter management, and a bet that AI agents will write most code by 2028. The stock dropped 8.2%.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -263,7 +303,7 @@
     <published>2026-05-13</published>
     <updated>2026-05-16</updated>
     <summary>Microsoft&apos;s CEO testified that Musk never contacted him about concerns over OpenAI&apos;s direction. The testimony undercuts Musk&apos;s central claim in the case.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -273,7 +313,7 @@
     <published>2026-05-13</published>
     <updated>2026-05-16</updated>
     <summary>The Microsoft-OpenAI deal just got rewired. A $380B revenue-sharing cap replaces what could have been a $1.35 trillion obligation, freeing OpenAI for a 2027 IPO.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -283,7 +323,7 @@
     <published>2026-05-12</published>
     <updated>2026-05-16</updated>
     <summary>AI agents are the next evolution beyond chatbots, systems that don&apos;t just answer questions, but plan, use tools, and take action. Here&apos;s what you need to know.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Guides"/>
   </entry>
   <entry>
@@ -293,7 +333,7 @@
     <published>2026-05-12</published>
     <updated>2026-05-16</updated>
     <summary>AI companies are burning cash at an unprecedented rate. The technology is real, but the economics don&apos;t add up. Here&apos;s the honest math behind the AI boom.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Tool Guides"/>
   </entry>
   <entry>
@@ -303,7 +343,7 @@
     <published>2026-05-12</published>
     <updated>2026-05-16</updated>
     <summary>Claude Code has become the preferred coding tool for 75% of developers who&apos;ve tried it. Here&apos;s what it does, how its agent system works, and how to set it up for maximum productivity.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Tool Guides"/>
   </entry>
   <entry>
@@ -313,7 +353,7 @@
     <published>2026-05-12</published>
     <updated>2026-05-16</updated>
     <summary>Cursor has evolved from an AI-enhanced editor into an agent orchestration platform. Here&apos;s a hands-on guide to what it actually does, how its agents work, and whether it&apos;s worth $20/month.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Tool Guides"/>
   </entry>
   <entry>
@@ -323,7 +363,7 @@
     <published>2026-05-12</published>
     <updated>2026-05-16</updated>
     <summary>I spent weeks researching which jobs are actually safe from AI. Not the clickbait lists. Real jobs, with real reasoning, based on talking to people who do them.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Guides"/>
   </entry>
   <entry>
@@ -333,7 +373,7 @@
     <published>2026-05-12</published>
     <updated>2026-05-16</updated>
     <summary>AI makes learning both more important and much harder. The real point of learning isn&apos;t to reproduce what AI can do. It&apos;s to know when AI is wrong.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Guides"/>
   </entry>
   <entry>
@@ -343,7 +383,7 @@
     <published>2026-05-11</published>
     <updated>2026-05-16</updated>
     <summary>LLM, RAG, fine-tuning, tokens, temperature, AI jargon is out of control. Here&apos;s what each term actually means, explained the way you&apos;d explain it to a friend over coffee.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Guides"/>
   </entry>
   <entry>
@@ -353,7 +393,7 @@
     <published>2026-05-11</published>
     <updated>2026-05-16</updated>
     <summary>AI hallucination isn&apos;t a rare bug, it&apos;s built into how language models work. Here&apos;s how to catch it before you embarrass yourself by repeating fake facts.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Guides"/>
   </entry>
   <entry>
@@ -363,7 +403,7 @@
     <published>2026-05-11</published>
     <updated>2026-05-16</updated>
     <summary>You don&apos;t need a prompt engineering course. You just need to understand three things: context, specificity, and iteration. Here&apos;s how to get useful results from AI on your first day.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Guides"/>
   </entry>
   <entry>
@@ -373,7 +413,7 @@
     <published>2026-05-11</published>
     <updated>2026-05-16</updated>
     <summary>The Pentagon&apos;s CDAO gave Scale AI a $500M contract, 5x the previous deal. Meanwhile, Anthropic was excluded after rejecting military terms. The military AI vendor market is splitting.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -383,7 +423,7 @@
     <published>2026-05-10</published>
     <updated>2026-05-16</updated>
     <summary>Anthropic&apos;s revenue exploded from $9B to $30B in months as it secured a $40B Google investment and leased SpaceX compute. The AI infrastructure buildout has no precedent.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -393,7 +433,7 @@
     <published>2026-05-10</published>
     <updated>2026-05-18</updated>
     <summary>Cerebras Systems priced at $185, opened at $350, closed its first day at $311, then slid 10% on day two. The AI chip maker&apos;s debut was the biggest U.S. tech IPO since Uber. Here&apos;s what the numbers say about the AI hardware bet.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -403,7 +443,7 @@
     <published>2026-05-10</published>
     <updated>2026-05-12</updated>
     <summary>I&apos;ve been using ChatGPT daily since late 2022. Here&apos;s what I wish someone had told me on day one, from prompts that work to settings most people miss.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Tool Guides"/>
   </entry>
   <entry>
@@ -413,7 +453,7 @@
     <published>2026-05-09</published>
     <updated>2026-05-16</updated>
     <summary>For the first time, criminals used a large language model to discover and exploit an unknown security vulnerability. Google&apos;s threat intelligence team says the era of AI-driven cyber attacks is here.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -423,7 +463,7 @@
     <published>2026-05-09</published>
     <updated>2026-05-16</updated>
     <summary>The AI industry is going through growing pains. Elon Musk escalated his legal war with Sam Altman, Meta cut 10% of its workforce, and China blocked Meta&apos;s Manus acquisition.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -433,7 +473,7 @@
     <published>2026-05-08</published>
     <updated>2026-05-16</updated>
     <summary>The AI industry has shifted from chatbots to autonomous agents that take actions, not just answer questions. Three-quarters of Fortune 500 companies have deployed at least one. Here&apos;s what that actually looks like on the ground.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -443,7 +483,7 @@
     <published>2026-05-08</published>
     <updated>2026-05-12</updated>
     <summary>ChatGPT, Claude, and Gemini each do something best. After using all three for months, here&apos;s my actual routine: what I use when, why, and what still sucks about each one.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Tool Guides"/>
   </entry>
   <entry>
@@ -453,7 +493,7 @@
     <published>2026-05-07</published>
     <updated>2026-05-16</updated>
     <summary>For the first time, Apple will allow third-party AI models as the default assistant on iPhones. Users will be able to choose Gemini or Claude instead of Siri.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -463,7 +503,7 @@
     <published>2026-05-06</published>
     <updated>2026-05-16</updated>
     <summary>Four Chinese labs released near-frontier open-weights coding models in under two weeks, at a fraction of the cost of Western alternatives. The AI race just became genuinely multipolar.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="News"/>
   </entry>
   <entry>
@@ -473,7 +513,7 @@
     <published>2026-05-05</published>
     <updated>2026-05-12</updated>
     <summary>You don&apos;t need a CS degree to understand what AI actually is, how it works, or what it means for your life. Plain English, honest trade-offs, no corporate buzzwords.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Guides"/>
   </entry>
   <entry>
@@ -483,7 +523,7 @@
     <published>2026-05-03</published>
     <updated>2026-05-16</updated>
     <summary>I have zero art background and have generated thousands of Midjourney images. Here&apos;s what I&apos;ve learned about writing prompts that produce consistently good results.</summary>
-    <author><name>AI Learning Hub</name></author>
+    <author><name>Alex Chen</name></author>
     <category term="Guides"/>
   </entry>
 </feed>
