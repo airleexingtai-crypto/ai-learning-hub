@@ -1,0 +1,73 @@
+---
+title: "AI Weekend Brief: Perplexity Ditches Ads, Google's AI Search Surge, and Hugging Face's Local Inference Leap"
+description: "Perplexity just walked away from advertising entirely. Google Gemini's AI traffic surged 315% year over year while ChatGPT declined. Hugging Face Optimum is making local inference 40% faster with three lines of code. Here is what happened this weekend and why it matters for how you use AI."
+date: "2026-05-24"
+category: "News"
+tags: ["Perplexity", "AI search", "Google Gemini", "Hugging Face", "local AI", "AI advertising", "open source AI"]
+author: "Alex Chen"
+image: /images/articles/ai-news-roundup-may-24.jpg
+---
+
+Three stories from this weekend that tell you where AI is actually heading, not where the press releases say it is heading. Perplexity killed its ad business and bet the company on subscriptions instead. Google Gemini quietly became the fastest-growing AI search product while everyone was watching OpenAI. And Hugging Face Optimum turned a 40% inference speedup into something you get by changing one import statement.
+
+I have been following all three threads. They converge on the same uncomfortable truth: the AI industry is splitting into companies that make money from attention and companies that make money from accuracy. The ones trying to do both are losing.
+
+## Perplexity walked away from advertising, and the reasoning is brutal
+
+Perplexity tested ads in November 2024. Sponsored follow-up questions. Paid media alongside answers. The ad unit was clearly labeled as "sponsored." By late 2025, they were quietly killing it. In February 2026, executives confirmed at a media roundtable that the company has zero plans to pursue advertising. No new ad deals. No ad team. The ad leader, Taz Patel, left in 2025.
+
+The reason they gave is not what you would expect from a startup burning venture capital. "The challenge with ads is that a user would just start doubting everything," one executive said. Another put it bluntly: "We are in the accuracy business, and the business is giving the truth, the right answers. A user needs to believe this is the best possible answer."
+
+This is the opposite of what I predicted six months ago. I assumed every AI search product would eventually layer ads on top of results. It is the Google playbook. It worked for $300 billion in annual revenue. Why would Perplexity leave that money on the table?
+
+Because the math is different when your product falls apart if users stop trusting it. Google can survive skepticism. You still need a search engine. But Perplexity is not essential infrastructure. If users start doubting whether the answer is the best one or the sponsored one, they leave. And they leave fast. Perplexity lost 19.7% of its traffic in Q1 2026, partly because Google's AI Overviews are getting good enough that casual users do not need a separate AI search tool.
+
+The new strategy is subscriptions and enterprise. Tiers from $20 to $200 a month. Revenue hit $200 million ARR by October 2025. But the enterprise sales team is five people. Five. For a company positioning itself as the professional AI search alternative. That is either lean or delusional. I am not sure which.
+
+## Google Gemini just had the kind of quarter that changes industry narratives
+
+Google now holds 90.88% of total search volume. That part is not news. What is news: Gemini has captured roughly 22 to 25% of AI-specific traffic, a 315% year-over-year increase. Perplexity lost its number two position to Gemini in December 2025. ChatGPT still leads the AI segment at about 61%, but its traffic declined 4.3% quarter over quarter. Unique users dropped 2.7%.
+
+The engine behind this is not a better model. It is distribution. Gemini is embedded in Android, Chrome, Gmail, and now Apple Intelligence through a deal that makes Gemini the foundation of Siri. Two billion users encounter Gemini without ever deciding to try it. It is simply there.
+
+Google also has a cost advantage that most analysts miss. Its TPU chips produce AI responses at roughly five times lower cost than competitors running on third-party hardware. When you serve billions of AI Overviews per day, that cost delta is the difference between profitable and dead.
+
+BrightEdge calls this moment "AI Darwinism." The gold rush phase of AI search ended. What comes next is natural selection based on distribution, cost structure, and platform integration. Google has all three. OpenAI has user love and nearly a billion monthly active users. Perplexity has trust and a boutique subscription model. The other dozen AI search products with 1 to 2% market share are running out of time.
+
+Nate Elliott at EMARKETER put it starkly: "By the end of 2026, Google will have overtaken OpenAI as the leading source of consumer AI engagement." I think he is right, and I think it happens sooner than December.
+
+## Hugging Face Optimum made local inference fast enough to matter
+
+Here is something that got less attention than it deserved. Hugging Face Optimum, the hardware optimization library, now delivers 30 to 40% inference speed improvements through ONNX Runtime integration. The installation is two lines. The code change is one import statement. You swap `AutoModelForSequenceClassification` for `ORTModelForSequenceClassification`, add `export=True`, and your model runs faster.
+
+The technical reason: standard PyTorch uses eager execution. Operations run one at a time. The GPU waits between kernel launches. ONNX Runtime analyzes the full computational graph before execution, fuses operators, and reduces memory access overhead. It is the difference between a chef who preps ingredients before cooking and one who runs to the pantry between each step.
+
+Add INT8 quantization and you can shrink models enough to run on consumer hardware. Add mixed precision and you get another 30% bump. This combination, Optimum plus ONNX Runtime plus quantization, is what makes local AI viable for people who do not own a data center.
+
+The timing matters because the open-source model world is fragmenting. Meta effectively abandoned Llama's open-source future with the Muse Spark announcement. DeepSeek is losing its luster, with four consecutive months of traffic decline in late 2025 and security researchers finding a 77% attack success rate against its models. Developers are building mixed stacks: Claude Code for orchestration, DeepSeek or local models for cheap inference, Qwen for Chinese language tasks.
+
+Optimum matters because it makes the "local models" piece of that stack actually usable. Three lines of code for a 40% speedup is the kind of boring infrastructure improvement that changes what people build.
+
+## What these three stories share
+
+They are all about the same choice: attention versus accuracy.
+
+Perplexity chose accuracy over ad revenue and is betting users will pay for it. Google chose attention and distribution and is winning by making AI search the default, not the best. Hugging Face is building infrastructure for people who want to run models themselves, outside any platform's attention economy.
+
+The companies trying to do both are the ones struggling. OpenAI has the largest AI user base and the most internal chaos. Meta promised open-source forever and is now walking it back while launching a proprietary model. The middle ground is disappearing.
+
+For anyone who uses AI tools daily, the practical takeaway is simple. You will get the best results by using different tools for different tasks, not by picking one platform and sticking with it. The stack is modular now. Claude Code for complex reasoning. Google for quick answers. Local models for private work. Perplexity for research where you need citations. The era of one AI to rule them all lasted about eighteen months. It is over.
+
+## FAQ
+
+**Q: Should I pay for Perplexity Pro now that they ditched ads?**
+
+A: If you do research that requires citations and source verification, yes. The $20 per month tier gives you access to Claude and GPT models through Perplexity's search interface. If you only need basic AI search, Google's free AI Overviews are often good enough now.
+
+**Q: Is Google actually winning AI search or just buying distribution?**
+
+A: Both. The distribution advantage is real and structural. But the AI Overviews quality has improved significantly in 2026. The cost advantage from TPUs means Google can keep improving while competitors burn cash. Whether that translates to better answers for users is a separate question.
+
+**Q: Can I run good AI models on my laptop now?**
+
+A: Yes, for many tasks. Optimum plus ONNX Runtime plus quantization gets you usable performance on a laptop with a decent GPU. You will not run a 1 trillion parameter model locally, but 7B to 13B parameter models are practical for drafting, summarization, and basic coding assistance.
