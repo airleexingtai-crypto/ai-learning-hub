@@ -1,0 +1,71 @@
+---
+title: "AI Sunday: Midjourney V7's Character Breakthrough, EU AI Act Gets a Surprise Delay, and China Labels 150 Billion AI Images"
+description: "Midjourney V7 can now keep a character's face identical across 100 images. The EU quietly pushed its most aggressive AI deadlines to 2027. China has labeled over 150 billion AI-generated images. Here is what changed this week and what it means."
+date: "2026-05-25"
+category: "News"
+tags: ["Midjourney V7", "EU AI Act", "China AI regulation", "AI content labeling", "AI image generation", "AI governance"]
+author: "Alex Chen"
+image: /images/articles/ai-news-roundup-may-25.jpg
+---
+
+Three things happened this week that each rewrite the rules for a different group of people. Midjourney solved the problem that made AI image generation useless for storytelling. The EU blinked on AI regulation and gave companies an extra 16 months to comply. And China built a content labeling system that has already tagged more AI-generated media than most countries will produce in a decade.
+
+I have been tracking all three. They are not equally important, but they are equally revealing about where AI is heading in the second half of 2026.
+
+## Midjourney V7's Omni Reference made character consistency a solved problem
+
+Midjourney V7 launched in alpha back in April 2025 and became the default model that June. But the feature that matters most did not land until later: Omni Reference. It is the first AI image tool that can keep a character's face, body, and clothing identical across unlimited generations.
+
+The way it works is simple on the surface. You upload one reference image, append `--oref [image URL] --ow 100` to your prompt, and every image you generate after that shares the same character identity. Different angles. Different expressions. Different lighting conditions. Different outfits if you want. Same person.
+
+The weight parameter gives you fine control. Set `--ow 25` for style transfer, like turning a photo into an anime character while preserving the face. Set `--ow 400` when you need the exact face and clothing details to survive a complex scene. Set `--ow 1000` when you need near-perfect replication, though at that level the results start looking stiff.
+
+There is a deeper layer too. `--ref-id` lets you lock character, clothing, and material features into a server-side anchor. Every future generation using that ID references the same semantic identity. `--seedlock` freezes the latent diffusion path, so even without specifying a seed, the structural consistency holds.
+
+What this adds up to is the first AI image tool that can produce a comic book, a brand campaign, a fashion lookbook, or a storyboard with visual continuity. Before Omni Reference, AI character consistency was a roll of the dice. You got something close maybe 30% of the time. Now it is an engineering parameter.
+
+The catch is that Omni Reference is V7 only. Niji V7, the anime-focused variant, removed the old Cref character reference system and has not shipped its own version yet. And you cannot use Omni Reference with Vary Region, the local editing tool. Those are manageable tradeoffs. The bigger point is that AI image generation just crossed a threshold that film directors, comic artists, and brand designers have been waiting for.
+
+## The EU AI Act just got a lot less scary, for now
+
+On May 7, 2026, the European Parliament and Council reached a deal on the "Digital Omnibus on AI." The headline: high-risk AI compliance deadlines got pushed back 12 to 16 months. The original August 2, 2026 deadline for high-risk systems under Annex III, the ones covering employment, biometrics, education, credit scoring, is now December 2, 2027. High-risk systems embedded in regulated products, medical devices, toys, got pushed to August 2, 2028.
+
+The AI industry exhaled. Companies that were scrambling to build compliance frameworks by this summer now have breathing room. But the relief is not universal, and it is not permanent.
+
+Three obligations are still coming fast. First, transparency for chatbots and interactive AI: anyone talking to an AI system must be told they are talking to an AI system. The disclosure has to be in the UI, on first interaction. Second, deepfake disclosure: if you publish AI-generated media depicting a real person, you must label it. Third, AI-generated text published for public information, news articles, corporate reports, academic papers, must be disclosed as AI-generated. All three take effect August 2, 2026. That is ten weeks from now.
+
+Watermarking got a modest delay to December 2, 2026. A new ban on AI "nudifier" tools, systems that generate non-consensual intimate imagery, takes effect the same day.
+
+The fines are the same. Up to 15 million euros or 3% of worldwide annual turnover, whichever is higher. The risk framework is the same. The GPAI model rules, the ones covering foundation models like GPT and Claude, are unchanged and already in force. The Omnibus did not deregulate. It bought time.
+
+For businesses, the practical move is to use the extra months to audit AI systems, figure out which ones fall under high-risk categories, and build compliance infrastructure. The harmonized standards that spell out exactly what compliance looks like may not be published until close to the new deadlines. Companies that wait for those standards will be rushing. Companies that start now will have a moat.
+
+## China's AI content labeling system hit 150 billion and kept counting
+
+China's AI content labeling rules took effect September 1, 2025, alongside a mandatory national standard, GB 45438-2025. The system requires dual labeling: explicit labels users can see, text tags, image watermarks, audio announcements, and implicit labels embedded in file metadata with generation attributes, service provider codes, and content serial numbers.
+
+By February 2026, the Cyberspace Administration of China reported that mainstream platforms had labeled over 150 billion pieces of AI-generated content. That number has only grown since.
+
+The specifics are more granular than anything in the EU or US. Text must carry "AI-generated" tags at the start, end, or middle. Images must display the characters for "artificial intelligence generated content" in a corner, with text height no less than 5% of the image's shortest side. Audio must include spoken announcements at the start and end, or Morse code patterns representing "AI." Video must show labels on the opening frame and throughout playback, lasting at least two seconds.
+
+In April 2026, new rules added a "register before publish" requirement for commercial AI-generated content. In May 2026, supplementary rules strengthened traceability requirements and clarified copyright ownership for AI-generated works. The direction is clear: every AI-generated piece of content in China will eventually have a digital birth certificate, and platforms that fail to enforce labeling face service suspension.
+
+The contrast with the US is stark. The federal government has no AI content labeling law. A few states have transparency bills in progress, but nothing at scale. The EU has a law coming but the enforcement teeth do not arrive until August 2026. China is already running the system at planet scale.
+
+## The global AI governance map, in one paragraph
+
+The EU builds liability frameworks and fines. China builds labeling infrastructure and platform mandates. The US builds nothing at the federal level and lets California fill the gap. Three approaches to the same problem, and by the end of 2026 we will have enough data to know which one worked.
+
+## FAQ
+
+**Q: Is Midjourney V7 worth upgrading from V6?**
+
+A: If you generate images for anything that needs visual consistency across multiple outputs, a brand campaign, a storyboard, character designs, yes. Omni Reference alone justifies the upgrade. If you only generate one-off images for blog posts or social media, V6 is still fine.
+
+**Q: Does the EU AI Act delay mean I can ignore compliance until 2027?**
+
+A: No. The transparency requirements for chatbots, deepfakes, and AI-generated public text still take effect August 2, 2026. If you run a website that publishes AI-written articles without disclosure, you will be out of compliance in ten weeks. The delay only applies to high-risk system obligations.
+
+**Q: Does China's AI labeling rule affect content published outside China?**
+
+A: Directly, no. The rules apply to platforms operating in China. But if you use a Chinese AI service to generate content and publish it elsewhere, the implicit metadata labels may travel with the file. And if China's labeling approach becomes a template for other countries, which is already happening in Southeast Asia, it will affect you indirectly.
