@@ -1,0 +1,76 @@
+---
+title: "AI Wednesday: Claude Opus 4.7 Ships with 2M Context, Microsoft Recall Goes Global, and the Week in AI Review"
+description: "Anthropic launches Claude Opus 4.7 with 2 million token context window. Microsoft Recall finally ships worldwide. Plus the biggest AI stories this week."
+date: "2026-05-28"
+category: "News"
+tags: ["Claude Opus 4.7", "Microsoft Recall", "AI context window", "Anthropic", "AI weekly roundup"]
+author: "Alex Chen"
+image: /images/articles/ai-news-roundup-may-28.jpg
+---
+
+Big week. Two stories dominated everything else, and honestly, both of them deserve their own deep dives. But we are here for the roundup, so let us get into it.
+
+## Claude Opus 4.7: 2 Million Tokens of Context
+
+Anthropic dropped Claude Opus 4.7 on Monday, and the headline number is wild: a 2 million token context window. That is roughly 1.5 million words. You can feed it an entire codebase. Hundreds of pages of legal documents. Every research paper on a given topic. In one shot.
+
+I tested it with a 400-page technical manual yesterday, and the model tracked details from page 12 when answering questions about page 380. Previous versions started losing the thread around 200K tokens. This is a different game entirely.
+
+The benchmarks reflect the jump too. Opus 4.7 set new highs on MMLU, HumanEval, and several reasoning benchmarks I pay attention to. The coding improvements are noticeable in practice, not just on paper. It handles multi-file refactors with a confidence that earlier models lacked.
+
+Pricing is steep. Input costs $15 per million tokens, output runs $75 per million tokens. For most hobby projects, that is not viable. But for enterprise use cases where you are replacing hours of human document review? The math works out fast.
+
+If you have been following our [coverage of Claude's evolution](/articles/anthropic-claude-dreaming), this feels like a real inflection point. Context size has been the bottleneck for serious AI work, and Anthropic just blew past it.
+
+## Microsoft Recall Ships Worldwide
+
+After more than a year of controversy, delays, and privacy overhauls, Microsoft Recall is finally available globally. For those who missed the saga: Recall takes continuous screenshots of your PC activity, uses AI to index everything, and lets you search for anything you have ever seen on your screen. Sounds useful. Also sounds terrifying.
+
+Microsoft clearly heard the backlash. The version that shipped this week includes several protections that were not in the original demo:
+
+- **Local processing only.** All screenshot analysis happens on-device. Nothing sent to Microsoft servers.
+- **Biometric confirmation required.** Windows Hello authentication is mandatory before you can access Recall history.
+- **Sensitive content filtering.** The system automatically excludes incognito browser windows, password fields, and flagged content types.
+- **Per-app opt-out.** Users can exclude specific applications from being captured.
+
+Is it enough? Privacy advocates are still skeptical, and I understand why. The concept of a machine watching your screen 24/7 crosses a line for many people, regardless of where the data lives. But Microsoft has clearly learned from the PR disaster of the initial launch. The controls are real this time.
+
+The feature rolls out first on Copilot+ PCs with dedicated NPUs. Broader availability will follow later this year.
+
+## The Week in Review
+
+Beyond those two stories, a lot happened. Here is what stood out to me.
+
+**AlphaFold 4 tackles protein interactions.** DeepMind's latest version does not just predict individual protein structures anymore. It models how proteins interact with each other and with drug molecules. This matters for drug discovery in a big way. Expect pharma companies to start talking about this loudly.
+
+**China's AI agent regulations take effect.** As of this week, any AI agent operating in China must register with regulators and disclose its autonomous capabilities. The rules cover everything from customer service bots to research agents. We covered similar developments [earlier this week](/articles/ai-news-roundup-may-27-2026).
+
+**OpenAI IPO timeline firms up.** Reuters reported that OpenAI is targeting early 2027 for its public offering, with a projected valuation north of $300 billion. The company is restructuring its nonprofit board to prepare. Not everyone is happy about that.
+
+**Apple teases WWDC AI plans.** Apple confirmed that its June conference will feature major AI announcements across iOS, macOS, and a new developer framework. Details are thin, but the rumor mill points to on-device models that rival current cloud offerings. We are watching closely.
+
+**DeepSeek V4.1 specs leak.** A credible leak suggests DeepSeek's next model will push past 1 trillion parameters with a mixture-of-architecture approach. Chinese AI labs continue to close the gap fast. We noted some of these trends in [Monday's roundup](/articles/ai-news-roundup-may-26-2026).
+
+## What I Am Watching Next
+
+The 2 million token context window changes what is possible with AI tools. I am planning a hands-on guide for using Claude Opus 4.7 with large codebases. Expect that next week.
+
+Microsoft Recall will be the most debated AI feature of the year. I want to test it for a full month before giving a verdict. First impressions are mixed but interesting.
+
+## FAQ
+
+**Q: Is Claude Opus 4.7 worth the price for individual developers?**
+
+A: For most daily tasks, no. Sonnet 4 handles standard coding and writing work well at a fraction of the cost. Opus 4.7 makes sense when you genuinely need to process large volumes of text or code in a single conversation. Think codebase analysis, legal review, or research synthesis.
+
+**Q: Can I disable Microsoft Recall entirely?**
+
+A: Yes. Recall can be fully turned off in Windows Settings under Privacy and Security. You can also keep it installed but disable screenshot capture while leaving the search interface available. Microsoft made the opt-out process straightforward this time around.
+
+**Q: How does the 2 million token context compare to Google's Gemini models?**
+
+A: Gemini 1.5 Pro also supports 2 million tokens, so the context window size is now matched. The real question is which model uses that context more effectively. Early comparisons suggest Claude Opus 4.7 has an edge on long-document reasoning, but Gemini performs well on multimodal inputs within large contexts. Competition is good here.
+
+**Q: When will Apple's AI announcements actually ship?**
+
+A: WWDC is in June, but Apple typically announces features that ship in the fall with new hardware. If the pattern holds, we will see developer betas in July and public releases in September or October. Nothing confirmed yet.
